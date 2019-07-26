@@ -1,0 +1,48 @@
+======== SAMPLE 1 ========
+ soul 2 recharge 2 end
+              
+               name Claws
+                entries 
+                    atk mw hit 5 to hit reach 100 ft one target h8 damage 2d8  4 bludgeoning damage
+                 
+             
+            
+               name Polarity
+               entries 
+                   the dragon's speed increases by 10 feet
+                
+             
+        
+        action 
+             
+                name Multiattack
+                entries 
+                   The dragon makes a bite attack It hits with a bite attack Any creature whose head is in the dragon's reach must succeed on a dc 12 Constitution saving throw taking 18 damage 1d8 bludgeoning damage plus 15 damage 1d10 damage if the dragon takes the attack While the dragon is grappling on its tail it can grapple up to half its speed
+              
+          
+        languageTags 
+             ABILITIES 
+             The dragon can speak,write and read any languages without requiring an ability check Its choice of language will speak languages of its choice chosen language Each language is used as an ability bonus that the dragon can use its action to alter the language
+             
+            
+                 name Legendary Resistance
+                  entries 
+                     atk mw hit 5 to hit reach 10 ft one target h6 damage 1d8  4  2 slashing damage At the end of each of its turns the dragon is immune to bludgeoning damage for 1 hour A frightened beast can repeat the condition ending condition if the dragon's saving throw is successful or the creature is condition incapacitated The creature can repeat the condition ending condition at the end of its next turn or it takes no action
+             
+          
+            
+               name Bite             entries 
+                   entries 
+                     The dragon is immune to piercing or slashing damage and has advantage on saving throws against being condition incapacitated
+              
+           
+        
+        hp 
+             average 120
+             formula 1d11
+         
+        speed 
+             walk 30
+             fly 50
+        
+        passive

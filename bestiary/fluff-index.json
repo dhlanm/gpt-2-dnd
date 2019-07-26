@@ -1,0 +1,23 @@
+{
+	"AI": "fluff-bestiary-ai.json",
+	"DIP": "fluff-bestiary-dmg.json",
+	"DMG": "fluff-bestiary-dmg.json",
+	"GGR": "fluff-bestiary-ggr.json",
+	"GoS": "fluff-bestiary-gos.json",
+	"MM": "fluff-bestiary-mm.json",
+	"MTF": "fluff-bestiary-mtf.json",
+	"VGM": "fluff-bestiary-vgm.json",
+	"TTP": "fluff-bestiary-ttp.json",
+	"CoS": "fluff-bestiary-cos.json",
+	"HftT": "fluff-bestiary-hftt.json",
+	"HotDQ": "fluff-bestiary-hotdq.json",
+	"LMoP": "fluff-bestiary-lmop.json",
+	"OotA": "fluff-bestiary-oota.json",
+	"OoW": "fluff-bestiary-oow.json",
+	"PotA": "fluff-bestiary-pota.json",
+	"RoT": "fluff-bestiary-rot.json",
+	"SKT": "fluff-bestiary-skt.json",
+	"TftYP": "fluff-bestiary-tftyp.json",
+	"ToA": "fluff-bestiary-toa.json",
+	"WDH": "fluff-bestiary-wdh.json"
+}
