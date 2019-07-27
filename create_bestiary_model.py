@@ -17,14 +17,9 @@ def main():
                 monster += cont['monster']
 
     with open(outfile, 'w') as outp:
-        format_kludge = []
-        for m in monster:
-            format_kludge.append(m)
-            format_kludge.append('["wowauniquestring"]')
-
-        out_text = json.dumps(monster, indent=4)
-        out_text.replace('["wowauniquestring"]', '\n\n') 
-        # add an extra line break between each monster to hopefully try to convince gpt-2 of something
+        out_text = [json.dumps(m, indent=4) for m in monster]
+        out_text = '\n<|endoftext|>\n<|startoftext|>\n'.join(out_text)
+        out_text = '<|startoftext|>\n' + out_text + '\n<|endoftext|>'
         outp.write(out_text)
 
 if __name__ == '__main__': main()

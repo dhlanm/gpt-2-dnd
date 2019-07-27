@@ -7,7 +7,7 @@ def main():
     gpt2.finetune(sess,
                   'bestiary.json',
                   model_name=model_name,
-                  run_name='dnd4',
+                  run_name='dnd5',
                   steps=1000)   # steps is max number of training steps
 
     gpt2.generate(sess)
