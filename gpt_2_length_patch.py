@@ -1,3 +1,5 @@
+# patch to the gpt_2.py file, adapted from https://github.com/minimaxir/gpt-2-simple/pull/87
+
 import tarfile
 import os
 import json
@@ -368,7 +370,6 @@ def generate(sess,
 
     Adapted from https://github.com/openai/gpt-2/blob/master/src/interactive_conditional_samples.py
     """
-
     if batch_size is None:
         batch_size = 1
     assert nsamples % batch_size == 0
@@ -406,10 +407,11 @@ def generate(sess,
     generated = 0
     gen_texts = []
     while generated < nsamples:
-        gen_text = [''] * batch_size
+        # gen_text = [''] * batch_size
+        gen_text = [[]] * batch_size
         truncated = [False] * batch_size
         total_tokens = 0
-        
+
         while False in truncated:
             num_tokens = 1023 - (len(context_tokens[0]))
             output = sample.sample_sequence(
@@ -427,17 +429,29 @@ def generate(sess,
             total_tokens += num_tokens
             
             for i in range(batch_size):
-                text = enc.decode(out[i])
+                text = out[i]
                 trunc_text = "" #added to patch to fix unassigned variable
                 if prefix:
-                    text = enc.decode(context_tokens[i][:1]) + text
+                    text = np.append(context_tokens[i][:1], text)
                 if truncate or all(gen_text):
                     context_tokens[i] = out[i][int(len(out[i])*(1-split_context)):]
-                    if gen_text[i] != '':
-                        split = re.split('[.!?]', gen_text[i])
-                        text = text.partition(list(filter(None, split))[-1])[-1]
-                    
+                    if gen_text[i]:
+                        text = out[i][int(len(out[i])*(split_context)):]
+                        
+                        # OLD, leaving for now for xref
+                        # split = re.split('[.!?]', gen_text[i])
+                        # text = text.partition(list(filter(None, split))[-1])[-1]
+                        # ok so the idea is, split up gen_text, which is cumulative
+                        # then you get the latest in gen_text, and find where it is in the new text
+                        # then you split the new text on that, and get everything after it. 
+                        # but it seems like it sometimes chooses an empty string...
+                        # TODO come up with a better way of doing this
+                        # TODO make sure to copy it into the version controlled area
+                        # yo just leave it as tokens until the end tho and use count
+                   
+                    # TODO DEAL WITH ME OH NO THIS IS BAD OH NO
                     if truncate:
+                        to_trunc = enc.decode(text)
                         truncate_esc = re.escape(truncate)
                         if prefix and not include_prefix:
                             prefix_esc = re.escape(prefix)
@@ -446,16 +460,18 @@ def generate(sess,
                         else:
                             pattern = '(.*?)(?:{})'.format(truncate_esc)
 
-                        trunc_text = re.search(pattern, text, re.S)
+                        trunc_text = re.search(pattern, to_trunc, re.S)
                         if trunc_text:
-                            text = trunc_text.group(1)
+                            text = enc.encode(trunc_text.group(1)) #inefficient, but let's just get this working for now
 
                 if not truncated[i]:
-                    gen_text[i] += text.lstrip('\n')
+                    gen_text[i] += [text] #.lstrip('\n')
                 if trunc_text or (length is not None and total_tokens >= length-1):
                     truncated[i] = True
 
         for gen in gen_text:
+            gen = [enc.decode(g).lstrip('\n') for g in gen]
+            gen = ''.join(gen)
             if destination_path:
                 f.write("{}\n{}".format(gen, sample_delim))
             if not return_as_list and not destination_path:
