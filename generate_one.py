@@ -1,14 +1,14 @@
 import gpt_2_simple as gpt2
 import sys
 
-run_name = "dnd5"
+run_name = "dnd6"
 
 def generate(prefix="<|startoftext|>", length = None, truncate = "", temperature = 0.9, batch_size = 1, n_batches = 1):
     if not length and not truncate: 
         print("need one of length or truncate to generate")
         return
     sess = gpt2.start_tf_sess()
-    gpt2.load_gpt2(sess, run_name="dnd5")
+    gpt2.load_gpt2(sess, run_name=run_name)
     gen = gpt2.generate(sess, return_as_list=True, run_name=run_name, truncate=truncate, length=length, prefix=prefix, temperature=temperature, batch_size=batch_size, nsamples=batch_size*n_batches)
     return gen
 

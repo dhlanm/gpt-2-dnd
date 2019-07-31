@@ -18,6 +18,7 @@ def main():
                         continue
                     m = {k:m[k] for k in m if "Tags" not in k}
                     m.pop("soundClip", None)
+                    # TODO this seems not to be working ^ 
                     action, trait = "", ""
                     trait = m.pop("trait", None)
                     action = m.pop("action", None) 
@@ -29,6 +30,7 @@ def main():
                         m["action"] = action
                     # this is sort of cheating, but it should carry over the name context in longer entries better
                     # it's also a bit silly in the sense of order enforcing, but hey what can you do 
+                    # TODO maybe add another one since these show up fairly late?? 
                     monster.append(m)
     print(f"Total number of entries: {len(monster)}")
     with open(outfile, 'w') as outp:
