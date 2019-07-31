@@ -9651,3 +9651,2771 @@
     ]
 }
 <|endoftext|>
+<|startoftext|>
+{
+    "name": " Advanced Final Messenger ",
+    "type": "construct",
+    "size": "T",
+    "source": "HBW",
+    "alignment": [
+        "U"
+    ],
+    "ac": {
+        "ac": " 18 ",
+        "from": [
+            " (Natural Armor) "
+        ]
+    },
+    "hp": {
+        "average": " 3 ",
+        "formula": " (1d6) "
+    },
+    "speed": {
+        "walk": "0",
+        "fly": "30"
+    },
+    "str": "5",
+    "dex": "26",
+    "con": "11",
+    "int": "3",
+    "wis": "10",
+    "cha": "1",
+    "save": {
+        "DEX": "+10"
+    },
+    "immune": [
+        "Poison",
+        "Psychic"
+    ],
+    "conditionImmune": [
+        "Blinded",
+        "Charmed",
+        "Deafened",
+        "Frightened",
+        "Paralyzed",
+        "Petrified",
+        "Poisoned"
+    ],
+    "senses": [
+        "Blindsight 60 ft."
+    ],
+    "passive": "10",
+    "languages": [
+        "Common The final messenger cannot speak",
+        "but understands Common. --"
+    ],
+    "cr": "1/8",
+    "trait": [
+        {
+            "name": "False Appearance.",
+            "entries": [
+                " While the messenger remains motionless and isn't flying, it is indistinguishable from a normal amulet."
+            ]
+        },
+        {
+            "name": "Playback",
+            "entries": [
+                ". The final messenger can use its action to play a recorded message."
+            ]
+        },
+        {
+            "name": "Record Message.",
+            "entries": [
+                " The final messenger can record a message of up to 25 words and a single image"
+            ]
+        }
+    ],
+    "action": [
+        {
+            "name": "Dash or Disengage.",
+            "entries": [
+                " The final messenger may take a dash or disengage action on each of its turns as a bonus action. "
+            ]
+        }
+    ],
+    "reaction": [
+        {
+            "name": "Shocking Defense. ",
+            "entries": [
+                "If the final messenger is touched, grappled, or subjected to a melee attack it can use its reaction to release an electric shock. In this case, the attacker takes 1d8 lightning damage, and it can't take reactions until the start of its next turn. In the case of an ongoing grapple, the final messenger can repeat this reaction each turn."
+            ]
+        }
+    ]
+}
+<|endoftext|>
+<|startoftext|>
+{
+    "name": " Adult White Dragon Skeleton ",
+    "type": "undead",
+    "size": "H",
+    "source": "HBW",
+    "alignment": [
+        "C",
+        "E"
+    ],
+    "ac": {
+        "ac": " 17 ",
+        "from": [
+            " (Natural Armor) "
+        ]
+    },
+    "hp": {
+        "average": " 184 ",
+        "formula": " (16d12 + 80) "
+    },
+    "speed": {
+        "walk": "40",
+        "burrow": "20"
+    },
+    "str": "22",
+    "dex": "10",
+    "con": "20",
+    "int": "6",
+    "wis": "8",
+    "cha": "5",
+    "save": {
+        "DEX": "+4",
+        "CON": "+9",
+        "WIS": "+3",
+        "CHA": "+1"
+    },
+    "vulnerable": [
+        "Bludgeoning"
+    ],
+    "immune": [
+        "Cold",
+        "Poison"
+    ],
+    "conditionImmune": [
+        "Exhaustion",
+        "Poisoned"
+    ],
+    "senses": [
+        "Blindsight 30 ft.",
+        "Darkvision 120 ft."
+    ],
+    "passive": "9",
+    "languages": [
+        "understands Common and Draconic but can't speak"
+    ],
+    "cr": "11",
+    "trait": [
+        {
+            "name": "Ice Walk.",
+            "entries": [
+                " The skeleton can move across and climb icy surfaces without needing to make an ability check. Additionally, difficult terrain composed of ice or snow doesn't cost it extra movement."
+            ]
+        },
+        {
+            "name": "Legendary Resistance (3/Day).",
+            "entries": [
+                " If the skeleton fails a saving throw, it can choose to succeed instead."
+            ]
+        }
+    ],
+    "action": [
+        {
+            "name": "Multiattack.",
+            "entries": [
+                " The skeleton can use its Frightful Presence. It then makes three attacks: one with its bite and two with its claws."
+            ]
+        },
+        {
+            "name": "Bite.",
+            "entries": [
+                "Melee Weapon Attack:"
+            ]
+        },
+        {
+            "name": " +10 to hit, reach 10 ft., one target. ",
+            "entries": [
+                "Hit:",
+                " 17 (2d10 + 6) piercing damage plus 4 (1d8) cold damage."
+            ]
+        },
+        {
+            "name": "Claw.",
+            "entries": [
+                "Melee Weapon Attack:"
+            ]
+        },
+        {
+            "name": " +10 to hit, reach 5 ft., one target. ",
+            "entries": [
+                "Hit:"
+            ]
+        },
+        {
+            "name": " 13 (2d6 + 6) slashing damage.",
+            "entries": [
+                "Tail."
+            ]
+        },
+        {
+            "name": "Melee Weapon Attack:",
+            "entries": [
+                " +10 to hit, reach 15 ft., one target. "
+            ]
+        },
+        {
+            "name": "Hit:",
+            "entries": [
+                " 15 (2d8 + 6) bludgeoning damage."
+            ]
+        },
+        {
+            "name": "Frightful Presence.",
+            "entries": [
+                " Each creature of the skeleton's choice that is within 120 feet of the skeleton and aware of it must succeed on a DC 13 Wisdom saving throw or become frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the skeleton's Frightful Presence for the next 24 hours."
+            ]
+        }
+    ],
+    "legendary": [
+        {
+            "name": "Detect.",
+            "entries": [
+                " The dragon makes a Wisdom (Perception) check."
+            ]
+        },
+        {
+            "name": "Tail Attack.",
+            "entries": [
+                " The skeleton makes a tail attack."
+            ]
+        },
+        {
+            "name": "Wing Attack (Costs 2 Actions).",
+            "entries": [
+                " The skeleton beats its wings. Each creature within 10 feet of the skeleton must succeed on a DC 16 Dexterity saving throw or take 13 (2d6 + 6) bludgeoning damage and be knocked prone."
+            ]
+        }
+    ]
+}
+<|endoftext|>
+<|startoftext|>
+{
+    "name": " Adult Skeletal Dragon ",
+    "type": "dragon",
+    "size": "H",
+    "source": "HBW",
+    "alignment": [
+        "C",
+        "E"
+    ],
+    "ac": {
+        "ac": " 12 ",
+        "from": [
+            " Natural "
+        ]
+    },
+    "hp": {
+        "average": " 124 ",
+        "formula": " (8d8) "
+    },
+    "speed": {
+        "walk": "40",
+        "burrow": "30",
+        "fly": "80",
+        "swim": "40"
+    },
+    "str": "28",
+    "dex": "14",
+    "con": "6",
+    "int": "12",
+    "wis": "12",
+    "cha": "2",
+    "save": {
+        "DEX": "+6",
+        "CON": "+2",
+        "WIS": "+5",
+        "CHA": "+0"
+    },
+    "skill": {
+        "Perception": "+6"
+    },
+    "resist": [
+        "Acid"
+    ],
+    "senses": [
+        "Blindsight 60 ft.",
+        "Darkvision 120 ft."
+    ],
+    "passive": "18",
+    "languages": [
+        "Draconic"
+    ],
+    "cr": "9",
+    "trait": [
+        {
+            "name": "Ice Walk.",
+            "entries": [
+                " The dragon can move across and climb icy surfaces without needing to make an ability check. Additionally, difficult terrain composed of ice or snow doesn't cost it extra movement."
+            ]
+        },
+        {
+            "name": "Legendary Resistance (3/Day).",
+            "entries": [
+                " If the dragon fails a saving throw, it can choose to succeed instead."
+            ]
+        }
+    ],
+    "action": [
+        {
+            "name": "Multiattack.",
+            "entries": [
+                " The dragon can use its Frightful Presence. It then makes two attacks: one with its bite and one with its claws."
+            ]
+        },
+        {
+            "name": "Bite.",
+            "entries": [
+                "Melee Weapon Attack:"
+            ]
+        },
+        {
+            "name": " +8 to hit, reach 10 ft., one target. ",
+            "entries": [
+                "Hit:",
+                " 17 (1d10 + 8) piercing damage plus 4 (1d8) cold damage."
+            ]
+        },
+        {
+            "name": "Claw.",
+            "entries": [
+                "Melee Weapon Attack:"
+            ]
+        },
+        {
+            "name": " +8 to hit, reach 5 ft., one target. ",
+            "entries": [
+                "Hit:"
+            ]
+        },
+        {
+            "name": " 13 (1d6 + 10) slashing damage.",
+            "entries": [
+                "Tail."
+            ]
+        },
+        {
+            "name": "Melee Weapon Attack:",
+            "entries": [
+                " +8 to hit, reach 15 ft., one target. "
+            ]
+        },
+        {
+            "name": "Hit:",
+            "entries": [
+                " 15 (1d8 + 8) bludgeoning damage."
+            ]
+        },
+        {
+            "name": "Frightful Presence.",
+            "entries": [
+                " Each creature of the dragon's choice that is within 120 feet of the dragon and aware of it must succeed on a DC 14 Wisdom saving throw or become frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the dragon's Frightful Presence for the next 24 hours."
+            ]
+        },
+        {
+            "name": "Toxic.",
+            "entries": [
+                " The dragon exhales a translucent smoke in a 60-foot cone. Each creature in that area must make a DC 15 Constitution saving throw, taking 10d6 cold damage on a failed save, or half as much damage on a successful one."
+            ]
+        }
+    ],
+    "reaction": [
+        {
+            "name": "Undead Nature.",
+            "entries": [
+                "When this creature is attacked by a skeleton of any form. The creature absorbs the creature's remaining hitpoints to it's in hitpoint (Can exceed maximum)"
+            ]
+        }
+    ],
+    "legendary": [
+        {
+            "name": "Detect.",
+            "entries": [
+                " The dragon makes a Wisdom (Perception) check."
+            ]
+        },
+        {
+            "name": "Tail Attack.",
+            "entries": [
+                " The dragon makes a tail attack."
+            ]
+        }
+    ]
+}
+<|endoftext|>
+<|startoftext|>
+{
+    "name": " Adult Sapphire Dragon ",
+    "type": "dragon",
+    "size": "H",
+    "source": "HBW",
+    "alignment": [
+        "L",
+        "N"
+    ],
+    "ac": {
+        "ac": " 19 ",
+        "from": [
+            " (Natural Armor) "
+        ]
+    },
+    "hp": {
+        "average": " 243 ",
+        "formula": " (18d12 + 126) "
+    },
+    "speed": {
+        "walk": "40",
+        "burrow": "30",
+        "fly": "80"
+    },
+    "str": "26",
+    "dex": "10",
+    "con": "25",
+    "int": "15",
+    "wis": "18",
+    "cha": "14",
+    "save": {
+        "DEX": "+5",
+        "CON": "+12",
+        "WIS": "+9",
+        "CHA": "+7"
+    },
+    "skill": {
+        "Perception": "+9",
+        "Stealth": "+5"
+    },
+    "resist": [
+        "Thunder"
+    ],
+    "senses": [
+        "Blindsight 60 ft.",
+        "Darkvision 120 ft."
+    ],
+    "passive": "24",
+    "languages": [
+        "Common",
+        "Draconic"
+    ],
+    "cr": "16",
+    "trait": [
+        {
+            "name": "Legendary Resistance (3/Day).",
+            "entries": [
+                " If the dragon fails a saving throw, it can choose to succeed instead."
+            ]
+        }
+    ],
+    "action": [
+        {
+            "name": "Multiattack.",
+            "entries": [
+                "The dragon can use its Slowing Presence. It then makes three attacks: one with its bite and two with its claws."
+            ]
+        },
+        {
+            "name": "Bite.",
+            "entries": [
+                "Melee Weapon Attack:"
+            ]
+        },
+        {
+            "name": "+12 to hit, reach 10 ft., one target.",
+            "entries": [
+                "Hit:"
+            ]
+        },
+        {
+            "name": "18 (2d10 + 8) piercing damage.",
+            "entries": [
+                "Claw."
+            ]
+        },
+        {
+            "name": "Melee Weapon Attack:",
+            "entries": [
+                "+12 to hit, reach 5 ft., one target."
+            ]
+        },
+        {
+            "name": "Hit:",
+            "entries": [
+                "14 (2d6 + 8) slashing damage."
+            ]
+        },
+        {
+            "name": "Tail.",
+            "entries": [
+                "Melee Weapon Attack:"
+            ]
+        },
+        {
+            "name": "+12 to hit, reach 15 ft., one target.",
+            "entries": [
+                "Hit:"
+            ]
+        },
+        {
+            "name": "16 (2d8 + 8) bludgeoning damage.",
+            "entries": [
+                "SlowingPresence.",
+                "Each creature of the dragon's choice that is within 120 feet of the dragon and aware of it must succeed on a DC 17Constitutionsaving throw or have it's speed magically reduced to 0 ft. for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the dragon'sSlowingPresence for the next 24 hours."
+            ]
+        },
+        {
+            "name": "Piercing",
+            "entries": [
+                "Breath (Recharge 5\u20136).",
+                "The dragon exhalesear-piercing soundin a 60-\u00adfootcone. Each creature in that area must make a DC 19Constitutionsaving throw, taking 50 (12d8) Thunderdamage and becoming Frightened until the dragon's next turn on a failed save. Targets take half as much damage and avoid being frightened on a successful save."
+            ]
+        }
+    ],
+    "legendary": [
+        {
+            "name": "Detect.",
+            "entries": [
+                " The dragon makes a Wisdom (Perception) check."
+            ]
+        },
+        {
+            "name": "Tail Attack.",
+            "entries": [
+                " The dragon makes a tail attack."
+            ]
+        },
+        {
+            "name": "Wing Attack (Costs 2 Actions).",
+            "entries": [
+                " The dragon beats its wings. Each creature within 10 feet of the dragon must succeed on a DC 20 Dexterity saving throw or take 14 (2d6 + 8) bludgeoning damage and be knocked prone. The dragon can then fly up to half its flying speed."
+            ]
+        }
+    ]
+}
+<|endoftext|>
+<|startoftext|>
+{
+    "name": " Adult Reef Stomper ",
+    "type": "giant",
+    "size": "H",
+    "source": "HBW",
+    "alignment": [
+        "N"
+    ],
+    "ac": {
+        "ac": " 22 ",
+        "from": [
+            " Natural Armor "
+        ]
+    },
+    "hp": {
+        "average": " 550 ",
+        "formula": " (20d10 + 400) "
+    },
+    "speed": {
+        "walk": "100"
+    },
+    "str": "30",
+    "dex": "10",
+    "con": "20",
+    "int": "5",
+    "wis": "1",
+    "cha": "1",
+    "save": {
+        "STR": "+18",
+        "CON": "+13"
+    },
+    "resist": [
+        {
+            "resist": [
+                "Bludgeoning",
+                "Piercing",
+                "and Slashing"
+            ],
+            "note": "from Magic Weapons"
+        }
+    ],
+    "conditionImmune": [
+        "Blinded",
+        "Charmed",
+        "Deafened",
+        "Exhaustion",
+        "Grappled",
+        "Petrified",
+        "Poisoned"
+    ],
+    "passive": "15",
+    "languages": [
+        "--"
+    ],
+    "cr": "25",
+    "trait": [
+        {
+            "name": "Breathless.",
+            "entries": [
+                "Adult Reef Stomper does not need to breathe any form of air."
+            ]
+        },
+        {
+            "name": "Echolocation.",
+            "entries": [
+                "Adult ReefStomper does not need to see creatures to know they are there."
+            ]
+        },
+        {
+            "name": "Reef Back.",
+            "entries": [
+                "It has the appearence of a reef so for players to see it they must roll a perception check, disadvantage if they are above the water."
+            ]
+        }
+    ],
+    "action": [
+        {
+            "name": "Lay down. The Adult Reef Stomper lays its body down and restricts its limbs into its body, it is now prone and has resistence to all damage",
+            "entries": [
+                "Punch. The Adult Reef Back sends its fist forward at one enemy on a succsesful hit the enemy takes 4d10 Bludgening damage",
+                "Boiling shot.The Adult Reef Stomper inhales a 60 foot cone and the shoots a 80 foot cone scalding water. on a succsesful hit the targets take 6d10 burning damage."
+            ]
+        }
+    ],
+    "reaction": [
+        {
+            "name": "When killed every creature in a 200 foot radius makes a Constitution saving throw. on a failed save the creature takes 2 d12 psycic damage. on a succsesful save the creature takes half that damage."
+        }
+    ],
+    "legendary": [
+        {
+            "name": "Sea Earthquake(6 Days).",
+            "entries": [
+                "Every creature in combat makes a dexterity saving throw. on a failed save they take 10 d10 bludgening damage and are Paralyzed. on a successful save they take 10 d10 damage."
+            ]
+        }
+    ]
+}
+<|endoftext|>
+<|startoftext|>
+{
+    "name": " Adult Orange Dragon ",
+    "type": "dragon",
+    "size": "H",
+    "source": "HBW",
+    "alignment": [
+        "N",
+        "E"
+    ],
+    "ac": {
+        "ac": " 19 ",
+        "from": [
+            " (Natural Armor) "
+        ]
+    },
+    "hp": {
+        "average": " 225 ",
+        "formula": " (18d12 + 108) "
+    },
+    "speed": {
+        "walk": "40",
+        "burrow": "30",
+        "fly": "80",
+        "swim": "40"
+    },
+    "str": "25",
+    "dex": "10",
+    "con": "23",
+    "int": "16",
+    "wis": "15",
+    "cha": "19",
+    "save": {
+        "DEX": "+5",
+        "CON": "+11",
+        "WIS": "+7",
+        "CHA": "+9"
+    },
+    "skill": {
+        "Perception": "+7",
+        "Stealth": "+5"
+    },
+    "immune": [
+        "Fire"
+    ],
+    "senses": [
+        "Blindsight 60 ft.",
+        "Darkvision 120 ft."
+    ],
+    "passive": "22",
+    "languages": [
+        "Common",
+        "Draconic"
+    ],
+    "cr": "16",
+    "trait": [
+        {
+            "name": "Amphibious.",
+            "entries": [
+                " The dragon can breathe air and water."
+            ]
+        },
+        {
+            "name": "Legendary Resistance (3/Day).",
+            "entries": [
+                " If the dragon fails a saving throw, it can choose to succeed instead."
+            ]
+        }
+    ],
+    "action": [
+        {
+            "name": "Multiattack.",
+            "entries": [
+                " The dragon can use its Frightful Presence. It then makes three attacks: one with its bite and two with its claws."
+            ]
+        },
+        {
+            "name": "Bite.",
+            "entries": [
+                "Melee Weapon Attack:"
+            ]
+        },
+        {
+            "name": " +12 to hit, reach 10 ft., one target. ",
+            "entries": [
+                "Hit:",
+                " 18 (2d10 + 7) piercing damage plus 5 (1d10) fire damage."
+            ]
+        },
+        {
+            "name": "Claw.",
+            "entries": [
+                "Melee Weapon Attack:"
+            ]
+        },
+        {
+            "name": " +12 to hit, reach 5 ft., one target. ",
+            "entries": [
+                "Hit:"
+            ]
+        },
+        {
+            "name": " 14 (2d6 + 7) slashing damage.",
+            "entries": [
+                "Tail."
+            ]
+        },
+        {
+            "name": "Melee Weapon Attack:",
+            "entries": [
+                " +12 to hit, reach 15 ft., one target. "
+            ]
+        },
+        {
+            "name": "Hit:",
+            "entries": [
+                " 16 (2d8 + 7) bludgeoning damage."
+            ]
+        },
+        {
+            "name": "Frightful Presence.",
+            "entries": [
+                " Each creature of the dragon's choice that is within 120 feet of the dragon and aware of it must succeed on a DC 17 Wisdom saving throw or become frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the dragon's Frightful Presence for the next 24 hours."
+            ]
+        },
+        {
+            "name": "Explosive Breath (Recharge 5\u20136).",
+            "entries": [
+                " The dragon exhales a burning substance in a 60-foot line that is 5 feet wide. Each creature in that line must make a DC 19 Dexterity saving throw. On a failed save, the target is adhered to by the substance. This substance can only be removed by a tube of universal solvent.",
+                "A target adhered to by the substance takes 16 (3d10) fire damage immediately and 16 (3d10) fire damage at the end of its next turn. At the end of the target's second turn after failing its saving throw, the substance explodes. Each creature within 15 feet of the target must succeed on a DC 19 Dexterity saving throw. The target and each creature that fails its saving throw takes 33 (6d10) fire damage, or half as much damage on a successful save. A creature in the area of more than one explosion is affected only once.",
+                "Being underwater doesn't grant resistance against damage dealt by the substance. The substance explodes immediately if it comes in contact with water."
+            ]
+        }
+    ],
+    "legendary": [
+        {
+            "name": "Detect.",
+            "entries": [
+                " The dragon makes a Wisdom (Perception) check."
+            ]
+        },
+        {
+            "name": "Tail Attack.",
+            "entries": [
+                " The dragon makes a tail attack."
+            ]
+        },
+        {
+            "name": "Wing Attack (Costs 2 Actions).",
+            "entries": [
+                " The dragon beats its wings. Each creature within 10 feet of the dragon must succeed on a DC 20 Dexterity saving throw or take 14 (2d6 + 7) bludgeoning damage and be knocked prone. The dragon can then fly up to half its flying speed."
+            ]
+        }
+    ]
+}
+<|endoftext|>
+<|startoftext|>
+{
+    "name": " Adult Nightfury ",
+    "type": "dragon",
+    "size": "H",
+    "source": "HBW",
+    "alignment": [
+        "C",
+        "G"
+    ],
+    "ac": {
+        "ac": " 19 ",
+        "from": [
+            " (Natural Armor) "
+        ]
+    },
+    "hp": {
+        "average": " 173 ",
+        "formula": " (15d12 + 75) "
+    },
+    "speed": {
+        "walk": "40",
+        "fly": "100",
+        "swim": "30"
+    },
+    "str": "20",
+    "dex": "16",
+    "con": "20",
+    "int": "20",
+    "wis": "15",
+    "cha": "26",
+    "save": {
+        "DEX": "+9",
+        "CON": "+11",
+        "WIS": "+8",
+        "CHA": "+14"
+    },
+    "skill": {
+        "Acrobatics": "+9",
+        "Insight": "+8",
+        "Persuasion": "+14",
+        "Stealth": "+15"
+    },
+    "immune": [
+        "Fire",
+        "Lightning"
+    ],
+    "senses": [
+        "Blindsight 30 ft.",
+        "Darkvision 360 ft."
+    ],
+    "passive": "12",
+    "languages": [
+        "Common",
+        "Draconic"
+    ],
+    "cr": "17",
+    "trait": [
+        {
+            "name": "Hold Breath.",
+            "entries": [
+                " The dragon canhold its breath for 30 minutes."
+            ]
+        },
+        {
+            "name": "Legendary Resistance (3/Day).",
+            "entries": [
+                " If the dragon fails a saving throw, it can choose to succeed instead."
+            ]
+        }
+    ],
+    "action": [
+        {
+            "name": "Multiattack.",
+            "entries": [
+                " The dragon can use its Frightful Presence. It then makes three attacks: one with its bite and two with its claws."
+            ]
+        },
+        {
+            "name": "Bite.",
+            "entries": [
+                "Melee Weapon Attack:"
+            ]
+        },
+        {
+            "name": " +11 to hit, reach 10 ft., one target. ",
+            "entries": [
+                "Hit:"
+            ]
+        },
+        {
+            "name": " 16 (2d10 + 5) piercing damage.",
+            "entries": [
+                "Claw."
+            ]
+        },
+        {
+            "name": "Melee Weapon Attack:",
+            "entries": [
+                " +11 to hit, reach 5 ft., one target. "
+            ]
+        },
+        {
+            "name": "Hit:",
+            "entries": [
+                " 12 (2d6 + 5) slashing damage."
+            ]
+        },
+        {
+            "name": "Tail.",
+            "entries": [
+                "Melee Weapon Attack:"
+            ]
+        },
+        {
+            "name": " +11 to hit, reach 15 ft., one target. ",
+            "entries": [
+                "Hit:"
+            ]
+        },
+        {
+            "name": " 14 (2d8 + 5) bludgeoning damage.",
+            "entries": [
+                "Frightful Presence.",
+                " Each creature of the dragon's choice that is within 120 feet of the dragon and aware of it must succeed on a DC 19 Wisdom saving throw or become frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the dragon's Frightful Presence for the next 24 hours."
+            ]
+        },
+        {
+            "name": "Breath Weapons (Recharge 3\u20136).",
+            "entries": [
+                "The dragon exhales an explosive blast of plasma, that travels up to 200 ft, then explodes in a 30 ft radius centred on the point of the blast. All creatures within the radius must make a DC 25Dexterity save, taking 12d10 fire damage and 4d8 force damage on a failed save, or half damage on a successful save. If the blast crosses the space of any other creature, the blast of plasma explodes prematurely, dealing an additional 2d8 force damage to the creature hit by the blast on a failed DC25Strength save."
+            ]
+        },
+        {
+            "name": "Dive Bomb-",
+            "entries": [
+                "The dragon spends its entire turn to dive from a great height, firing a blast of plasma at the vertex of the dive. This counts as using a Dash action, moving up to 150 ft and then launching the fire blast. The blast uses the same attack mechanics as the normal breath weapon, with an additional 4d8 force damage due to the dive. After the blast is launched, the dragon moves up to an additional 50 ft."
+            ]
+        },
+        {
+            "name": "Lightning Cloak- ",
+            "entries": [
+                "Once per day, the dragon can spend an action to cause bolts of lightning to arc across its body. It then turns invisible for up to a minute, or until it casts a spell, attacks, or loses concentration."
+            ]
+        },
+        {
+            "name": "Command Dragons-",
+            "entries": [
+                " As an action, the Nightfury can attempt to command any dragon. Any dragon with CR less than the Nightfury\u2019s that is not hostile automatically listens and follows the command given. When the Nightfury targets a dragon that is hostile or has a CR greater than or equal to the Nightfury\u2019s own CR, it may make a Charisma (Persuasion) or Charisma (Intimidation) check, opposed to the dragon\u2019s Wisdom save, to bring that dragon under its command. Hostile dragons with a lower CR to the Nightfury have disadvantage on the save. The Nightfury can control as many hostile dragons of dragons with CR greater than or equal to its own as its Charisma modifier. The Nightfury has advantage on saves made to oppose other dragon\u2019s "
+            ]
+        },
+        {
+            "name": "Command Dragons ",
+            "entries": [
+                "ability."
+            ]
+        }
+    ],
+    "legendary": [
+        {
+            "name": "Hide.",
+            "entries": [
+                " The dragontakes the hide action."
+            ]
+        },
+        {
+            "name": "Tail Attack.",
+            "entries": [
+                " The dragon makes a tail attack."
+            ]
+        },
+        {
+            "name": "Wing Attack (Costs 2 Actions).",
+            "entries": [
+                " The dragon beats its wings. Each creature within 10 feet of the dragon must succeed on a DC 19 Dexterity saving throw or take 12 (2d6 + 5) bludgeoning damage and be knocked prone. The dragon can then fly up to half its flying speed."
+            ]
+        }
+    ]
+}
+<|endoftext|>
+<|startoftext|>
+{
+    "name": " Adult Myconid Demonspawn ",
+    "type": "fiend",
+    "size": "M",
+    "source": "HBW",
+    "alignment": [
+        "C",
+        "E"
+    ],
+    "ac": {
+        "ac": " 13 ",
+        "from": [
+            null
+        ]
+    },
+    "hp": {
+        "average": " 65 ",
+        "formula": " (10d8 + 20) "
+    },
+    "speed": {
+        "walk": "30"
+    },
+    "str": "15",
+    "dex": "14",
+    "con": "14",
+    "int": "11",
+    "wis": "11",
+    "cha": "13",
+    "skill": {
+        "Stealth": "+4"
+    },
+    "resist": [
+        "Cold",
+        "Fire",
+        "Lightning",
+        {
+            "resist": [
+                "Bludgeoning",
+                "Piercing",
+                "and Slashing"
+            ],
+            "note": "from Nonmagical Attacks"
+        }
+    ],
+    "immune": [
+        "Poison"
+    ],
+    "conditionImmune": [
+        "Poisoned"
+    ],
+    "senses": [
+        "Darkvision 120 ft."
+    ],
+    "passive": "10",
+    "languages": [
+        "Abyssal",
+        "Common"
+    ],
+    "cr": "3",
+    "trait": [
+        {
+            "name": "Half-Plant.",
+            "entries": [
+                " The myconid demonspawn can be affected by spells and effects targeting plants."
+            ]
+        },
+        {
+            "name": "Magic Resistance.",
+            "entries": [
+                " The demonspawn has advantage on saving throws against spells and other magical effects."
+            ]
+        },
+        {
+            "name": "Myconid Ally.",
+            "entries": [
+                " The myconid demonspawncan communicate with myconids and spore servants."
+            ]
+        }
+    ],
+    "action": [
+        {
+            "name": "Claws.",
+            "entries": [
+                "Melee Weapon Attack:"
+            ]
+        },
+        {
+            "name": "+4 to hit, reach 5 ft., one target.",
+            "entries": [
+                "Hit:",
+                "7 (1d8 + 2) slashing damage plus 5 (1d8) poison damage."
+            ]
+        },
+        {
+            "name": "Raging Spores (3/Day).",
+            "entries": [
+                "The demonspawn ejects spores at one creature it can see within 5 feet of it. The target must succeed on a DC 12 Constitution saving throw or be raging for 1 minute. A raging creature cannot speak normally, instead screaming in rage. It can't cast spell or concentrate on them. It must use its action to do a melee attack or if it can't, it dashes towards the closest target. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+            ]
+        }
+    ]
+}
+<|endoftext|>
+<|startoftext|>
+{
+    "name": " Alabolilt, Kuo-Toa God ",
+    "type": "aberration",
+    "size": "L",
+    "source": "HBW",
+    "alignment": [
+        "N",
+        "E"
+    ],
+    "ac": {
+        "ac": " 16 ",
+        "from": [
+            " (Natural Armor) "
+        ]
+    },
+    "hp": {
+        "average": " 77 ",
+        "formula": " (11d10 + 22) "
+    },
+    "speed": {
+        "walk": "30",
+        "swim": "30"
+    },
+    "str": "18",
+    "dex": "9",
+    "con": "15",
+    "int": "12",
+    "wis": "14",
+    "cha": "16",
+    "save": {
+        "INT": "+4",
+        "WIS": "+5"
+    },
+    "senses": [
+        "Darkvision 120 ft."
+    ],
+    "passive": "16",
+    "languages": [
+        "Telepathy 120 ft.",
+        "Undercommon"
+    ],
+    "cr": "8",
+    "trait": [
+        {
+            "name": "Amphibious.",
+            "entries": [
+                "Alabolilt can breathe air and water. "
+            ]
+        },
+        {
+            "name": "MaliciousTelepathy.",
+            "entries": [
+                " If a creature communicates telepathically with Alabolilt, Alabolilt learns the creature's greatest fear if Alabolilt can see the creature."
+            ]
+        }
+    ],
+    "action": [
+        {
+            "name": "Multiattack.",
+            "entries": [
+                "Alabolilt makes twotentacle attacks. "
+            ]
+        },
+        {
+            "name": "Tentacle.",
+            "entries": [
+                "Melee Weapon Attack:"
+            ]
+        },
+        {
+            "name": " +6 to hit, reach 10 ft., one target. ",
+            "entries": [
+                "Hit:",
+                " 11 (2d6 + 4) bludgeoning damage. If the target is a creature, it must succeed on a DC 14 Constitution saving throw or becomepoisoned until the end of Alabolilt's next turn."
+            ]
+        },
+        {
+            "name": "Trident.",
+            "entries": [
+                "Melee Weapon Attack:"
+            ]
+        },
+        {
+            "name": " +6 to hit, reach 10 ft., one target.",
+            "entries": [
+                "Hit: "
+            ]
+        },
+        {
+            "name": "16 (4d6+4) piercing damage",
+            "entries": [
+                "Terrify(3/Day).",
+                "Alabolilt targets one creature it can see within 30 feet of it. The target must succeed on a DC 14 Wisdom saving throw or become frightened of Alabolilt for one minute. While frightened in this way, the target cannot make reactions and cannot target Alabolilt with any attack. The target may repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+            ]
+        }
+    ],
+    "legendary": [
+        {
+            "name": "Detect.",
+            "entries": [
+                " The aboleth makes a Wisdom (Perception) check. "
+            ]
+        },
+        {
+            "name": "Strike.",
+            "entries": [
+                "Alabolilt makes one trident attack."
+            ]
+        },
+        {
+            "name": "Command",
+            "entries": [
+                "(Costs 2 Actions). At Alabolilt's command, one Kuo-toa that is within range of Alabolilt's telepathy immediately moves up to half its speed and makes a melee weapon attack against a creature."
+            ]
+        }
+    ]
+}
+<|endoftext|>
+<|startoftext|>
+{
+    "name": " Akhlut ",
+    "type": "beast",
+    "size": "L",
+    "source": "HBW",
+    "alignment": [
+        "A"
+    ],
+    "ac": {
+        "ac": " 16 ",
+        "from": [
+            " Natural Armor "
+        ]
+    },
+    "hp": {
+        "average": " 26 ",
+        "formula": " (3d8 + 2) "
+    },
+    "speed": {
+        "walk": "40",
+        "swim": "60"
+    },
+    "str": "20",
+    "dex": "10",
+    "con": "12",
+    "int": "4",
+    "wis": "13",
+    "cha": "7",
+    "skill": {
+        "Intimidation": "+0",
+        "Perception": "+0"
+    },
+    "senses": [
+        "Blindsight",
+        "Darkvision"
+    ],
+    "passive": "13",
+    "languages": [
+        "Aquan",
+        "Common"
+    ],
+    "cr": "1",
+    "trait": [
+        {
+            "name": "Echolocation.",
+            "entries": [
+                "TheAkhultcan't use its blindsight while deafened."
+            ]
+        },
+        {
+            "name": "HoldBreath.",
+            "entries": [
+                "TheAkhlut can hold its breath for 15 minutes."
+            ]
+        },
+        {
+            "name": "Keen Hearing and Smell.",
+            "entries": [
+                "The Akhlut wolf has advantage on Wisdom (Perception) checks that rely on hearing or smell."
+            ]
+        }
+    ],
+    "action": [
+        {
+            "name": "Bite.",
+            "entries": [
+                "Melee Weapon Attack:"
+            ]
+        },
+        {
+            "name": "+4 to hit, reach 5 ft., one target.",
+            "entries": [
+                "Hit:",
+                "7 (2d4 + 2) piercing damage. If the target is a creature, it must succeed on a DC 11 Strength saving throw or be knocked prone."
+            ]
+        },
+        {
+            "name": "Claw.",
+            "entries": [
+                "Melee Weapon Attack:"
+            ]
+        },
+        {
+            "name": "+10 to hit, reach 5 ft., one target.",
+            "entries": [
+                "Hit:"
+            ]
+        },
+        {
+            "name": "10 (3d6 + 5)slashing damage."
+        }
+    ]
+}
+<|endoftext|>
+<|startoftext|>
+{
+    "name": " Akantor ",
+    "type": "beast",
+    "size": "G",
+    "source": "HBW",
+    "alignment": [
+        "U"
+    ],
+    "ac": {
+        "ac": " 18 ",
+        "from": [
+            " Natural Armor "
+        ]
+    },
+    "hp": {
+        "average": " 245 ",
+        "formula": " (14d20 + 98) "
+    },
+    "speed": {
+        "walk": "40",
+        "burrow": "30"
+    },
+    "str": "27",
+    "dex": "10",
+    "con": "25",
+    "int": "16",
+    "wis": "15",
+    "cha": "19",
+    "save": {
+        "DEX": "+6",
+        "CON": "+13",
+        "WIS": "+8"
+    },
+    "skill": {
+        "Perception": "+8"
+    },
+    "immune": [
+        "Fire",
+        {
+            "immune": [
+                "Bludgeoning",
+                "Piercing",
+                "and Slashing"
+            ],
+            "note": "from Nonmagical Attacks"
+        }
+    ],
+    "conditionImmune": [
+        "Charmed",
+        "Frightened",
+        "Paralyzed"
+    ],
+    "senses": [
+        "Darkvision 120 ft",
+        "Tremorsense 120 ft"
+    ],
+    "passive": "18",
+    "languages": [
+        "--"
+    ],
+    "cr": "20",
+    "trait": [
+        {
+            "name": "Magic Resistance.",
+            "entries": [
+                "The akantor has advantage on saving throws against spells and other magical effects."
+            ]
+        },
+        {
+            "name": "Legendary Resistance (3/Day).",
+            "entries": [
+                "If the akantor fails a saving throw, it can choose to succeed instead."
+            ]
+        }
+    ],
+    "action": [
+        {
+            "name": "Multiattack.",
+            "entries": [
+                "The akantor makes three attacks, one with its bite, one with its claw and one with its tail."
+            ]
+        },
+        {
+            "name": "Bite.",
+            "entries": [
+                "Melee Weapon Attack:"
+            ]
+        },
+        {
+            "name": "+14 to hit, reach 10 ft., one target.",
+            "entries": [
+                "Hit:",
+                "30 (4d10 + 8) piercing damage. If the target is a creature, it is grappled (escape DC 22) . Until this grapple ends, the target is restrained, and the akantor can't bite another target."
+            ]
+        },
+        {
+            "name": "Claw.",
+            "entries": [
+                "Melee Weapon Attack:"
+            ]
+        },
+        {
+            "name": "+14 to hit, reach 15 ft., one target.",
+            "entries": [
+                "Hit:"
+            ]
+        },
+        {
+            "name": "14 (2d6 + 8) slashing damage.",
+            "entries": [
+                "Tail."
+            ]
+        },
+        {
+            "name": "Melee Weapon Attack:",
+            "entries": [
+                "+14 to hit, reach 20 ft., one target."
+            ]
+        },
+        {
+            "name": "Hit:",
+            "entries": [
+                "26 (4d8 + 8) bludgeoning damage."
+            ]
+        },
+        {
+            "name": "Sonic Blast (Recharge 5-6).",
+            "entries": [
+                "exhales a blast of air in a 120-foot line that is 10 feet wide. The blast destroys all terrain and structures, magic or otherwise, within its path. Each creature in that line must make a DC 21 Dexterity saving throw, taking 45 (13d6) force damage on a failed save, or half as much damage on a successful one."
+            ]
+        },
+        {
+            "name": "Crush.",
+            "entries": [
+                "If the akantor uses all of its movement to rise up on its hind legs. It can then use its action to slams its body in an area within 20 feet of its location that contains one or more other creatures. Each of those creatures must succeed on a DC 23 Strength or Dexterity saving throw (target's choice) or be knocked prone and take 22 (4d6 + 8) bludgeoning damage + 22 (4d6 + 8) fire damage. On a successful save, the creature takes only half the damage, isn't knocked prone, and is pushed 5 feet out of the akantor's space into an unoccupied space of the creature's choice. If no unoccupied space is with in range, the creature instead falls prone in the akantor's space."
+            ]
+        },
+        {
+            "name": "Swallow.",
+            "entries": [
+                "The akantor makes one bite attack against a Large or smaller creature it is grappling. If the attack hits, the target takes the bite damage, the target is swallowed, and the grapple ends. While swallowed, the creature is blinded and restrained, it has total cover against attacks and other effects outside the akantor, and it takes 21 (6d6) acid damage at the start of each of the akantor's turns.",
+                "If the akantor takes 50 damage or more on a single turn from a creature inside it, the akantor must succeed on a DC 22 Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, which fall prone in a space within 10 feet of the akantor. If the akantor dies, a swallowed creature is no longer restrained by it and can escape from the corpse by using 30 feet of movement, exiting prone."
+            ]
+        }
+    ],
+    "legendary": [
+        {
+            "name": "Dig.",
+            "entries": [
+                "The akantor burrows underground and move up to its burrow movement."
+            ]
+        },
+        {
+            "name": "Detect.",
+            "entries": [
+                "The akantor makes a Wisdom (Perception) Check."
+            ]
+        },
+        {
+            "name": "Chomp (Costs 2 Actions).",
+            "entries": [
+                "The akantor makes one bite attack or uses its Swallow."
+            ]
+        }
+    ]
+}
+<|endoftext|>
+<|startoftext|>
+{
+    "name": " Ajani Goldmane ",
+    "type": "humanoid",
+    "size": "M",
+    "source": "HBW",
+    "alignment": [
+        "C",
+        "G"
+    ],
+    "ac": {
+        "ac": " 25 ",
+        "from": [
+            " Plate "
+        ]
+    },
+    "hp": {
+        "average": " 70 ",
+        "formula": " (7d10 + 5) "
+    },
+    "speed": {
+        "walk": ""
+    },
+    "str": "20",
+    "dex": "14",
+    "con": "16",
+    "int": "16",
+    "wis": "18",
+    "cha": "17",
+    "save": {
+        "STR": "+8",
+        "WIS": "+7"
+    },
+    "skill": {
+        "Animal": "Handling",
+        "Athletics": "+10",
+        "Intimidation": "+10",
+        "Stealth": "+10"
+    },
+    "resist": [
+        "Bludgeoning",
+        "Piercing",
+        "Slashing"
+    ],
+    "conditionImmune": [
+        "Charmed",
+        "Frightened"
+    ],
+    "senses": [
+        "Truesight"
+    ],
+    "passive": "15",
+    "languages": [
+        "Common",
+        "Dwarvish",
+        "Elvish",
+        "Gnomish"
+    ],
+    "cr": "8",
+    "trait": [
+        {
+            "name": "Planes Background: ",
+            "entries": [
+                "You have a planes type as your base, red, blue, green, white or black. You can summon creatures and spells of that color. Ajani's base color is white. At the DM's discretion he can have green as a secondary color."
+            ]
+        }
+    ],
+    "action": [
+        {
+            "name": "Lionborn Axe:",
+            "entries": [
+                "Melee Weapon Attack:"
+            ]
+        },
+        {
+            "name": " +2 to hit, reach 5 ft., 1 target. ",
+            "entries": [
+                "Hit:"
+            ]
+        },
+        {
+            "name": " 5 (2d12 + 4) slashing damage.",
+            "entries": [
+                "Bite."
+            ]
+        },
+        {
+            "name": "Melee Weapon Attack:",
+            "entries": [
+                " +5 to hit, reach 5 ft., one target. "
+            ]
+        },
+        {
+            "name": "Hit:",
+            "entries": [
+                " 7 (1d8 + 3) piercing damage."
+            ]
+        },
+        {
+            "name": "Claw.",
+            "entries": [
+                "Melee Weapon Attack:"
+            ]
+        },
+        {
+            "name": " +5 to hit, reach 5 ft., one target. ",
+            "entries": [
+                "Hit:"
+            ]
+        },
+        {
+            "name": " 6 (1d6 + 3) slashing damage.",
+            "entries": [
+                "Mana Blast:"
+            ]
+        },
+        {
+            "name": " Ranged",
+            "entries": [
+                "Weapon Attack:"
+            ]
+        },
+        {
+            "name": " +5 to hit, range 5/100 ft., 1 target. ",
+            "entries": [
+                "Hit:"
+            ]
+        },
+        {
+            "name": " 5 (2d12) force damage."
+        }
+    ],
+    "reaction": [
+        {
+            "name": "Reaction Name.",
+            "entries": [
+                "Enter the description for your action."
+            ]
+        }
+    ],
+    "legendary": [
+        {
+            "name": "Mana Draw (Costs 1 Actions):You draw 1 mana per turn, this ability does not cost an action, you can spend these mana points on summoning creatures and spells of your Planeswalker color.",
+            "entries": [
+                "Magic The Gathering (summon): ",
+                "You use Magic The Gathering cards as your reference, you use your mana points to spend on getting cards. The DM will adapt the cards into the game at his discretion. If a card is worth 3 mana, than it costs 3 mana points, regardless of the color on the card. You can only use cards of your Planeswalker color."
+            ]
+        }
+    ]
+}
+<|endoftext|>
+<|startoftext|>
+{
+    "name": " Airship Caravel ",
+    "type": "construct",
+    "size": "G",
+    "source": "HBW",
+    "alignment": [
+        "N"
+    ],
+    "ac": {
+        "ac": " 15 ",
+        "from": [
+            " Natural "
+        ]
+    },
+    "hp": {
+        "average": " 300 ",
+        "formula": " (1d20) "
+    },
+    "speed": {
+        "walk": "90",
+        "If": "turning",
+        "speed": "is"
+    },
+    "str": "10",
+    "dex": "10",
+    "con": "10",
+    "int": "10",
+    "wis": "10",
+    "cha": "10",
+    "passive": "10",
+    "languages": [
+        "none"
+    ],
+    "cr": "10",
+    "trait": [
+        {
+            "name": "Damage Threshold (15): ",
+            "entries": [
+                "A ship has immunity to all damage unless it takes an amount of damage equal to or greater than its damage threshold, in which case it takes damage as normal. Damage below the threshold is ignored."
+            ]
+        },
+        {
+            "name": "Crew (10):",
+            "entries": [
+                "A ship requires a crew of 10 members, where a skilled hireling would cost 5 gp per day to employ."
+            ]
+        },
+        {
+            "name": "Passengers (20)",
+            "entries": [
+                ": A ship can hold up to 20 passengers on-board. A passenger will need to pay around 1 gp per day to receive passage."
+            ]
+        },
+        {
+            "name": "Cargo (1 ton).",
+            "entries": [
+                "Repair:",
+                " Repairs can occur while berthed. Repairing 1 hit point of damage will cost 1 day of labor and 20 gold."
+            ]
+        }
+    ],
+    "action": [
+        {
+            "name": "Ballista Shot:",
+            "entries": [
+                "Ranged Weapon Attack:"
+            ]
+        },
+        {
+            "name": "+6 to hit, range 100/300 ft, one target.",
+            "entries": [
+                "Hit:"
+            ]
+        },
+        {
+            "name": "26 (3d12+9) piercing damage.",
+            "entries": [
+                "Before it can be fired, the ballista must be loaded and aimed. It takes one action to load the weapon, one action to aim it, and one action to fire it.",
+                "The ballista has 40 hit points, and an AC of 16. Replacing a destroyed ballista will cost 100 gp."
+            ]
+        }
+    ],
+    "legendary": [
+        {
+            "name": "Open the Throttle (2):",
+            "entries": [
+                "The airship can use 2 legendary actions to move up to its maximum movement speed."
+            ]
+        },
+        {
+            "name": "Auto-Ballista Shot (1):",
+            "entries": [
+                "Ranged Weapon Attack:"
+            ]
+        },
+        {
+            "name": "+6 to hit, range 100/300 ft, one target.",
+            "entries": [
+                "Hit:"
+            ]
+        },
+        {
+            "name": "12 (1d12+5) piercing damage.",
+            "entries": [
+                "Before it can be fired, the ballista must be loaded and aimed. It takes one legendary action to load the weapon, onelegendary action to aim it, and one legendary action to fire it.",
+                "The ballista has 30 hit points, and an AC of 15. Replacing a destroyed auto-ballista will cost 200 gp."
+            ]
+        }
+    ]
+}
+<|endoftext|>
+<|startoftext|>
+{
+    "name": " Airgian ",
+    "type": "aberration",
+    "size": "M",
+    "source": "HBW",
+    "alignment": [
+        "U"
+    ],
+    "ac": {
+        "ac": " 14 ",
+        "from": [
+            " Natural Armor "
+        ]
+    },
+    "hp": {
+        "average": " 35 ",
+        "formula": " (6d10) "
+    },
+    "speed": {
+        "walk": "20",
+        "climb": "20",
+        "fly": "20"
+    },
+    "str": "12",
+    "dex": "14",
+    "con": "12",
+    "int": "14",
+    "wis": "16",
+    "cha": "10",
+    "skill": {
+        "Perception": "+6"
+    },
+    "resist": [
+        "Radiant"
+    ],
+    "senses": [
+        "Darkvision 120 ft"
+    ],
+    "passive": "16",
+    "languages": [
+        "Telepathy They don't often communicate with other species."
+    ],
+    "cr": "3",
+    "action": [
+        {
+            "name": "Multiattack:",
+            "entries": [
+                " The Airgian makes two attacks per turn, one with its bite, one with its claws. Alternatively, it can make a tail attack or use its fire breath."
+            ]
+        },
+        {
+            "name": "Bite:",
+            "entries": [
+                " +5 to hit, reach 5 ft, 1d6 + 2 piercing damage"
+            ]
+        },
+        {
+            "name": "Claws:",
+            "entries": [
+                " +5 to hit, reach 5 ft, 1d6 + 2 slashing damage."
+            ]
+        },
+        {
+            "name": "Tail:",
+            "entries": [
+                "The Airgian makes a sweeping attack with its long tail. The target creature must make a DC 14 Dexterity saving throw. On a failed save, the creature takes 2d6 bludgeoning damage and is knocked prone. On a successful save it takes half damage and is not knocked prone."
+            ]
+        },
+        {
+            "name": "Fire Breath:",
+            "entries": [
+                "Once per short rest, the Airgian exhales a blast of flame in a 5-foot line 15 feet long. Any creature in this line takes 1d8 radiant damage."
+            ]
+        }
+    ]
+}
+<|endoftext|>
+<|startoftext|>
+{
+    "name": " Air Spider ",
+    "type": "beast",
+    "size": "L",
+    "source": "HBW",
+    "alignment": [
+        "U"
+    ],
+    "ac": {
+        "ac": " 14 ",
+        "from": [
+            " (Natural Armor) "
+        ]
+    },
+    "hp": {
+        "average": " 30 ",
+        "formula": " (4d10 + 8) "
+    },
+    "speed": {
+        "walk": "30",
+        "climb": "30",
+        "fly": "50"
+    },
+    "str": "10",
+    "dex": "20",
+    "con": "14",
+    "int": "2",
+    "wis": "11",
+    "cha": "4",
+    "skill": {
+        "Stealth": "+5"
+    },
+    "senses": [
+        "Blindsight 10 ft.",
+        "Darkvision 60 ft."
+    ],
+    "passive": "10",
+    "languages": [
+        "--"
+    ],
+    "cr": "2",
+    "trait": [
+        {
+            "name": "Spider Climb.",
+            "entries": [
+                " The spider can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+            ]
+        },
+        {
+            "name": "Web Sense.",
+            "entries": [
+                " While in contact with a web, the spider knows the exact location of any other creature in contact with the same web."
+            ]
+        },
+        {
+            "name": "Web Walker.",
+            "entries": [
+                " The spider ignores movement restrictions caused by webbing."
+            ]
+        }
+    ],
+    "action": [
+        {
+            "name": "Multiattack.",
+            "entries": [
+                "The spider makes two bite attacks."
+            ]
+        },
+        {
+            "name": "Bite.",
+            "entries": [
+                "Melee Weapon Attack:"
+            ]
+        },
+        {
+            "name": " +7 to hit, reach 5 ft., one creature. ",
+            "entries": [
+                "Hit:",
+                "14 (2d8 + 5) piercing damage, and the target must make a DC 11 Constitution saving throw or be knocked prone."
+            ]
+        },
+        {
+            "name": "Whirlwind (Recharge 5-6).",
+            "entries": [
+                " Each creature within 5 feet of the spider must make a DC 13 Strength saving throw.On a failure, a target takes 14 (2d8 + 5) bludgeoning damage and is flung upto 10 feet away from the spider in a random direction and knocked prone. If athrown target strikes an object, such as a wall or floor, the target takes 3 (1d4) bludgeoning damage. If the target isthrown at another creature, that creature must succeed on a DC 13 Dexterity saving throw or take the same damage and be knocked prone.",
+                "If the saving throw is successful, the target takes half the bludgeoning damage and isn't flung away or knocked prone."
+            ]
+        }
+    ]
+}
+<|endoftext|>
+<|startoftext|>
+{
+    "name": " Air Mite ",
+    "type": "elemental",
+    "size": "S",
+    "source": "HBW",
+    "alignment": [
+        "N"
+    ],
+    "ac": {
+        "ac": " 14 ",
+        "from": [
+            null
+        ]
+    },
+    "hp": {
+        "average": " 22 ",
+        "formula": " (4d6 + 4) "
+    },
+    "speed": {
+        "walk": "0",
+        "fly": "45"
+    },
+    "str": "13",
+    "dex": "18",
+    "con": "12",
+    "int": "4",
+    "wis": "10",
+    "cha": "5",
+    "resist": [
+        "Lightning",
+        "Thunder",
+        {
+            "resist": [
+                "Bludgeoning",
+                "Piercing",
+                "and Slashing"
+            ],
+            "note": "from Nonmagical Attacks"
+        }
+    ],
+    "immune": [
+        "Poison"
+    ],
+    "conditionImmune": [
+        "Exhaustion",
+        "Grappled",
+        "Paralyzed",
+        "Petrified",
+        "Poisoned",
+        "Prone",
+        "Restrained",
+        "Unconscious"
+    ],
+    "senses": [
+        "Darkvision 60 ft."
+    ],
+    "passive": "10",
+    "languages": [
+        "Auran"
+    ],
+    "cr": "1",
+    "trait": [
+        {
+            "name": "Air Form.",
+            "entries": [
+                " The air mite can enter a creature's space and stop there. It can move through a space as narrow as 1 inch wide without squeezing."
+            ]
+        },
+        {
+            "name": "Flyby.",
+            "entries": [
+                "The air mite doesn't provoke an opportunity attack when it flies out of an enemy's reach."
+            ]
+        }
+    ],
+    "action": [
+        {
+            "name": "Multiattack.",
+            "entries": [
+                "The air mitemakes one slam attack and, if it can, usesits restrict."
+            ]
+        },
+        {
+            "name": "Slam",
+            "entries": [
+                "Melee Weapon Attack:"
+            ]
+        },
+        {
+            "name": " +6 to hit, reach 5 ft., 1 target. ",
+            "entries": [
+                "Hit:"
+            ]
+        },
+        {
+            "name": "8 (1d6 + 4) bludgeoning damage.",
+            "entries": [
+                "Restrict (Recharge 4-6).",
+                "The air mite attempts to block 1 targets windpipe. The creature must make a DC 13 Constitution saving throw. On a failure, the creature cannot breath or speak, and the air mite has complete cover and is restrained. At the start of each of the creature's turns, it takes 9 (2d6) bludgeoning damage. The creature may repeat the saving throw as an action, expelling the elemental mite on a success.",
+                "While theair mite is restricting a target, it has advantage on slam attacks against that target, and it cannot restrict or attack another creature."
+            ]
+        }
+    ]
+}
+<|endoftext|>
+<|startoftext|>
+{
+    "name": " Air Gen ",
+    "type": "elemental",
+    "size": "T",
+    "source": "HBW",
+    "alignment": [
+        "N"
+    ],
+    "ac": {
+        "ac": " 12 ",
+        "from": [
+            " Natural Armor "
+        ]
+    },
+    "hp": {
+        "average": " 7 ",
+        "formula": " (2d4 + 2) "
+    },
+    "speed": {
+        "walk": "60"
+    },
+    "str": "6",
+    "dex": "15",
+    "con": "13",
+    "int": "11",
+    "wis": "14",
+    "cha": "17",
+    "skill": {
+        "Perception": "+4",
+        "Persuasion": "+5"
+    },
+    "resist": [
+        "Lightning",
+        {
+            "resist": [
+                "Bludgeoning",
+                "Piercing",
+                "and Slashing"
+            ],
+            "note": "from Magic Weapons"
+        }
+    ],
+    "conditionImmune": [
+        "Prone"
+    ],
+    "senses": [
+        "Darkvision 60 ft."
+    ],
+    "passive": "14",
+    "languages": [
+        "Auran",
+        "Common Common",
+        "Auran"
+    ],
+    "cr": "1/2",
+    "trait": [
+        {
+            "name": "Innate",
+            "entries": [
+                " Spellcasting.",
+                "The gen\u2019s innate spellcasting ability is Charisma (spell save DC 13). It can innately cast the following spells, requiring no components:"
+            ]
+        },
+        {
+            "name": "At will: ",
+            "entries": [
+                "detect evil and good, gust"
+            ]
+        },
+        {
+            "name": "2/day each: ",
+            "entries": [
+                "fog cloud, plane shift ("
+            ]
+        },
+        {
+            "name": "self only), ",
+            "entries": [
+                "tongues"
+            ]
+        },
+        {
+            "name": "Elemental Demise.",
+            "entries": [
+                "If the gen dies, its body disintegrates into a warm breeze, leaving behind only equipment the gen was wearing or carrying."
+            ]
+        },
+        {
+            "name": "Magic Resistance.",
+            "entries": [
+                "The gen has advantage on saving throws against spells or other magical effects."
+            ]
+        }
+    ],
+    "action": [
+        {
+            "name": "Multiattack.",
+            "entries": [
+                "The gen makes two melee or two ranged attacks."
+            ]
+        },
+        {
+            "name": "Dagger.",
+            "entries": [
+                "Melee Weapon Attack:"
+            ]
+        },
+        {
+            "name": " +4 to hit, reach 5 ft., one target. ",
+            "entries": [
+                "Hit:"
+            ]
+        },
+        {
+            "name": "4(1d4+2) piercing damage.",
+            "entries": [
+                "Thunderbolt."
+            ]
+        },
+        {
+            "name": "RangedWeapon Attack:",
+            "entries": [
+                " +4 to hit, range 30/120 ft., one target. "
+            ]
+        },
+        {
+            "name": "Hit:",
+            "entries": [
+                "5 (1d6 + 2) lightning damage."
+            ]
+        },
+        {
+            "name": "Invisbility.",
+            "entries": [
+                "The genmagically turns invisible until it attacks or until its concentration ends (as if concentrating on a spell). Any equipment the gen wears or carries is invisible with it."
+            ]
+        }
+    ]
+}
+<|endoftext|>
+<|startoftext|>
+{
+    "name": " Air Elementalist ",
+    "type": "humanoid",
+    "size": "M",
+    "source": "HBW",
+    "alignment": [
+        "A"
+    ],
+    "ac": {
+        "ac": " 14 ",
+        "from": [
+            " (Leather) "
+        ]
+    },
+    "hp": {
+        "average": " 45 ",
+        "formula": " (8d8 + 8) "
+    },
+    "speed": {
+        "walk": "30"
+    },
+    "str": "10",
+    "dex": "16",
+    "con": "12",
+    "int": "10",
+    "wis": "12",
+    "cha": "14",
+    "skill": {
+        "Acrobatics": "+6",
+        "Insight": "+4",
+        "Perception": "+4"
+    },
+    "passive": "14",
+    "languages": [
+        "Common",
+        "Primordial (Auran)"
+    ],
+    "cr": "4",
+    "trait": [
+        {
+            "name": "Dextrous Skill.",
+            "entries": [
+                "The air elementalist has a +6 bonus to initiative rolls."
+            ]
+        },
+        {
+            "name": "Element Power.",
+            "entries": [
+                "The air elementalist has 16 points of element power available to power their abilities.All expended point of element power are regained at the end of a long rest."
+            ]
+        },
+        {
+            "name": "Elemental Magic.",
+            "entries": [
+                " Theair elementalist is a 7th-level elementalist. Its spellcasting ability isCharisma (spell save DC 13, +5 to hit with spell attacks). The air elementalist has following spells prepared:",
+                "Air Adept Cantrips (at will): gust, lightning lure, thunderclap",
+                "Air Aspect Spells:gust of wind (3 points), blur (3 points), haste (4 points), lightning bolt (4 points), greater invisibility (5 points)"
+            ]
+        },
+        {
+            "name": "Elemental Surge.",
+            "entries": [
+                "When the air elementalist deals damage with one of its weapon attacks or cantrips, it can spend points of element power to add 1d8 to the damage roll per point of element power spent."
+            ]
+        },
+        {
+            "name": "Like the Wind.",
+            "entries": [
+                "As a bonus action, the air elementalist can spend a point of element power to use the dash or disengage actions, or make one weapon attack. If it uses the dash or disengage action, it gains a flying speed equal to its walking speed."
+            ]
+        }
+    ],
+    "action": [
+        {
+            "name": "Multiattack.",
+            "entries": [
+                "The air elementalist makes two attacks with its scimitar or hand crossbow. It can cast one of the cantrips it knows as a replacement for one of these attacks."
+            ]
+        },
+        {
+            "name": "Scimitar.",
+            "entries": [
+                "Melee Weapon Attack:"
+            ]
+        },
+        {
+            "name": " +6 to hit, reach 5 ft.,one target. ",
+            "entries": [
+                "Hit:"
+            ]
+        },
+        {
+            "name": "7(1d6 + 3) slashing damage.",
+            "entries": [
+                "Hand Crossbow."
+            ]
+        },
+        {
+            "name": "Ranged Weapon Attack:",
+            "entries": [
+                " +6 to hit, range 30/60 ft., one target. "
+            ]
+        },
+        {
+            "name": "Hit:",
+            "entries": [
+                "7 (1d6 + 3) piercing damage."
+            ]
+        }
+    ]
+}
+<|endoftext|>
+<|startoftext|>
+{
+    "name": " Air Elemental, Lesser ",
+    "type": "elemental",
+    "size": "M",
+    "source": "HBW",
+    "alignment": [
+        "N"
+    ],
+    "ac": {
+        "ac": " 14 ",
+        "from": [
+            null
+        ]
+    },
+    "hp": {
+        "average": " 44 ",
+        "formula": " (8d8 + 8) "
+    },
+    "speed": {
+        "walk": "0",
+        "fly": "90"
+    },
+    "str": "14",
+    "dex": "18",
+    "con": "12",
+    "int": "6",
+    "wis": "10",
+    "cha": "6",
+    "resist": [
+        "Lightning",
+        "Thunder",
+        {
+            "resist": [
+                "Bludgeoning",
+                "Piercing",
+                "and Slashing"
+            ],
+            "note": "from Nonmagical Attacks"
+        }
+    ],
+    "immune": [
+        "Poison"
+    ],
+    "conditionImmune": [
+        "Exhaustion",
+        "Grappled",
+        "Paralyzed",
+        "Petrified",
+        "Poisoned",
+        "Prone",
+        "Restrained",
+        "Unconscious"
+    ],
+    "senses": [
+        "Darkvision 60 ft."
+    ],
+    "passive": "10",
+    "languages": [
+        "Auran"
+    ],
+    "cr": "3",
+    "trait": [
+        {
+            "name": "Air Form.",
+            "entries": [
+                " The elemental can enter a hostile creature's space and stop there. It can move through a space as narrow as 1 inch wide without squeezing."
+            ]
+        }
+    ],
+    "action": [
+        {
+            "name": "Multiattack.",
+            "entries": [
+                " The elemental makes two slam attacks. "
+            ]
+        },
+        {
+            "name": "Slam.",
+            "entries": [
+                "Melee Weapon Attack:"
+            ]
+        },
+        {
+            "name": " +6 to hit, reach 5 ft., one target. ",
+            "entries": [
+                "Hit:"
+            ]
+        },
+        {
+            "name": " 11 (2d6 + 4) bludgeoning damage. ",
+            "entries": [
+                "Whirlwind (Recharge 4\u20136).",
+                " Each creature in the elemental's space must make a DC 13 Strength saving throw. On a failure, a target takes 12 (3d6 + 2) bludgeoning damage and is flung up 20 feet away from the elemental in a random direction and knocked prone. If a thrown target strikes an object, such as a wall or floor, the target takes 3 (1d6) bludgeoning damage for every 10 feet it was thrown. If the target is thrown at another creature, that creature must succeed on a DC 13 Dexterity saving throw or take the same damage and be knocked prone. ",
+                "If the saving throw is successful, the target takes half the bludgeoning damage and isn't flung away or knocked prone."
+            ]
+        }
+    ]
+}
+<|endoftext|>
+<|startoftext|>
+{
+    "name": " Air Elemental Wind Storm ",
+    "type": "elemental",
+    "size": "G",
+    "source": "HBW",
+    "alignment": [
+        "N"
+    ],
+    "ac": {
+        "ac": " 12 ",
+        "from": [
+            null
+        ]
+    },
+    "hp": {
+        "average": " 120 ",
+        "formula": " (12d12 + 30) "
+    },
+    "speed": {
+        "walk": "0",
+        "fly": "90"
+    },
+    "str": "20",
+    "dex": "25",
+    "con": "18",
+    "int": "8",
+    "wis": "15",
+    "cha": "8",
+    "save": {
+        "STR": "+9",
+        "DEX": "+11"
+    },
+    "skill": {
+        "Acrobatics": "+5",
+        "Athletics": "+5"
+    },
+    "resist": [
+        "Lightning",
+        "Thunder",
+        {
+            "resist": [
+                "Bludgeoning",
+                "Piercing",
+                "and Slashing"
+            ],
+            "note": "from Nonmagical Attacks"
+        }
+    ],
+    "immune": [
+        "Poison"
+    ],
+    "conditionImmune": [
+        "Exhaustion",
+        "Grappled",
+        "Paralyzed",
+        "Petrified",
+        "Poisoned",
+        "Prone",
+        "Restrained",
+        "Unconscious"
+    ],
+    "senses": [
+        "Blindsight 60 ft.",
+        "Darkvision 120 ft."
+    ],
+    "passive": "10",
+    "languages": [
+        "Auran"
+    ],
+    "cr": "10",
+    "trait": [
+        {
+            "name": "Air Form.",
+            "entries": [
+                " The elemental can enter a hostile creature's space and stop there. It can move through a space as narrow as 1 inch wide without squeezing."
+            ]
+        }
+    ],
+    "action": [
+        {
+            "name": "Multiattack.",
+            "entries": [
+                " The elemental makes five slam attacks or two Whirlwind attacks."
+            ]
+        },
+        {
+            "name": "Slam.",
+            "entries": [
+                "Melee Weapon Attack:"
+            ]
+        },
+        {
+            "name": " +12 to hit, reach 15 ft., one target. ",
+            "entries": [
+                "Hit:"
+            ]
+        },
+        {
+            "name": "51 (6d12 + 15) bludgeoning damage.",
+            "entries": [
+                "Whirlwind.",
+                "Each creature within 5(1d6 + 2) feet of the elemental must make a DC 20 Strength saving throw. On a failure, a target takes 25 (3d10 + 10) bludgeoning damage and 10(2d8 + 2) Thunder damage and is flung up 50(5d20) feet away from the elemental in a random direction and knocked prone. If a thrown target strikes an object, such as a wall or floor, the target takes 6 (2d6) bludgeoning damage for every 8 feet it was thrown. If the target is thrown at another creature, that creature must succeed on a DC 18 Dexterity saving throw or take the same damage and be knocked prone.",
+                "If the saving throw is successful, the target takes half the bludgeoning damage and isn't flung away or knocked prone."
+            ]
+        }
+    ]
+}
+<|endoftext|>
+<|startoftext|>
+{
+    "name": " Air Elemental Fragment ",
+    "type": "elemental",
+    "size": "T",
+    "source": "HBW",
+    "alignment": [
+        "N"
+    ],
+    "ac": {
+        "ac": " 8 ",
+        "from": [
+            null
+        ]
+    },
+    "hp": {
+        "average": " 40 ",
+        "formula": " (12d6 + 10) "
+    },
+    "speed": {
+        "walk": "0",
+        "fly": "40"
+    },
+    "str": "8",
+    "dex": "16",
+    "con": "10",
+    "int": "6",
+    "wis": "10",
+    "cha": "6",
+    "resist": [
+        "Lightning",
+        "Thunder",
+        {
+            "resist": [
+                "Bludgeoning",
+                "Piercing",
+                "and Slashing"
+            ],
+            "note": "from Nonmagical Attacks"
+        }
+    ],
+    "immune": [
+        "Poison"
+    ],
+    "conditionImmune": [
+        "Exhaustion",
+        "Grappled",
+        "Paralyzed",
+        "Petrified",
+        "Poisoned",
+        "Prone",
+        "Restrained",
+        "Unconscious"
+    ],
+    "senses": [
+        "Darkvision 40 ft."
+    ],
+    "passive": "8",
+    "languages": [
+        "Auran"
+    ],
+    "cr": "1",
+    "trait": [
+        {
+            "name": "Air Form.",
+            "entries": [
+                " The elemental can enter a hostile creature's space and stop there. It can move through a space as narrow as 1 inch wide without squeezing."
+            ]
+        }
+    ],
+    "action": [
+        {
+            "name": "Multiattack.",
+            "entries": [
+                " The elemental makes two slam attacks."
+            ]
+        },
+        {
+            "name": "Slam.",
+            "entries": [
+                "Melee Weapon Attack:"
+            ]
+        },
+        {
+            "name": " +4 to hit, reach 2 ft., one target. ",
+            "entries": [
+                "Hit:"
+            ]
+        },
+        {
+            "name": "6 (1d8 + 2) bludgeoning damage."
+        }
+    ]
+}
+<|endoftext|>
+<|startoftext|>
+{
+    "name": " Air elemental (Weakened essence) ",
+    "type": "elemental",
+    "size": "L",
+    "source": "HBW",
+    "alignment": [
+        "N"
+    ],
+    "ac": {
+        "ac": " 5 ",
+        "from": [
+            null
+        ]
+    },
+    "hp": {
+        "average": " 25 ",
+        "formula": " (12d10 + 5) "
+    },
+    "speed": {
+        "walk": "0",
+        "fly": "20"
+    },
+    "str": "5",
+    "dex": "18",
+    "con": "8",
+    "int": "6",
+    "wis": "10",
+    "cha": "6",
+    "resist": [
+        "Lightning",
+        "Thunder",
+        {
+            "resist": [
+                "Bludgeoning",
+                "Piercing",
+                "and Slashing"
+            ],
+            "note": "from Nonmagical Attacks"
+        }
+    ],
+    "immune": [
+        "Poison"
+    ],
+    "conditionImmune": [
+        "Exhaustion",
+        "Grappled",
+        "Paralyzed",
+        "Petrified",
+        "Poisoned",
+        "Prone",
+        "Restrained",
+        "Unconscious"
+    ],
+    "senses": [
+        "Darkvision 30 ft."
+    ],
+    "passive": "10",
+    "languages": [
+        "Auran"
+    ],
+    "cr": "1/2",
+    "trait": [
+        {
+            "name": "Air Form.",
+            "entries": [
+                " The elemental can enter a hostile creature's space and stop there. It can move through a space as narrow as 1 inch wide without squeezing."
+            ]
+        }
+    ],
+    "action": [
+        {
+            "name": "Slam.",
+            "entries": [
+                "Melee Weapon Attack:"
+            ]
+        },
+        {
+            "name": " +2 to hit, reach 2 ft., one target. ",
+            "entries": [
+                "Hit:"
+            ]
+        },
+        {
+            "name": " 4 (1d4 + 2) bludgeoning damage."
+        }
+    ]
+}
+<|endoftext|>
+<|startoftext|>
+{
+    "name": " Air Elemental (variant 6) ",
+    "type": "elemental",
+    "size": "H",
+    "source": "HBW",
+    "alignment": [
+        "N"
+    ],
+    "ac": {
+        "ac": " 15 ",
+        "from": [
+            null
+        ]
+    },
+    "hp": {
+        "average": " 90 ",
+        "formula": " (12d10 + 24) "
+    },
+    "speed": {
+        "walk": "0",
+        "fly": "90"
+    },
+    "str": "14",
+    "dex": "20",
+    "con": "14",
+    "int": "6",
+    "wis": "10",
+    "cha": "6",
+    "resist": [
+        "Lightning",
+        "Thunder",
+        {
+            "resist": [
+                "Bludgeoning",
+                "Piercing",
+                "and Slashing"
+            ],
+            "note": "from Nonmagical Attacks"
+        }
+    ],
+    "immune": [
+        "Poison"
+    ],
+    "conditionImmune": [
+        "Exhaustion",
+        "Grappled",
+        "Paralyzed",
+        "Petrified",
+        "Poisoned",
+        "Prone",
+        "Restrained",
+        "Unconscious"
+    ],
+    "senses": [
+        "Darkvision 60 ft."
+    ],
+    "passive": "10",
+    "languages": [
+        "Auran"
+    ],
+    "cr": "5",
+    "trait": [
+        {
+            "name": "Air Form.",
+            "entries": [
+                " The elemental can enter a hostile creature's space and stop there. It can move through a space as narrow as 1 inch wide without squeezing."
+            ]
+        }
+    ],
+    "action": [
+        {
+            "name": "Multiattack.",
+            "entries": [
+                " The elemental makes two slam attacks."
+            ]
+        },
+        {
+            "name": "Slam.",
+            "entries": [
+                "Melee Weapon Attack:"
+            ]
+        },
+        {
+            "name": " +8 to hit, reach 5 ft., one target. ",
+            "entries": [
+                "Hit:"
+            ]
+        },
+        {
+            "name": " 14 (2d8 + 5) bludgeoning damage.",
+            "entries": [
+                "Storm (Recharge 4\u20136).",
+                " Each creature in the elemental's space must make a DC 13 Strength saving throw. On a failure, a target takes 15 (3d8 + 2) bludgeoning damage, 12(2d6 + 5) lightning damage, and 10(4d4 + 2) thunder damage.",
+                "If the saving throw is successful, the target takes half the bludgeoning damage."
+            ]
+        },
+        {
+            "name": "Lightning Bolt(Recharge 4\u20136).",
+            "entries": [
+                "Ranged"
+            ]
+        },
+        {
+            "name": "Weapon Attack:",
+            "entries": [
+                "+8 to hit, reach 200 ft., one target."
+            ]
+        },
+        {
+            "name": "Hit:",
+            "entries": [
+                "a target takes 35(5d10 + 10) lightning damage and 20(4d8 + 4) thunder damage."
+            ]
+        }
+    ]
+}
+<|endoftext|>
