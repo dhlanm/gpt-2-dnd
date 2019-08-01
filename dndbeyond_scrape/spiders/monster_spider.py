@@ -10,6 +10,7 @@ sizes = {"tiny": "T", "small": "S", "medium": "M", "large": "L", "huge": "H", "g
 alignments = {"chaotic": "C", "neutral": "N", "lawful": "L", "evil": "E", "good": "G", "unaligned": "U", "any": "A"}
 stats = ['str', 'dex', 'con', 'int', 'wis', 'cha']
 
+#this function is a garbage fire :) 
 def set_traits(traits, entry, monster):
     i = 0
     while i < len(traits):
@@ -20,13 +21,25 @@ def set_traits(traits, entry, monster):
         if i + 1 < len(traits):
             j = i + 1
             entries = [traits[j]]
-            while j < len(traits)-1: 
-                j += 1
-                if len(traits[j]) < 50: 
-                    break
-                entries.append(traits[j])
+            # for melee attacks
+            if j+1 < len(traits) and "weapon attack" in traits[j].lower(): 
+                entries.append(traits[j+1])
                 i += 1
-                # if content is long it is probably a continuation
+                if j+2 < len(traits) and "Hit:" in traits[j+2] and "Hit:" not in traits[j+1]: 
+                    entries.append(traits[j+2])
+                    i += 1
+                    if "Hit:" == traits[j+2] and j+3 < len(traits): 
+                        entries.append(traits[j+3])
+                        i += 1
+            # otherwise go by length
+            else: 
+                while j < len(traits)-1: 
+                    j += 1
+                    if len(traits[j]) < 50: 
+                        break
+                    entries.append(traits[j])
+                    i += 1
+                    # if content is long it is probably a continuation
         if entries:
             monster[entry].append({'name': traits[k], 'entries': entries}) #really really fuzzy :\
         else: 
@@ -153,10 +166,11 @@ class MonsterSpider(scrapy.Spider):
         for db in response.css(msb+'description-block'):
             heading = db.css(msb+'description-block-heading::text').get()
             content = db.css(msb+'description-block-content').get()
-            content = re.sub(r'<a.*?>|</a>', '', content)
-            content = re.sub(r'<span.*?>|</span>', '', content)
+            content = re.sub(r'<a.*?>|</a>', ' ', content)
+            content = re.sub(r'<span.*?>|</span>', ' ', content)
+            content = re.sub(r'\s\s+', ' ', content)
             content = re.sub(r'<.*?>', '\n', content)
-            content = [c.replace('\xa0', '') for c in content.split('\n') if c.strip() and not re.match('^\W+$', c)]
+            content = [c.replace('\xa0', ' ') for c in content.split('\n') if c.strip() and not re.match('^\W+$', c)]
 
             if not heading: 
                 #then, traits & spellcasting
@@ -222,6 +236,8 @@ class MonsterSpider(scrapy.Spider):
             f.write('<|startoftext|>\n')
             f.write(json.dumps(monster, indent=4))
             f.write('\n<|endoftext|>\n')
+        with open('cache/'+monster['name']+'.html', 'wb') as f: 
+            f.write(response.body)
 
 
         

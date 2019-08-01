@@ -4,3 +4,5 @@
 /checkpoint
 /bestiary
 *.pyc
+/dndbeyond_scrape/cache
+__pycache__/
