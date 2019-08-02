@@ -20,8 +20,8 @@ class BiasedSampler(object):
         self.total_sizes = [sum(chunk.shape[0] for chunk in chunks) for chunks in chunksets]
         self.boundaries = [[0] for i in range(len(chunksets))]
         for i, chunks in enumerate(chunksets):
-            for i in range(len(chunks)):
-                self.boundaries[i].append(self.boundaries[i][-1] + chunks[i].shape[0])
+            for j in range(len(chunks)):
+                self.boundaries[i].append(self.boundaries[i][-1] + chunks[j].shape[0])
 
     def sample(self, length):
         #for consistencies sake, if the length is too much for any chunkset it's too long for all
