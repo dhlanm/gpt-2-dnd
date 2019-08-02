@@ -33,8 +33,6 @@ class BiasedSampler(object):
         chunk_i = np.random.choice(len(self.chunksets), 1, self.probs)[0]
         while True:
             index = random.randint(0, self.total_sizes[chunk_i] - length - 1)
-            print(self.boundaries)
-            print(chunk_i)
             i = binary_search(lambda j: self.boundaries[chunk_i][j] > index, 0,
                               len(self.boundaries[chunk_i]) - 1) - 1
             if self.boundaries[chunk_i][i + 1] > index + length:
