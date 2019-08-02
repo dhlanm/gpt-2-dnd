@@ -18,7 +18,6 @@ def main():
                         continue
                     m = {k:m[k] for k in m if "Tags" not in k}
                     m.pop("soundClip", None)
-                    # TODO this seems not to be working ^ 
                     action, trait = "", ""
                     trait = m.pop("trait", None)
                     action = m.pop("action", None) 

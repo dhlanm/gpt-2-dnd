@@ -20713,7 +20713,6 @@
             "page": 90
         }
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/254/guard-drake.mp3",
     "name_pre_action": "Guard Drake",
     "action": [
         {
@@ -22171,7 +22170,6 @@
     "environment": [
         "mountain"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/7/aarakocra.mp3",
     "otherSources": [
         {
             "source": "PotA"
@@ -22293,7 +22291,6 @@
     "environment": [
         "underdark"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/10/aboleth.mp3",
     "otherSources": [
         {
             "source": "PotA"
@@ -22410,7 +22407,6 @@
     "environment": [
         "arctic"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/11/abominable-yeti.mp3",
     "otherSources": [
         {
             "source": "SKT"
@@ -22535,7 +22531,6 @@
             "ability": "wis"
         }
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/12/acolyte.mp3",
     "otherSources": [
         {
             "source": "CoS"
@@ -22654,7 +22649,6 @@
     "environment": [
         "swamp"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/53/black-dragon.mp3",
     "dragonCastingColor": "B",
     "otherSources": [
         {
@@ -22821,7 +22815,6 @@
     "environment": [
         "desert"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/58/blue-dracolich.mp3",
     "otherSources": [
         {
             "source": "WDMM"
@@ -22963,7 +22956,6 @@
         "desert",
         "coastal"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/60/blue-dragon.mp3",
     "dragonCastingColor": "U",
     "otherSources": [
         {
@@ -23115,7 +23107,6 @@
     "environment": [
         "desert"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/68/brass-dragon.mp3",
     "dragonCastingColor": "A",
     "otherSources": [
         {
@@ -23273,7 +23264,6 @@
     "environment": [
         "coastal"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/71/bronze-dragon.mp3",
     "dragonCastingColor": "Z",
     "otherSources": [
         {
@@ -23450,7 +23440,6 @@
     "environment": [
         "hill"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/100/copper-dragon.mp3",
     "dragonCastingColor": "C",
     "otherSources": [
         {
@@ -23610,7 +23599,6 @@
         "grassland",
         "forest"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/236/gold-dragon.mp3",
     "dragonCastingColor": "O",
     "otherSources": [
         {
@@ -23786,7 +23774,6 @@
     "environment": [
         "forest"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/243/green-dragon.mp3",
     "dragonCastingColor": "G",
     "otherSources": [
         {
@@ -23937,7 +23924,6 @@
         "mountain",
         "hill"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/408/red-dragon.mp3",
     "dragonCastingColor": "R",
     "otherSources": [
         {
@@ -24086,7 +24072,6 @@
         "mountain",
         "urban"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/448/silver-dragon.mp3",
     "dragonCastingColor": "S",
     "otherSources": [
         {
@@ -24254,7 +24239,6 @@
     "environment": [
         "arctic"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/533/white-dragon.mp3",
     "dragonCastingColor": "W",
     "otherSources": [
         {
@@ -24396,7 +24380,6 @@
         "mountain",
         "desert"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/13/air-elemental.mp3",
     "otherSources": [
         {
             "source": "HotDQ"
@@ -24496,7 +24479,6 @@
     "environment": [
         "grassland"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/15/allosaurus.mp3",
     "otherSources": [
         {
             "source": "ToA"
@@ -24615,7 +24597,6 @@
     "environment": [
         "swamp"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/53/black-dragon.mp3",
     "dragonCastingColor": "B",
     "name_pre_trait": "Ancient Black Dragon",
     "trait": [
@@ -24758,7 +24739,6 @@
         "desert",
         "coastal"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/60/blue-dragon.mp3",
     "dragonCastingColor": "U",
     "name_pre_trait": "Ancient Blue Dragon",
     "trait": [
@@ -24896,7 +24876,6 @@
     "environment": [
         "desert"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/68/brass-dragon.mp3",
     "dragonCastingColor": "A",
     "name_pre_trait": "Ancient Brass Dragon",
     "trait": [
@@ -25056,7 +25035,6 @@
     "environment": [
         "coastal"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/71/bronze-dragon.mp3",
     "dragonCastingColor": "Z",
     "otherSources": [
         {
@@ -25227,7 +25205,6 @@
     "environment": [
         "hill"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/100/copper-dragon.mp3",
     "dragonCastingColor": "C",
     "name_pre_trait": "Ancient Copper Dragon",
     "trait": [
@@ -25389,7 +25366,6 @@
         "grassland",
         "forest"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/236/gold-dragon.mp3",
     "dragonCastingColor": "O",
     "name_pre_trait": "Ancient Gold Dragon",
     "trait": [
@@ -25560,7 +25536,6 @@
     "environment": [
         "forest"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/243/green-dragon.mp3",
     "dragonCastingColor": "G",
     "otherSources": [
         {
@@ -25708,7 +25683,6 @@
         "mountain",
         "hill"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/408/red-dragon.mp3",
     "dragonCastingColor": "R",
     "otherSources": [
         {
@@ -25851,7 +25825,6 @@
         "mountain",
         "urban"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/448/silver-dragon.mp3",
     "dragonCastingColor": "S",
     "name_pre_trait": "Ancient Silver Dragon",
     "trait": [
@@ -26011,7 +25984,6 @@
     "environment": [
         "arctic"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/533/white-dragon.mp3",
     "dragonCastingColor": "W",
     "otherSources": [
         {
@@ -26229,7 +26201,6 @@
     "environment": [
         "desert"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/16/androsphinx.mp3",
     "name_pre_trait": "Androsphinx",
     "trait": [
         {
@@ -26340,7 +26311,6 @@
     "passive": 6,
     "cr": "1",
     "page": 19,
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/17/animated-armor.mp3",
     "otherSources": [
         {
             "source": "CoS"
@@ -26442,7 +26412,6 @@
         "grassland",
         "forest"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/18/ankeg.mp3",
     "otherSources": [
         {
             "source": "PotA"
@@ -26508,7 +26477,6 @@
     "environment": [
         "grassland"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/557/ankylosaurus.mp3",
     "otherSources": [
         {
             "source": "ToA"
@@ -26561,7 +26529,6 @@
     "environment": [
         "forest"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/20/ape.mp3",
     "otherSources": [
         {
             "source": "TftYP"
@@ -26788,7 +26755,6 @@
             "ability": "int"
         }
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/22/arcanaloth.mp3",
     "otherSources": [
         {
             "source": "CoS"
@@ -26990,7 +26956,6 @@
             "ability": "int"
         }
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/25/archmage.mp3",
     "otherSources": [
         {
             "source": "CoS"
@@ -27086,7 +27051,6 @@
     ],
     "cr": "8",
     "page": 343,
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/26/assassin.mp3",
     "altArt": [
         {
             "name": "Vistana Assassin",
@@ -27206,7 +27170,6 @@
     "environment": [
         "forest"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/28/awakened-shrub.mp3",
     "otherSources": [
         {
             "source": "SKT"
@@ -27281,7 +27244,6 @@
     "environment": [
         "forest"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/29/awakened-tree.mp3",
     "otherSources": [
         {
             "source": "PotA"
@@ -27354,7 +27316,6 @@
         "grassland",
         "hill"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/30/axe-beak.mp3",
     "otherSources": [
         {
             "source": "SKT"
@@ -27428,7 +27389,6 @@
     ],
     "cr": "2",
     "page": 22,
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/31/azer.mp3",
     "otherSources": [
         {
             "source": "PotA"
@@ -27502,7 +27462,6 @@
         "forest",
         "hill"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/33/baboon.mp3",
     "otherSources": [
         {
             "source": "TftYP"
@@ -27566,7 +27525,6 @@
     "environment": [
         "forest"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/34/badger.mp3",
     "name_pre_trait": "Badger",
     "trait": [
         {
@@ -27670,7 +27628,6 @@
             ]
         }
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/35/balor.mp3",
     "name_pre_trait": "Balor",
     "trait": [
         {
@@ -27783,7 +27740,6 @@
             "source": "CoS"
         }
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/38/bandit.mp3",
     "otherSources": [
         {
             "source": "HotDQ"
@@ -27886,7 +27842,6 @@
         }
     ],
     "page": 344,
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/37/bandit-captain.mp3",
     "altArt": [
         {
             "name": "Diabolical Bandit Captain",
@@ -28020,7 +27975,6 @@
         "forest",
         "coastal"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/39/banshee.mp3",
     "otherSources": [
         {
             "source": "CoS"
@@ -28145,7 +28099,6 @@
     ],
     "cr": "5",
     "page": 70,
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/40/barbed-devil.mp3",
     "otherSources": [
         {
             "source": "RoT"
@@ -28307,7 +28260,6 @@
             ]
         }
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/554/barlgura.mp3",
     "otherSources": [
         {
             "source": "PotA"
@@ -28396,7 +28348,6 @@
     "environment": [
         "mountain"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/43/basilisk.mp3",
     "otherSources": [
         {
             "source": "ToA"
@@ -28460,7 +28411,6 @@
     "cr": "0",
     "page": 318,
     "familiar": true,
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/44/bat.mp3",
     "otherSources": [
         {
             "source": "CoS"
@@ -28567,7 +28517,6 @@
     ],
     "cr": "3",
     "page": 70,
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/45/bearded-devil.mp3",
     "otherSources": [
         {
             "source": "RoT"
@@ -28674,7 +28623,6 @@
     "environment": [
         "underdark"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/46/behir.mp3",
     "otherSources": [
         {
             "source": "TftYP"
@@ -28792,7 +28740,6 @@
     "environment": [
         "underdark"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/48/beholder.mp3",
     "otherSources": [
         {
             "source": "ToA"
@@ -28900,7 +28847,6 @@
     "environment": [
         "underdark"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/47/beholder-zombie.mp3",
     "otherSources": [
         {
             "source": "WDH"
@@ -28991,7 +28937,6 @@
             "page": 18
         }
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/49/berserker.mp3",
     "otherSources": [
         {
             "source": "CoS"
@@ -29075,7 +29020,6 @@
     "environment": [
         "forest"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/51/black-bear.mp3",
     "otherSources": [
         {
             "source": "PotA"
@@ -29178,7 +29122,6 @@
     ],
     "cr": "2",
     "page": 88,
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/52/black-dragon-wyrmling.mp3",
     "otherSources": [
         {
             "source": "TftYP"
@@ -29267,7 +29210,6 @@
     "environment": [
         "underdark"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/54/black-pudding.mp3",
     "otherSources": [
         {
             "source": "CoS"
@@ -29363,7 +29305,6 @@
     "environment": [
         "forest"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/56/blink-dog.mp3",
     "otherSources": [
         {
             "source": "WDMM"
@@ -29438,7 +29379,6 @@
         "coastal",
         "arctic"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/57/blood-hawk.mp3",
     "otherSources": [
         {
             "source": "PotA"
@@ -29532,7 +29472,6 @@
     ],
     "cr": "3",
     "page": 91,
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/59/blue-dragon-wyrmling.mp3",
     "name_pre_action": "Blue Dragon Wyrmling",
     "action": [
         {
@@ -29613,7 +29552,6 @@
             ]
         }
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/61/blue-slaad.mp3",
     "otherSources": [
         {
             "source": "WDMM"
@@ -29695,7 +29633,6 @@
         "forest",
         "hill"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/62/boar.mp3",
     "otherSources": [
         {
             "source": "SKT"
@@ -29830,7 +29767,6 @@
         }
     ],
     "page": 71,
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/65/bone-devil.mp3",
     "otherSources": [
         {
             "source": "RoT"
@@ -29970,7 +29906,6 @@
     "environment": [
         "underdark"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/66/bone-naga.mp3",
     "otherSources": [
         {
             "source": "ToA"
@@ -30080,7 +30015,6 @@
     "environment": [
         "underdark"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/66/bone-naga.mp3",
     "name_pre_action": "Bone Naga (Spirit)",
     "action": [
         {
@@ -30148,7 +30082,6 @@
     ],
     "cr": "1",
     "page": 106,
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/67/brass-dragon-wyrmling.mp3",
     "name_pre_action": "Brass Dragon Wyrmling",
     "action": [
         {
@@ -30238,7 +30171,6 @@
     ],
     "cr": "2",
     "page": 109,
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/70/bronze-dragon-wyrmling.mp3",
     "name_pre_trait": "Bronze Dragon Wyrmling",
     "trait": [
         {
@@ -30323,7 +30255,6 @@
         "hill",
         "arctic"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/72/brown-bear.mp3",
     "otherSources": [
         {
             "source": "PotA"
@@ -30426,7 +30357,6 @@
         "grassland",
         "forest"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/74/bugbear.mp3",
     "otherSources": [
         {
             "source": "LMoP"
@@ -30539,7 +30469,6 @@
         "grassland",
         "forest"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/73/bugbear-chief.mp3",
     "otherSources": [
         {
             "source": "TftYP"
@@ -30635,7 +30564,6 @@
         "grassland",
         "hill"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/75/bulette.mp3",
     "otherSources": [
         {
             "source": "PotA"
@@ -30726,7 +30654,6 @@
             "source": "WDMM"
         }
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/76/bullywug.mp3",
     "otherSources": [
         {
             "source": "HotDQ"
@@ -30893,7 +30820,6 @@
             "page": 32
         }
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/77/cambion.mp3",
     "otherSources": [
         {
             "source": "SKT"
@@ -30968,7 +30894,6 @@
     "environment": [
         "desert"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/78/camel.mp3",
     "otherSources": [
         {
             "source": "GoS"
@@ -31028,7 +30953,6 @@
     "environment": [
         "underdark"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/79/carrior-crawler.mp3",
     "otherSources": [
         {
             "source": "TftYP"
@@ -31121,7 +31045,6 @@
         "urban",
         "desert"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/80/cat.mp3",
     "otherSources": [
         {
             "source": "CoS"
@@ -31202,7 +31125,6 @@
     "environment": [
         "forest"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/82/cave-bear.mp3",
     "otherSources": [
         {
             "source": "TftYP"
@@ -31285,7 +31207,6 @@
         "grassland",
         "forest"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/84/centaur.mp3",
     "otherSources": [
         {
             "source": "SKT"
@@ -31412,7 +31333,6 @@
         }
     ],
     "page": 72,
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/85/chain-devil.mp3",
     "otherSources": [
         {
             "source": "ToA"
@@ -31534,7 +31454,6 @@
             ]
         }
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/87/chasme.mp3",
     "otherSources": [
         {
             "source": "WDMM"
@@ -31622,7 +31541,6 @@
         "grassland",
         "hill"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/88/chimera.mp3",
     "otherSources": [
         {
             "source": "PotA"
@@ -31728,7 +31646,6 @@
     "environment": [
         "underdark"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/91/chuul.mp3",
     "otherSources": [
         {
             "source": "PotA"
@@ -31841,7 +31758,6 @@
     ],
     "cr": "9",
     "page": 168,
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/556/clay-golem.mp3",
     "otherSources": [
         {
             "source": "CoS"
@@ -31963,7 +31879,6 @@
     "environment": [
         "underdark"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/92/cloaker.mp3",
     "otherSources": [
         {
             "source": "PotA"
@@ -32145,7 +32060,6 @@
     "environment": [
         "mountain"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/94/cloud-giant.mp3",
     "otherSources": [
         {
             "source": "PotA"
@@ -32227,7 +32141,6 @@
     "environment": [
         "grassland"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/95/cockatrice.mp3",
     "otherSources": [
         {
             "source": "TftYP"
@@ -32289,7 +32202,6 @@
         "urban",
         "forest"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/96/commoner.mp3",
     "altArt": [
         {
             "name": "Vistana Commoner",
@@ -32380,7 +32292,6 @@
         "swamp",
         "desert"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/98/constrictor-snake.mp3",
     "otherSources": [
         {
             "source": "TftYP"
@@ -32465,7 +32376,6 @@
     ],
     "cr": "1",
     "page": 111,
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/99/copper-dragon-wyrmling.mp3",
     "name_pre_action": "Copper Dragon Wyrmling",
     "action": [
         {
@@ -32596,7 +32506,6 @@
         "urban",
         "desert"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/101/couatl.mp3",
     "otherSources": [
         {
             "source": "SKT"
@@ -32693,7 +32602,6 @@
     "environment": [
         "coastal"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/104/crab.mp3",
     "familiar": true,
     "otherSources": [
         {
@@ -32767,7 +32675,6 @@
     ],
     "cr": "0",
     "page": 44,
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/106/crawling-claw.mp3",
     "otherSources": [
         {
             "source": "CoS"
@@ -32843,7 +32750,6 @@
         "swamp",
         "urban"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/107/crocodile.mp3",
     "otherSources": [
         {
             "source": "HotDQ"
@@ -32968,7 +32874,6 @@
             "ability": "wis"
         }
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/108/cult-fanatic.mp3",
     "otherSources": [
         {
             "source": "CoS"
@@ -33080,7 +32985,6 @@
             "page": 18
         }
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/109/cultist.mp3",
     "otherSources": [
         {
             "source": "CoS"
@@ -33175,7 +33079,6 @@
         "desert",
         "coastal"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/110/cyclops.mp3",
     "otherSources": [
         {
             "source": "RoT"
@@ -33325,7 +33228,6 @@
     "environment": [
         "underdark"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/111/dao.mp3",
     "group": "Genies",
     "otherSources": [
         {
@@ -33423,7 +33325,6 @@
     "environment": [
         "underdark"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/114/darkmantle.mp3",
     "otherSources": [
         {
             "source": "PotA"
@@ -33505,7 +33406,6 @@
     "environment": [
         "desert"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/115/death-dog.mp3",
     "otherSources": [
         {
             "source": "SKT"
@@ -33653,7 +33553,6 @@
             "ability": "cha"
         }
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/117/death-knight.mp3",
     "otherSources": [
         {
             "source": "GoS"
@@ -33801,7 +33700,6 @@
             ]
         }
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/118/death-slaad.mp3",
     "otherSources": [
         {
             "source": "CoS"
@@ -33955,7 +33853,6 @@
     "environment": [
         "underdark"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/119/death-tyrant.mp3",
     "otherSources": [
         {
             "source": "WDMM"
@@ -34074,7 +33971,6 @@
     "environment": [
         "underdark"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/472/svirfneblin.mp3",
     "otherSources": [
         {
             "source": "PotA"
@@ -34150,7 +34046,6 @@
         "grassland",
         "forest"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/121/deer.mp3",
     "otherSources": [
         {
             "source": "HotDQ"
@@ -34307,7 +34202,6 @@
         }
     ],
     "page": 48,
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/123/demilich.mp3",
     "otherSources": [
         {
             "source": "TftYP"
@@ -34448,7 +34342,6 @@
             "ability": "cha"
         }
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/124/deva.mp3",
     "otherSources": [
         {
             "source": "WDMM"
@@ -34540,7 +34433,6 @@
         "forest",
         "hill"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/127/dire-wolf.mp3",
     "otherSources": [
         {
             "source": "CoS"
@@ -34621,7 +34513,6 @@
     "environment": [
         "forest"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/128/displacer-beast.mp3",
     "otherSources": [
         {
             "source": "TftYP"
@@ -34771,7 +34662,6 @@
     "environment": [
         "coastal"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/555/djinni.mp3",
     "group": "Genies",
     "otherSources": [
         {
@@ -34864,7 +34754,6 @@
         "underdark",
         "urban"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/131/doppelganger.mp3",
     "otherSources": [
         {
             "source": "HotDQ"
@@ -34966,7 +34855,6 @@
     "environment": [
         "urban"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/133/draft-horse.mp3",
     "otherSources": [
         {
             "source": "CoS"
@@ -35045,7 +34933,6 @@
         "underwater",
         "coastal"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/134/dragon-turtle.mp3",
     "otherSources": [
         {
             "source": "PotA"
@@ -35158,7 +35045,6 @@
     ],
     "cr": "1/4",
     "page": 57,
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/136/dretch.mp3",
     "otherSources": [
         {
             "source": "CoS"
@@ -35284,7 +35170,6 @@
     "environment": [
         "underdark"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/137/drider.mp3",
     "otherSources": [
         {
             "source": "WDMM"
@@ -35432,7 +35317,6 @@
     "environment": [
         "underdark"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/141/drow.mp3",
     "otherSources": [
         {
             "source": "TftYP"
@@ -35577,7 +35461,6 @@
     "environment": [
         "underdark"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/138/drow-elite-warrior.mp3",
     "otherSources": [
         {
             "source": "SKT"
@@ -35758,7 +35641,6 @@
     "environment": [
         "underdark"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/139/drow-mage.mp3",
     "otherSources": [
         {
             "source": "PotA"
@@ -35961,7 +35843,6 @@
     "environment": [
         "underdark"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/140/drow-priestess-of-lolth.mp3",
     "otherSources": [
         {
             "source": "TftYP"
@@ -36098,7 +35979,6 @@
             "ability": "wis"
         }
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/142/druid.mp3",
     "otherSources": [
         {
             "source": "CoS"
@@ -36200,7 +36080,6 @@
     "environment": [
         "forest"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/143/dryad.mp3",
     "otherSources": [
         {
             "source": "SKT"
@@ -36302,7 +36181,6 @@
     "environment": [
         "underdark"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/144/duergar.mp3",
     "otherSources": [
         {
             "source": "PotA"
@@ -36412,7 +36290,6 @@
         }
     ],
     "page": 225,
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/145/duodrone.mp3",
     "name_pre_trait": "Duodrone",
     "trait": [
         {
@@ -36528,7 +36405,6 @@
     "environment": [
         "desert"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/330/mephit.mp3",
     "otherSources": [
         {
             "source": "PotA"
@@ -36601,7 +36477,6 @@
         "hill",
         "coastal"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/147/eagle.mp3",
     "name_pre_trait": "Eagle",
     "trait": [
         {
@@ -36689,7 +36564,6 @@
     "environment": [
         "underdark"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/148/earth-elemental.mp3",
     "otherSources": [
         {
             "source": "PotA"
@@ -36841,7 +36715,6 @@
     "environment": [
         "desert"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/149/efreeti.mp3",
     "group": "Genies",
     "otherSources": [
         {
@@ -36925,7 +36798,6 @@
     "environment": [
         "grassland"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/151/elephant.mp3",
     "otherSources": [
         {
             "source": "ToA"
@@ -36990,7 +36862,6 @@
         "forest",
         "hill"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/153/elk.mp3",
     "otherSources": [
         {
             "source": "HotDQ"
@@ -37151,7 +37022,6 @@
             "ability": "cha"
         }
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/154/empyrean.mp3",
     "otherSources": [
         {
             "source": "TftYP"
@@ -37286,7 +37156,6 @@
             ]
         }
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/156/erinyes.mp3",
     "otherSources": [
         {
             "source": "ToA"
@@ -37385,7 +37254,6 @@
     "environment": [
         "forest"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/157/ettercap.mp3",
     "otherSources": [
         {
             "source": "HotDQ"
@@ -37505,7 +37373,6 @@
         "mountain",
         "hill"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/158/ettin.mp3",
     "otherSources": [
         {
             "source": "PotA"
@@ -37626,7 +37493,6 @@
     "environment": [
         "forest"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/160/faerie-dragon.mp3",
     "name_pre_trait": "Faerie Dragon (Blue)",
     "trait": [
         {
@@ -37745,7 +37611,6 @@
     "environment": [
         "forest"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/160/faerie-dragon.mp3",
     "otherSources": [
         {
             "source": "ToA"
@@ -37871,7 +37736,6 @@
     "environment": [
         "forest"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/160/faerie-dragon.mp3",
     "name_pre_trait": "Faerie Dragon (Indigo)",
     "trait": [
         {
@@ -37988,7 +37852,6 @@
     "environment": [
         "forest"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/160/faerie-dragon.mp3",
     "name_pre_trait": "Faerie Dragon (Orange)",
     "trait": [
         {
@@ -38104,7 +37967,6 @@
     "environment": [
         "forest"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/160/faerie-dragon.mp3",
     "name_pre_trait": "Faerie Dragon (Red)",
     "trait": [
         {
@@ -38226,7 +38088,6 @@
     "environment": [
         "forest"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/160/faerie-dragon.mp3",
     "otherSources": [
         {
             "source": "WDH"
@@ -38352,7 +38213,6 @@
     "environment": [
         "forest"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/160/faerie-dragon.mp3",
     "name_pre_trait": "Faerie Dragon (Yellow)",
     "trait": [
         {
@@ -38468,7 +38328,6 @@
     "environment": [
         "desert"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/162/fire-elemental.mp3",
     "otherSources": [
         {
             "source": "PotA"
@@ -38607,7 +38466,6 @@
         "underdark",
         "mountain"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/164/fire-giant.mp3",
     "otherSources": [
         {
             "source": "PotA"
@@ -38707,7 +38565,6 @@
     "environment": [
         "underdark"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/165/fire-snake.mp3",
     "otherSources": [
         {
             "source": "PotA"
@@ -38851,7 +38708,6 @@
     "environment": [
         "underdark"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/168/flameskull.mp3",
     "otherSources": [
         {
             "source": "CoS"
@@ -38964,7 +38820,6 @@
     ],
     "cr": "5",
     "page": 169,
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/169/flesh-golem.mp3",
     "otherSources": [
         {
             "source": "CoS"
@@ -39093,7 +38948,6 @@
     "environment": [
         "underdark"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/171/flumph.mp3",
     "otherSources": [
         {
             "source": "WDMM"
@@ -39176,7 +39030,6 @@
         "urban",
         "desert"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/172/flying-snake.mp3",
     "otherSources": [
         {
             "source": "SKT"
@@ -39266,7 +39119,6 @@
     "passive": 7,
     "cr": "1/4",
     "page": 20,
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/173/flying-sword.mp3",
     "otherSources": [
         {
             "source": "CoS"
@@ -39367,7 +39219,6 @@
     "environment": [
         "underdark"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/174/fomorian.mp3",
     "otherSources": [
         {
             "source": "WDMM"
@@ -39440,7 +39291,6 @@
     "cr": "0",
     "page": 322,
     "familiar": true,
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/175/frog.mp3",
     "otherSources": [
         {
             "source": "ToA"
@@ -39536,7 +39386,6 @@
         "mountain",
         "arctic"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/178/frost-giant.mp3",
     "otherSources": [
         {
             "source": "RoT"
@@ -39640,7 +39489,6 @@
         "mountain",
         "hill"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/179/galeb-duhr.mp3",
     "otherSources": [
         {
             "source": "PotA"
@@ -39744,7 +39592,6 @@
         "underdark",
         "urban"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/180/gargoyle.mp3",
     "otherSources": [
         {
             "source": "CoS"
@@ -39853,7 +39700,6 @@
     "environment": [
         "underdark"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/181/gas-spore.mp3",
     "otherSources": [
         {
             "source": "TftYP"
@@ -39934,7 +39780,6 @@
     "environment": [
         "underdark"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/184/gelatinous-cube.mp3",
     "otherSources": [
         {
             "source": "TftYP"
@@ -40032,7 +39877,6 @@
         "swamp",
         "urban"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/186/ghast.mp3",
     "otherSources": [
         {
             "source": "CoS"
@@ -40158,7 +40002,6 @@
         "underdark",
         "urban"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/187/ghost.mp3",
     "otherSources": [
         {
             "source": "CoS"
@@ -40278,7 +40121,6 @@
         "swamp",
         "urban"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/188/ghoul.mp3",
     "otherSources": [
         {
             "source": "CoS"
@@ -40355,7 +40197,6 @@
     "environment": [
         "forest"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/189/giant-ape.mp3",
     "otherSources": [
         {
             "source": "GoS"
@@ -40419,7 +40260,6 @@
     "environment": [
         "forest"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/190/giant-badger.mp3",
     "otherSources": [
         {
             "source": "WDMM"
@@ -40493,7 +40333,6 @@
         "underdark",
         "forest"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/191/giant-bat.mp3",
     "otherSources": [
         {
             "source": "PotA"
@@ -40566,7 +40405,6 @@
         "forest",
         "hill"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/192/giant-boar.mp3",
     "otherSources": [
         {
             "source": "SKT"
@@ -40645,7 +40483,6 @@
         "underdark",
         "urban"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/193/giant-centipede.mp3",
     "otherSources": [
         {
             "source": "HotDQ"
@@ -40713,7 +40550,6 @@
         "swamp",
         "desert"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/194/giant-constrictor-snake.mp3",
     "otherSources": [
         {
             "source": "ToA"
@@ -40782,7 +40618,6 @@
     "environment": [
         "coastal"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/195/giant-crab.mp3",
     "otherSources": [
         {
             "source": "PotA"
@@ -40860,7 +40695,6 @@
     "environment": [
         "swamp"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/196/giant-crocodile.mp3",
     "otherSources": [
         {
             "source": "PotA"
@@ -40944,7 +40778,6 @@
         "hill",
         "coastal"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/197/giant-eagle.mp3",
     "otherSources": [
         {
             "source": "GoS"
@@ -41030,7 +40863,6 @@
         "forest",
         "hill"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/198/giant-elk.mp3",
     "otherSources": [
         {
             "source": "SKT"
@@ -41101,7 +40933,6 @@
     "environment": [
         "underdark"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/199/giant-fire-beetle.mp3",
     "otherSources": [
         {
             "source": "TftYP"
@@ -41173,7 +41004,6 @@
         "forest",
         "swamp"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/200/giant-frog.mp3",
     "otherSources": [
         {
             "source": "HotDQ"
@@ -41261,7 +41091,6 @@
         "grassland",
         "hill"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/201/giant-goat.mp3",
     "otherSources": [
         {
             "source": "SKT"
@@ -41330,7 +41159,6 @@
         "hill",
         "desert"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/202/giant-hyena.mp3",
     "otherSources": [
         {
             "source": "TftYP"
@@ -41426,7 +41254,6 @@
         "desert",
         "coastal"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/203/giant-lizard.mp3",
     "otherSources": [
         {
             "source": "HotDQ"
@@ -41494,7 +41321,6 @@
     "environment": [
         "underwater"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/204/giant-octopus.mp3",
     "otherSources": [
         {
             "source": "PotA"
@@ -41591,7 +41417,6 @@
         "hill",
         "arctic"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/205/giant-owl.mp3",
     "otherSources": [
         {
             "source": "SKT"
@@ -41666,7 +41491,6 @@
         "urban",
         "desert"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/206/giant-poisonous-snake.mp3",
     "otherSources": [
         {
             "source": "CoS"
@@ -41745,7 +41569,6 @@
         "swamp",
         "urban"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/207/giant-rat.mp3",
     "otherSources": [
         {
             "source": "PotA"
@@ -41828,7 +41651,6 @@
     "environment": [
         "desert"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/208/giant-scorpion.mp3",
     "otherSources": [
         {
             "source": "TftYP"
@@ -41897,7 +41719,6 @@
     "environment": [
         "underwater"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/209/giant-sea-horse.mp3",
     "otherSources": [
         {
             "source": "GoS"
@@ -41971,7 +41792,6 @@
     "environment": [
         "underwater"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/210/giant-shark.mp3",
     "otherSources": [
         {
             "source": "SKT"
@@ -42057,7 +41877,6 @@
         "urban",
         "desert"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/211/giant-spider.mp3",
     "otherSources": [
         {
             "source": "CoS"
@@ -42167,7 +41986,6 @@
         "desert",
         "coastal"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/213/giant-toad.mp3",
     "otherSources": [
         {
             "source": "WDMM"
@@ -42249,7 +42067,6 @@
         "grassland",
         "desert"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/214/giant-vulture.mp3",
     "otherSources": [
         {
             "source": "PotA"
@@ -42333,7 +42150,6 @@
         "forest",
         "urban"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/215/giant-wasp.mp3",
     "otherSources": [
         {
             "source": "ToA"
@@ -42393,7 +42209,6 @@
         "forest",
         "hill"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/216/giant-weasel.mp3",
     "otherSources": [
         {
             "source": "TftYP"
@@ -42466,7 +42281,6 @@
         "desert",
         "coastal"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/217/giant-wolf-spider.mp3",
     "otherSources": [
         {
             "source": "CoS"
@@ -42551,7 +42365,6 @@
     "environment": [
         "underdark"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/218/gibbering-mouther.mp3",
     "otherSources": [
         {
             "source": "TftYP"
@@ -42672,7 +42485,6 @@
             "ability": "int"
         }
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/220/githyanki-knight.mp3",
     "otherSources": [
         {
             "source": "WDMM"
@@ -42761,7 +42573,6 @@
             "ability": "int"
         }
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/558/githyanki-warrior.mp3",
     "otherSources": [
         {
             "source": "WDMM"
@@ -42851,7 +42662,6 @@
             "ability": "wis"
         }
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/221/githzerai-monk.mp3",
     "name_pre_trait": "Githzerai Monk",
     "trait": [
         {
@@ -42946,7 +42756,6 @@
             "ability": "wis"
         }
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/562/githzerai-zerth.mp3",
     "otherSources": [
         {
             "source": "WDMM"
@@ -43081,7 +42890,6 @@
             ]
         }
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/223/glabrezu.mp3",
     "otherSources": [
         {
             "source": "TftYP"
@@ -43191,7 +42999,6 @@
             "page": 18
         }
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/224/gladiator.mp3",
     "otherSources": [
         {
             "source": "CoS"
@@ -43299,7 +43106,6 @@
         "hill",
         "desert"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/230/gnoll.mp3",
     "otherSources": [
         {
             "source": "PotA"
@@ -43400,7 +43206,6 @@
         "hill",
         "desert"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/225/gnoll-fang-of-yeenoghu.mp3",
     "name_pre_trait": "Gnoll Fang of Yeenoghu",
     "trait": [
         {
@@ -43484,7 +43289,6 @@
         "hill",
         "desert"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/228/gnoll-pack-lord.mp3",
     "otherSources": [
         {
             "source": "PotA"
@@ -43571,7 +43375,6 @@
         "hill",
         "urban"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/232/goat.mp3",
     "otherSources": [
         {
             "source": "CoS"
@@ -43677,7 +43480,6 @@
         "forest",
         "hill"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/234/goblin.mp3",
     "otherSources": [
         {
             "source": "LMoP"
@@ -43794,7 +43596,6 @@
         "forest",
         "hill"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/233/goblin-boss.mp3",
     "otherSources": [
         {
             "source": "SKT"
@@ -43897,7 +43698,6 @@
     ],
     "cr": "3",
     "page": 115,
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/235/gold-dragon-wyrmlin.mp3",
     "name_pre_trait": "Gold Dragon Wyrmling",
     "trait": [
         {
@@ -43987,7 +43787,6 @@
         "forest",
         "hill"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/239/gorgon.mp3",
     "otherSources": [
         {
             "source": "RoT"
@@ -44107,7 +43906,6 @@
     ],
     "cr": "17",
     "page": 59,
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/559/goristro.mp3",
     "name_pre_trait": "Goristro",
     "trait": [
         {
@@ -44232,7 +44030,6 @@
     "environment": [
         "underdark"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/240/gray-ooze.mp3",
     "otherSources": [
         {
             "source": "CoS"
@@ -44383,7 +44180,6 @@
     "environment": [
         "urban"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/241/gray-slaad.mp3",
     "otherSources": [
         {
             "source": "ToA"
@@ -44507,7 +44303,6 @@
     ],
     "cr": "2",
     "page": 95,
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/242/green-dragon-wyrmling.mp3",
     "name_pre_trait": "Green Dragon Wyrmling",
     "trait": [
         {
@@ -44657,7 +44452,6 @@
         "swamp",
         "hill"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/244/green-hag.mp3",
     "otherSources": [
         {
             "source": "ToA"
@@ -44812,7 +44606,6 @@
             ]
         }
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/245/green-slaad.mp3",
     "otherSources": [
         {
             "source": "WDMM"
@@ -44928,7 +44721,6 @@
     "environment": [
         "underdark"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/246/grell.mp3",
     "otherSources": [
         {
             "source": "PotA"
@@ -45018,7 +44810,6 @@
         "underdark",
         "forest"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/248/grick.mp3",
     "otherSources": [
         {
             "source": "CoS"
@@ -45119,7 +44910,6 @@
         "underdark",
         "forest"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/247/grick-alpha.mp3",
     "otherSources": [
         {
             "source": "WDMM"
@@ -45205,7 +44995,6 @@
         "coastal",
         "arctic"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/249/griffon.mp3",
     "otherSources": [
         {
             "source": "HotDQ"
@@ -45303,7 +45092,6 @@
     "environment": [
         "underdark"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/250/grimlock.mp3",
     "otherSources": [
         {
             "source": "WDMM"
@@ -45386,7 +45174,6 @@
     ],
     "cr": "1/8",
     "page": 347,
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/255/guard.mp3",
     "altArt": [
         {
             "name": "Vistana Guard",
@@ -45549,7 +45336,6 @@
         "forest",
         "desert"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/256/guardian-naga.mp3",
     "otherSources": [
         {
             "source": "ToA"
@@ -45731,7 +45517,6 @@
     "environment": [
         "desert"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/257/gynosphinx.mp3",
     "otherSources": [
         {
             "source": "TftYP"
@@ -45821,7 +45606,6 @@
         "desert",
         "arctic"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/261/half-ogre.mp3",
     "otherSources": [
         {
             "source": "PotA"
@@ -45903,7 +45687,6 @@
     ],
     "cr": "5",
     "page": 180,
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/263/half-red-dragon-veteran.mp3",
     "otherSources": [
         {
             "source": "RoT"
@@ -45986,7 +45769,6 @@
         "hill",
         "coastal"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/264/harpy.mp3",
     "otherSources": [
         {
             "source": "PotA"
@@ -46062,7 +45844,6 @@
     "cr": "0",
     "page": 330,
     "familiar": true,
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/265/hawk.mp3",
     "otherSources": [
         {
             "source": "WDH"
@@ -46138,7 +45919,6 @@
         "underdark",
         "mountain"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/266/hell-hound.mp3",
     "otherSources": [
         {
             "source": "CoS"
@@ -46263,7 +46043,6 @@
     ],
     "cr": "4",
     "page": 183,
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/267/helmed-horror.mp3",
     "otherSources": [
         {
             "source": "HotDQ"
@@ -46400,7 +46179,6 @@
             ]
         }
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/268/hezrou.mp3",
     "otherSources": [
         {
             "source": "PotA"
@@ -46513,7 +46291,6 @@
     "environment": [
         "hill"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/269/hill-giant.mp3",
     "otherSources": [
         {
             "source": "PotA"
@@ -46591,7 +46368,6 @@
         "grassland",
         "hill"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/270/hippogriff.mp3",
     "otherSources": [
         {
             "source": "PotA"
@@ -46689,7 +46465,6 @@
         "hill",
         "desert"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/275/hobgoblin.mp3",
     "otherSources": [
         {
             "source": "HotDQ"
@@ -46792,7 +46567,6 @@
         "hill",
         "desert"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/271/hobgoblin-captain.mp3",
     "otherSources": [
         {
             "source": "HotDQ"
@@ -46912,7 +46686,6 @@
         "hill",
         "desert"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/274/hobgoblin-warlord.mp3",
     "otherSources": [
         {
             "source": "SKT"
@@ -47012,7 +46785,6 @@
     ],
     "cr": "0",
     "page": 188,
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/276/homunculus.mp3",
     "otherSources": [
         {
             "source": "WDMM"
@@ -47085,7 +46857,6 @@
     "environment": [
         "underdark"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/277/hook-horror.mp3",
     "otherSources": [
         {
             "source": "PotA"
@@ -47200,7 +46971,6 @@
     ],
     "cr": "11",
     "page": 74,
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/278/horned-devil.mp3",
     "otherSources": [
         {
             "source": "ToA"
@@ -47292,7 +47062,6 @@
     "environment": [
         "underwater"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/280/hunter-shark.mp3",
     "otherSources": [
         {
             "source": "PotA"
@@ -47379,7 +47148,6 @@
     "environment": [
         "swamp"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/281/hydra.mp3",
     "otherSources": [
         {
             "source": "PotA"
@@ -47480,7 +47248,6 @@
         "hill",
         "desert"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/282/hyena.mp3",
     "otherSources": [
         {
             "source": "PotA"
@@ -47600,7 +47367,6 @@
         }
     ],
     "page": 75,
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/283/ice-devil.mp3",
     "name_pre_trait": "Ice Devil",
     "trait": [
         {
@@ -47732,7 +47498,6 @@
     "environment": [
         "arctic"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/284/ice-mephit.mp3",
     "otherSources": [
         {
             "source": "PotA"
@@ -47859,7 +47624,6 @@
             ]
         }
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/286/imp.mp3",
     "otherSources": [
         {
             "source": "CoS"
@@ -47988,7 +47752,6 @@
     "environment": [
         "urban"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/551/succubus-incubus.mp3",
     "otherSources": [
         {
             "source": "ToA"
@@ -48098,7 +47861,6 @@
     "environment": [
         "underdark"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/288/intellect-devourer.mp3",
     "otherSources": [
         {
             "source": "WDH"
@@ -48216,7 +47978,6 @@
     "environment": [
         "urban"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/289/invisible-stalker.mp3",
     "otherSources": [
         {
             "source": "CoS"
@@ -48332,7 +48093,6 @@
     ],
     "cr": "16",
     "page": 170,
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/290/iron-golem.mp3",
     "otherSources": [
         {
             "source": "CoS"
@@ -48438,7 +48198,6 @@
         "grassland",
         "desert"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/291/jackal.mp3",
     "otherSources": [
         {
             "source": "GoS"
@@ -48526,7 +48285,6 @@
         "grassland",
         "desert"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/292/jackalwere.mp3",
     "otherSources": [
         {
             "source": "PotA"
@@ -48625,7 +48383,6 @@
         "forest",
         "urban"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/294/kenku-2.mp3",
     "otherSources": [
         {
             "source": "PotA"
@@ -48711,7 +48468,6 @@
     "environment": [
         "underwater"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/295/killer-whale.mp3",
     "otherSources": [
         {
             "source": "SKT"
@@ -48805,7 +48561,6 @@
         }
     ],
     "page": 347,
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/297/knight.mp3",
     "otherSources": [
         {
             "source": "CoS"
@@ -48925,7 +48680,6 @@
         "mountain",
         "underdark"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/301/kobold.mp3",
     "otherSources": [
         {
             "source": "HotDQ"
@@ -49080,7 +48834,6 @@
     "environment": [
         "underwater"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/304/kraken.mp3",
     "otherSources": [
         {
             "source": "GoS"
@@ -49203,7 +48956,6 @@
     "environment": [
         "underdark"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/307/kuo-toa.mp3",
     "otherSources": [
         {
             "source": "PotA"
@@ -49378,7 +49130,6 @@
     "environment": [
         "underdark"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/305/kuo-toa-archpriest.mp3",
     "otherSources": [
         {
             "source": "PotA"
@@ -49488,7 +49239,6 @@
     ],
     "cr": "3",
     "page": 198,
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/563/kuo-toa-monitor.mp3",
     "otherSources": [
         {
             "source": "PotA"
@@ -49630,7 +49380,6 @@
     "environment": [
         "underdark"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/306/kuo-toa-whip.mp3",
     "otherSources": [
         {
             "source": "PotA"
@@ -49768,7 +49517,6 @@
     "environment": [
         "desert"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/308/lamia.mp3",
     "otherSources": [
         {
             "source": "GoS"
@@ -49855,7 +49603,6 @@
     ],
     "cr": "0",
     "page": 76,
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/309/lemure.mp3",
     "otherSources": [
         {
             "source": "WDH"
@@ -50082,7 +49829,6 @@
             "ability": "int"
         }
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/310/lich.mp3",
     "otherSources": [
         {
             "source": "CoS"
@@ -50161,7 +49907,6 @@
         "hill",
         "desert"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/311/lion.mp3",
     "otherSources": [
         {
             "source": "TftYP"
@@ -50247,7 +49992,6 @@
     "cr": "0",
     "page": 332,
     "familiar": true,
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/313/lizard.mp3",
     "otherSources": [
         {
             "source": "ToA"
@@ -50327,7 +50071,6 @@
         "forest",
         "swamp"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/312/lizard-king-_-queen.mp3",
     "otherSources": [
         {
             "source": "PotA"
@@ -50443,7 +50186,6 @@
         "forest",
         "swamp"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/312/lizard-king-_-queen.mp3",
     "name_pre_trait": "Lizard Queen",
     "trait": [
         {
@@ -50540,7 +50282,6 @@
         "forest",
         "swamp"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/315/lizardfolk.mp3",
     "otherSources": [
         {
             "source": "HotDQ"
@@ -50695,7 +50436,6 @@
         "forest",
         "swamp"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/314/lizardfolk-shaman.mp3",
     "otherSources": [
         {
             "source": "PotA"
@@ -50850,7 +50590,6 @@
             "ability": "int"
         }
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/316/mage.mp3",
     "otherSources": [
         {
             "source": "CoS"
@@ -50968,7 +50707,6 @@
     "environment": [
         "underdark"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/317/magma-mephit.mp3",
     "otherSources": [
         {
             "source": "PotA"
@@ -51071,7 +50809,6 @@
     ],
     "cr": "1/2",
     "page": 212,
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/318/magmin.mp3",
     "otherSources": [
         {
             "source": "PotA"
@@ -51145,7 +50882,6 @@
     "environment": [
         "arctic"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/319/mammoth.mp3",
     "name_pre_trait": "Mammoth",
     "trait": [
         {
@@ -51230,7 +50966,6 @@
     ],
     "cr": "1/8",
     "page": 60,
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/320/manes.mp3",
     "otherSources": [
         {
             "source": "TftYP"
@@ -51298,7 +51033,6 @@
         "coastal",
         "arctic"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/321/manticore.mp3",
     "otherSources": [
         {
             "source": "PotA"
@@ -51468,7 +51202,6 @@
         "underwater",
         "coastal"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/322/marid.mp3",
     "group": "Genies",
     "otherSources": [
         {
@@ -51606,7 +51339,6 @@
             ]
         }
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/323/marilith.mp3",
     "otherSources": [
         {
             "source": "WDMM"
@@ -51701,7 +51433,6 @@
         "hill",
         "urban"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/326/mastiff.mp3",
     "otherSources": [
         {
             "source": "CoS"
@@ -51785,7 +51516,6 @@
     "environment": [
         "desert"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/328/medusa.mp3",
     "otherSources": [
         {
             "source": "WDMM"
@@ -51879,7 +51609,6 @@
         "underwater",
         "coastal"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/331/merfolk.mp3",
     "otherSources": [
         {
             "source": "WDH"
@@ -51954,7 +51683,6 @@
         "underwater",
         "coastal"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/332/merrow.mp3",
     "otherSources": [
         {
             "source": "PotA"
@@ -52120,7 +51848,6 @@
             "ability": "cha"
         }
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/333/mezzoloth.mp3",
     "otherSources": [
         {
             "source": "PotA"
@@ -52233,7 +51960,6 @@
         "underdark",
         "urban"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/334/mimic.mp3",
     "otherSources": [
         {
             "source": "CoS"
@@ -52372,7 +52098,6 @@
     "environment": [
         "underdark"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/337/mind-flayer.mp3",
     "otherSources": [
         {
             "source": "TftYP"
@@ -52549,7 +52274,6 @@
     "environment": [
         "underdark"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/335/mind-flayer-arcanist.mp3",
     "otherSources": [
         {
             "source": "WDMM"
@@ -52633,7 +52357,6 @@
     "environment": [
         "underdark"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/340/minotaur.mp3",
     "otherSources": [
         {
             "source": "PotA"
@@ -52739,7 +52462,6 @@
     "environment": [
         "underdark"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/339/minotaur-skeleton.mp3",
     "otherSources": [
         {
             "source": "ToA"
@@ -52832,7 +52554,6 @@
         }
     ],
     "page": 224,
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/341/monodrone.mp3",
     "otherSources": [
         {
             "source": "ToA"
@@ -52929,7 +52650,6 @@
     "environment": [
         "swamp"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/344/mud-mephit.mp3",
     "otherSources": [
         {
             "source": "PotA"
@@ -53009,7 +52729,6 @@
         "urban",
         "desert"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/345/mule.mp3",
     "otherSources": [
         {
             "source": "CoS"
@@ -53117,7 +52836,6 @@
     "environment": [
         "desert"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/347/mummy.mp3",
     "otherSources": [
         {
             "source": "RoT"
@@ -53332,7 +53050,6 @@
     "environment": [
         "desert"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/346/mummy-lord.mp3",
     "otherSources": [
         {
             "source": "RoT"
@@ -53453,7 +53170,6 @@
     "environment": [
         "underdark"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/348/myconid-adult.mp3",
     "otherSources": [
         {
             "source": "WDMM"
@@ -53574,7 +53290,6 @@
     "environment": [
         "underdark"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/565/myconid-sovere.mp3",
     "otherSources": [
         {
             "source": "WDMM"
@@ -53674,7 +53389,6 @@
     "environment": [
         "underdark"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/349/myconid-sprout.mp3",
     "otherSources": [
         {
             "source": "WDMM"
@@ -53795,7 +53509,6 @@
             ]
         }
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/351/nalfeshnee.mp3",
     "otherSources": [
         {
             "source": "TftYP"
@@ -53898,7 +53611,6 @@
     "environment": [
         "forest"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/353/needle-blight.mp3",
     "otherSources": [
         {
             "source": "CoS"
@@ -54064,7 +53776,6 @@
             ]
         }
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/357/night-hag.mp3",
     "otherSources": [
         {
             "source": "CoS"
@@ -54180,7 +53891,6 @@
     ],
     "cr": "3",
     "page": 235,
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/358/nightmare.mp3",
     "name_pre_trait": "Nightmare",
     "trait": [
         {
@@ -54267,7 +53977,6 @@
         }
     ],
     "page": 348,
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/360/noble.mp3",
     "otherSources": [
         {
             "source": "CoS"
@@ -54360,7 +54069,6 @@
     "environment": [
         "underdark"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/361/nothic.mp3",
     "otherSources": [
         {
             "source": "CoS"
@@ -54524,7 +54232,6 @@
             "ability": "cha"
         }
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/362/nycaloth.mp3",
     "otherSources": [
         {
             "source": "PotA"
@@ -54641,7 +54348,6 @@
     "environment": [
         "underdark"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/363/ochre-jelly.mp3",
     "otherSources": [
         {
             "source": "LMoP"
@@ -54722,7 +54428,6 @@
     "cr": "0",
     "page": 333,
     "familiar": true,
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/364/octopus.mp3",
     "otherSources": [
         {
             "source": "SKT"
@@ -54821,7 +54526,6 @@
         "underdark",
         "mountain"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/366/ogre.mp3",
     "otherSources": [
         {
             "source": "HotDQ"
@@ -54906,7 +54610,6 @@
     ],
     "cr": "2",
     "page": 316,
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/365/ogre-zombie.mp3",
     "otherSources": [
         {
             "source": "TftYP"
@@ -55019,7 +54722,6 @@
         "forest",
         "urban"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/367/oni.mp3",
     "otherSources": [
         {
             "source": "PotA"
@@ -55145,7 +54847,6 @@
             "source": "PotA"
         }
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/374/orc.mp3",
     "otherSources": [
         {
             "source": "HotDQ"
@@ -55287,7 +54988,6 @@
         "hill",
         "arctic"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/370/orc-eye-of-gruumsh.mp3",
     "otherSources": [
         {
             "source": "PotA"
@@ -55388,7 +55088,6 @@
         "hill",
         "arctic"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/373/orc-war-chief.mp3",
     "otherSources": [
         {
             "source": "SKT"
@@ -55505,7 +55204,6 @@
         "hill",
         "arctic"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/375/orog.mp3",
     "otherSources": [
         {
             "source": "PotA"
@@ -55603,7 +55301,6 @@
     "environment": [
         "underdark"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/376/otyugh.mp3",
     "otherSources": [
         {
             "source": "HotDQ"
@@ -55703,7 +55400,6 @@
         "forest",
         "arctic"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/377/owl.mp3",
     "otherSources": [
         {
             "source": "RoT"
@@ -55777,7 +55473,6 @@
     "environment": [
         "forest"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/378/owlbear.mp3",
     "otherSources": [
         {
             "source": "LMoP"
@@ -55871,7 +55566,6 @@
         "forest",
         "hill"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/379/panther.mp3",
     "otherSources": [
         {
             "source": "TftYP"
@@ -55964,7 +55658,6 @@
         "forest",
         "hill"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/380/pegasus.mp3",
     "name_pre_action": "Pegasus",
     "action": [
         {
@@ -56030,7 +55723,6 @@
         }
     ],
     "page": 226,
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/381/pentadrone.mp3",
     "otherSources": [
         {
             "source": "ToA"
@@ -56129,7 +55821,6 @@
         "mountain",
         "hill"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/382/peryton.mp3",
     "otherSources": [
         {
             "source": "HotDQ"
@@ -56236,7 +55927,6 @@
         "urban",
         "desert"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/383/phase-spider.mp3",
     "otherSources": [
         {
             "source": "WDMM"
@@ -56321,7 +56011,6 @@
     "environment": [
         "underdark"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/384/piercer.mp3",
     "otherSources": [
         {
             "source": "PotA"
@@ -56451,7 +56140,6 @@
             "ability": "cha"
         }
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/385/pit-fiend.mp3",
     "otherSources": [
         {
             "source": "WDMM"
@@ -56579,7 +56267,6 @@
     "environment": [
         "forest"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/386/pixie.mp3",
     "otherSources": [
         {
             "source": "GoS"
@@ -56698,7 +56385,6 @@
             "ability": "cha"
         }
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/387/planetar.mp3",
     "name_pre_trait": "Planetar",
     "trait": [
         {
@@ -56786,7 +56472,6 @@
         "underwater",
         "coastal"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/388/plesiosaurus.mp3",
     "otherSources": [
         {
             "source": "ToA"
@@ -56856,7 +56541,6 @@
         "desert",
         "coastal"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/389/poisonous-snake.mp3",
     "otherSources": [
         {
             "source": "TftYP"
@@ -56920,7 +56604,6 @@
         "underdark",
         "arctic"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/390/polar-bear.mp3",
     "otherSources": [
         {
             "source": "RoT"
@@ -57038,7 +56721,6 @@
         "underdark",
         "urban"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/552/poltergeist.mp3",
     "otherSources": [
         {
             "source": "CoS"
@@ -57115,7 +56797,6 @@
     "environment": [
         "urban"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/391/pony.mp3",
     "otherSources": [
         {
             "source": "SKT"
@@ -57218,7 +56899,6 @@
             "ability": "wis"
         }
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/392/priest.mp3",
     "otherSources": [
         {
             "source": "CoS"
@@ -57334,7 +57014,6 @@
         "desert",
         "coastal"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/393/pseudodragon.mp3",
     "otherSources": [
         {
             "source": "RoT"
@@ -57430,7 +57109,6 @@
         "grassland",
         "coastal"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/394/pteranodon.mp3",
     "otherSources": [
         {
             "source": "ToA"
@@ -57505,7 +57183,6 @@
         "underdark",
         "desert"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/395/purple-worm.mp3",
     "name_pre_trait": "Purple Worm",
     "trait": [
         {
@@ -57594,7 +57271,6 @@
         }
     ],
     "page": 226,
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/396/quadrone.mp3",
     "otherSources": [
         {
             "source": "ToA"
@@ -57699,7 +57375,6 @@
     "environment": [
         "underdark"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/399/quaggoth.mp3",
     "otherSources": [
         {
             "source": "WDMM"
@@ -57781,7 +57456,6 @@
     "environment": [
         "underdark"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/397/quaggoth-spore-servant.mp3",
     "otherSources": [
         {
             "source": "WDMM"
@@ -57883,7 +57557,6 @@
     "environment": [
         "underdark"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/398/quaggoth-thonot.mp3",
     "otherSources": [
         {
             "source": "WDMM"
@@ -57995,7 +57668,6 @@
             ]
         }
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/400/quasit.mp3",
     "otherSources": [
         {
             "source": "CoS"
@@ -58080,7 +57752,6 @@
     "environment": [
         "underwater"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/403/quipper.mp3",
     "otherSources": [
         {
             "source": "PotA"
@@ -58214,7 +57885,6 @@
     "environment": [
         "urban"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/404/rakshasa.mp3",
     "otherSources": [
         {
             "source": "TftYP"
@@ -58288,7 +57958,6 @@
         "swamp",
         "urban"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/405/rat.mp3",
     "otherSources": [
         {
             "source": "TftYP"
@@ -58361,7 +58030,6 @@
         "hill",
         "urban"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/406/raven.mp3",
     "otherSources": [
         {
             "source": "CoS"
@@ -58443,7 +58111,6 @@
     ],
     "cr": "4",
     "page": 98,
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/407/red-dragon-wyrmling.mp3",
     "otherSources": [
         {
             "source": "CoS"
@@ -58532,7 +58199,6 @@
             ]
         }
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/410/red-slaad.mp3",
     "otherSources": [
         {
             "source": "WDH"
@@ -58623,7 +58289,6 @@
     "environment": [
         "underwater"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/412/reef-shark.mp3",
     "otherSources": [
         {
             "source": "ToA"
@@ -58703,7 +58368,6 @@
     "environment": [
         "arctic"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/413/remorhaz.mp3",
     "otherSources": [
         {
             "source": "SKT"
@@ -58819,7 +58483,6 @@
         "desert",
         "arctic"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/414/revenant.mp3",
     "otherSources": [
         {
             "source": "CoS"
@@ -58920,7 +58583,6 @@
     "environment": [
         "grassland"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/415/rhinoceros.mp3",
     "otherSources": [
         {
             "source": "ToA"
@@ -58981,7 +58643,6 @@
         "grassland",
         "urban"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/416/riding-horse.mp3",
     "otherSources": [
         {
             "source": "CoS"
@@ -59057,7 +58718,6 @@
         "coastal",
         "arctic"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/417/roc.mp3",
     "otherSources": [
         {
             "source": "CoS"
@@ -59146,7 +58806,6 @@
     "environment": [
         "underdark"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/418/roper.mp3",
     "otherSources": [
         {
             "source": "HotDQ"
@@ -59259,7 +58918,6 @@
     "passive": 6,
     "cr": "2",
     "page": 20,
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/419/run-of-smothering.mp3",
     "otherSources": [
         {
             "source": "CoS"
@@ -59351,7 +59009,6 @@
     "environment": [
         "underdark"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/568/rust-monster.mp3",
     "otherSources": [
         {
             "source": "PotA"
@@ -59435,7 +59092,6 @@
         "mountain",
         "arctic"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/427/saber-toothed-tiger.mp3",
     "name_pre_trait": "Saber-Toothed Tiger",
     "trait": [
         {
@@ -59521,7 +59177,6 @@
         "underwater",
         "coastal"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/430/sahuagin.mp3",
     "otherSources": [
         {
             "source": "TftYP"
@@ -59639,7 +59294,6 @@
         "underwater",
         "coastal"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/428/sahuagin-baron.mp3",
     "otherSources": [
         {
             "source": "TftYP"
@@ -59794,7 +59448,6 @@
         "underwater",
         "coastal"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/429/sahuagin-priestess.mp3",
     "otherSources": [
         {
             "source": "TftYP"
@@ -59906,7 +59559,6 @@
     "environment": [
         "underdark"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/431/salamander.mp3",
     "otherSources": [
         {
             "source": "PotA"
@@ -60044,7 +59696,6 @@
     "environment": [
         "forest"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/432/satyr.mp3",
     "otherSources": [
         {
             "source": "SKT"
@@ -60144,7 +59795,6 @@
     "environment": [
         "grassland"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/433/scarecrow.mp3",
     "otherSources": [
         {
             "source": "CoS"
@@ -60224,7 +59874,6 @@
     "environment": [
         "desert"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/434/scorpion.mp3",
     "otherSources": [
         {
             "source": "WDMM"
@@ -60288,7 +59937,6 @@
     ],
     "cr": "1/2",
     "page": 349,
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/435/scout.mp3",
     "otherSources": [
         {
             "source": "CoS"
@@ -60452,7 +60100,6 @@
         "underwater",
         "coastal"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/436/sea-hag.mp3",
     "otherSources": [
         {
             "source": "PotA"
@@ -60553,7 +60200,6 @@
     "cr": "0",
     "page": 337,
     "familiar": true,
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/437/sea-horse.mp3",
     "name_pre_trait": "Sea Horse",
     "trait": [
         {
@@ -60636,7 +60282,6 @@
         "underdark",
         "urban"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/442/shadow.mp3",
     "otherSources": [
         {
             "source": "CoS"
@@ -60770,7 +60415,6 @@
     ],
     "cr": "4",
     "page": 64,
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/439/shadow-demon.mp3",
     "otherSources": [
         {
             "source": "CoS"
@@ -60879,7 +60523,6 @@
         "forest",
         "swamp"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/443/shambling-mound.mp3",
     "otherSources": [
         {
             "source": "CoS"
@@ -60993,7 +60636,6 @@
     "environment": [
         "urban"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/444/shield-guardian.mp3",
     "otherSources": [
         {
             "source": "CoS"
@@ -61094,7 +60736,6 @@
     "environment": [
         "underdark"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/446/shrieker.mp3",
     "otherSources": [
         {
             "source": "WDMM"
@@ -61178,7 +60819,6 @@
     ],
     "cr": "2",
     "page": 118,
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/447/silver-dragon-wyrmling.mp3",
     "otherSources": [
         {
             "source": "SKT"
@@ -61270,7 +60910,6 @@
     "environment": [
         "urban"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/449/skeleton.mp3",
     "otherSources": [
         {
             "source": "CoS"
@@ -61362,7 +61001,6 @@
     ],
     "cr": "1/8",
     "page": 276,
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/450/slaad-tadpole.mp3",
     "name_pre_trait": "Slaad Tadpole",
     "trait": [
         {
@@ -61458,7 +61096,6 @@
     "environment": [
         "urban"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/452/smoke-mephit.mp3",
     "otherSources": [
         {
             "source": "CoS"
@@ -61618,7 +61255,6 @@
             "ability": "cha"
         }
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/453/solar.mp3",
     "name_pre_trait": "Solar",
     "trait": [
         {
@@ -61740,7 +61376,6 @@
     "environment": [
         "underdark"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/455/spectator.mp3",
     "otherSources": [
         {
             "source": "LMoP"
@@ -61853,7 +61488,6 @@
         "underdark",
         "urban"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/457/specter.mp3",
     "otherSources": [
         {
             "source": "CoS"
@@ -61948,7 +61582,6 @@
     "cr": "0",
     "page": 337,
     "familiar": true,
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/458/spider.mp3",
     "otherSources": [
         {
             "source": "PotA"
@@ -62054,7 +61687,6 @@
     ],
     "cr": "2",
     "page": 78,
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/459/spined-devil.mp3",
     "otherSources": [
         {
             "source": "ToA"
@@ -62229,7 +61861,6 @@
     "environment": [
         "underdark"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/460/spirit-naga.mp3",
     "otherSources": [
         {
             "source": "TftYP"
@@ -62309,7 +61940,6 @@
     "environment": [
         "forest"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/461/sprite.mp3",
     "otherSources": [
         {
             "source": "PotA"
@@ -62395,7 +62025,6 @@
     ],
     "cr": "1",
     "page": 349,
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/462/spy.mp3",
     "altArt": [
         {
             "name": "Vistana Spy",
@@ -62537,7 +62166,6 @@
     "environment": [
         "underwater"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/463/steam-mephit.mp3",
     "otherSources": [
         {
             "source": "PotA"
@@ -62626,7 +62254,6 @@
         "mountain",
         "underdark"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/466/stirge.mp3",
     "otherSources": [
         {
             "source": "HotDQ"
@@ -62753,7 +62380,6 @@
         "mountain",
         "hill"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/468/stone-giant.mp3",
     "otherSources": [
         {
             "source": "HotDQ"
@@ -62859,7 +62485,6 @@
     ],
     "cr": "10",
     "page": 170,
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/469/stone-golem.mp3",
     "otherSources": [
         {
             "source": "HotDQ"
@@ -63029,7 +62654,6 @@
     "environment": [
         "coastal"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/470/storm-giant.mp3",
     "otherSources": [
         {
             "source": "SKT"
@@ -63152,7 +62776,6 @@
     "environment": [
         "urban"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/551/succubus-incubus.mp3",
     "otherSources": [
         {
             "source": "RoT"
@@ -63268,7 +62891,6 @@
         "hill",
         "urban"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/473/swarm-of-bats.mp3",
     "otherSources": [
         {
             "source": "CoS"
@@ -63566,7 +63188,6 @@
         "urban",
         "desert"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/475/swarm-of-insects.mp3",
     "otherSources": [
         {
             "source": "CoS"
@@ -63655,7 +63276,6 @@
         "forest",
         "swamp"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/476/swarm-of-poisonous-snakes.mp3",
     "otherSources": [
         {
             "source": "CoS"
@@ -63743,7 +63363,6 @@
     "environment": [
         "underwater"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/477/swarm-of-quippers.mp3",
     "otherSources": [
         {
             "source": "PotA"
@@ -63843,7 +63462,6 @@
         "swamp",
         "urban"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/478/swarm-of-rats.mp3",
     "otherSources": [
         {
             "source": "CoS"
@@ -63946,7 +63564,6 @@
         "hill",
         "urban"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/479/swarm-of-ravens.mp3",
     "otherSources": [
         {
             "source": "CoS"
@@ -64273,7 +63890,6 @@
     "environment": [
         "urban"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/484/tarrasque.mp3",
     "name_pre_trait": "Tarrasque",
     "trait": [
         {
@@ -64455,7 +64071,6 @@
         "grassland",
         "desert"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/486/thri-kreen.mp3",
     "name_pre_trait": "Thri-kreen",
     "trait": [
         {
@@ -64542,7 +64157,6 @@
     ],
     "cr": "1/2",
     "page": 350,
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/487/thug.mp3",
     "altArt": [
         {
             "name": "Vistana Thug",
@@ -64640,7 +64254,6 @@
         "grassland",
         "forest"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/489/tiger.mp3",
     "otherSources": [
         {
             "source": "TftYP"
@@ -64737,7 +64350,6 @@
     "environment": [
         "forest"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/492/treant.mp3",
     "otherSources": [
         {
             "source": "RoT"
@@ -64837,7 +64449,6 @@
     ],
     "cr": "1/8",
     "page": 350,
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/493/tribal-warrior.mp3",
     "otherSources": [
         {
             "source": "PotA"
@@ -64915,7 +64526,6 @@
     "environment": [
         "grassland"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/494/triceratops.mp3",
     "otherSources": [
         {
             "source": "ToA"
@@ -64998,7 +64608,6 @@
         }
     ],
     "page": 225,
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/495/tridrone.mp3",
     "otherSources": [
         {
             "source": "ToA"
@@ -65103,7 +64712,6 @@
             "source": "HftT"
         }
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/571/troglodyte.mp3",
     "otherSources": [
         {
             "source": "HotDQ"
@@ -65256,7 +64864,6 @@
         "hill",
         "arctic"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/497/troll.mp3",
     "otherSources": [
         {
             "source": "HotDQ"
@@ -65377,7 +64984,6 @@
     "environment": [
         "forest"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/498/twig-blight.mp3",
     "otherSources": [
         {
             "source": "CoS"
@@ -65452,7 +65058,6 @@
     "environment": [
         "grassland"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/499/tyrannosaurus-rex.mp3",
     "otherSources": [
         {
             "source": "ToA"
@@ -65604,7 +65209,6 @@
             "ability": "cha"
         }
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/501/ultroloth.mp3",
     "otherSources": [
         {
             "source": "WDMM"
@@ -65699,7 +65303,6 @@
     "environment": [
         "underdark"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/502/umber-hulk.mp3",
     "otherSources": [
         {
             "source": "PotA"
@@ -65842,7 +65445,6 @@
     "environment": [
         "forest"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/503/unicorn.mp3",
     "otherSources": [
         {
             "source": "GoS"
@@ -65996,7 +65598,6 @@
     "environment": [
         "urban"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/507/vampire.mp3",
     "otherSources": [
         {
             "source": "CoS"
@@ -66165,7 +65766,6 @@
         "underdark",
         "urban"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/504/vampire-spawn.mp3",
     "otherSources": [
         {
             "source": "CoS"
@@ -66384,7 +65984,6 @@
     "environment": [
         "urban"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/505/vampire-spellcaster.mp3",
     "otherSources": [
         {
             "source": "RoT"
@@ -66564,7 +66163,6 @@
     "environment": [
         "urban"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/506/vampire-warrior.mp3",
     "name_pre_trait": "Vampire Warrior",
     "trait": [
         {
@@ -66704,7 +66302,6 @@
     ],
     "cr": "3",
     "page": 350,
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/512/veteran.mp3",
     "otherSources": [
         {
             "source": "CoS"
@@ -66813,7 +66410,6 @@
     "environment": [
         "forest"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/513/vine-blight.mp3",
     "otherSources": [
         {
             "source": "CoS"
@@ -66887,7 +66483,6 @@
     "environment": [
         "underdark"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/514/violet-fungus.mp3",
     "otherSources": [
         {
             "source": "HotDQ"
@@ -67007,7 +66602,6 @@
             ]
         }
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/515/vrock.mp3",
     "otherSources": [
         {
             "source": "CoS"
@@ -67106,7 +66700,6 @@
         "hill",
         "desert"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/516/vulture.mp3",
     "otherSources": [
         {
             "source": "RoT"
@@ -67222,7 +66815,6 @@
     "environment": [
         "urban"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/517/war-horse.mp3",
     "otherSources": [
         {
             "source": "CoS"
@@ -67307,7 +66899,6 @@
     "passive": 9,
     "cr": "1/2",
     "page": 273,
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/519/warhorse-skeleton.mp3",
     "otherSources": [
         {
             "source": "CoS"
@@ -67396,7 +66987,6 @@
         "swamp",
         "coastal"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/524/water-elemental.mp3",
     "otherSources": [
         {
             "source": "PotA"
@@ -67512,7 +67102,6 @@
         "underdark",
         "urban"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/525/water-weird.mp3",
     "otherSources": [
         {
             "source": "PotA"
@@ -67580,7 +67169,6 @@
     "cr": "0",
     "page": 340,
     "familiar": true,
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/526/weasel.mp3",
     "name_pre_trait": "Weasel",
     "trait": [
         {
@@ -67680,7 +67268,6 @@
         "hill",
         "arctic"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/527/werebear.mp3",
     "otherSources": [
         {
             "source": "GoS"
@@ -67809,7 +67396,6 @@
         "forest",
         "hill"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/528/wereboar.mp3",
     "otherSources": [
         {
             "source": "ToA"
@@ -67928,7 +67514,6 @@
         "forest",
         "urban"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/529/wererat.mp3",
     "otherSources": [
         {
             "source": "TftYP"
@@ -68059,7 +67644,6 @@
         "forest",
         "desert"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/530/weretiger.mp3",
     "otherSources": [
         {
             "source": "ToA"
@@ -68199,7 +67783,6 @@
         "forest",
         "hill"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/531/werewolf.mp3",
     "otherSources": [
         {
             "source": "CoS"
@@ -68318,7 +67901,6 @@
     ],
     "cr": "2",
     "page": 102,
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/532/white-dragon-wyrmling.mp3",
     "otherSources": [
         {
             "source": "SKT"
@@ -68409,7 +67991,6 @@
         "urban",
         "desert"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/534/wight.mp3",
     "otherSources": [
         {
             "source": "CoS"
@@ -68548,7 +68129,6 @@
         "swamp",
         "urban"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/535/will-o-wisp.mp3",
     "otherSources": [
         {
             "source": "CoS"
@@ -68669,7 +68249,6 @@
         "mountain",
         "underdark"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/536/winged-kobold.mp3",
     "otherSources": [
         {
             "source": "HotDQ"
@@ -68762,7 +68341,6 @@
     "environment": [
         "arctic"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/538/winter-wolf.mp3",
     "otherSources": [
         {
             "source": "SKT"
@@ -68854,7 +68432,6 @@
         "forest",
         "hill"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/539/wolf.mp3",
     "otherSources": [
         {
             "source": "CoS"
@@ -68953,7 +68530,6 @@
         "forest",
         "hill"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/541/worg.mp3",
     "otherSources": [
         {
             "source": "PotA"
@@ -69057,7 +68633,6 @@
     "environment": [
         "underdark"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/542/wraith.mp3",
     "otherSources": [
         {
             "source": "CoS"
@@ -69154,7 +68729,6 @@
         "mountain",
         "hill"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/574/wyvern.mp3",
     "otherSources": [
         {
             "source": "HotDQ"
@@ -69254,7 +68828,6 @@
     "environment": [
         "underdark"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/543/xorn.mp3",
     "otherSources": [
         {
             "source": "PotA"
@@ -69358,7 +68931,6 @@
     "environment": [
         "arctic"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/548/yeti.mp3",
     "otherSources": [
         {
             "source": "SKT"
@@ -69518,7 +69090,6 @@
             ]
         }
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/549/yochlol.mp3",
     "otherSources": [
         {
             "source": "WDMM"
@@ -69636,7 +69207,6 @@
     "environment": [
         "swamp"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/53/black-dragon.mp3",
     "dragonCastingColor": "B",
     "otherSources": [
         {
@@ -69748,7 +69318,6 @@
         "desert",
         "coastal"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/60/blue-dragon.mp3",
     "dragonCastingColor": "U",
     "otherSources": [
         {
@@ -69851,7 +69420,6 @@
     "environment": [
         "desert"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/68/brass-dragon.mp3",
     "dragonCastingColor": "A",
     "otherSources": [
         {
@@ -69964,7 +69532,6 @@
     "environment": [
         "coastal"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/71/bronze-dragon.mp3",
     "dragonCastingColor": "Z",
     "otherSources": [
         {
@@ -70089,7 +69656,6 @@
     "environment": [
         "hill"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/100/copper-dragon.mp3",
     "dragonCastingColor": "C",
     "otherSources": [
         {
@@ -70204,7 +69770,6 @@
         "grassland",
         "forest"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/236/gold-dragon.mp3",
     "dragonCastingColor": "O",
     "name_pre_trait": "Young Gold Dragon",
     "trait": [
@@ -70324,7 +69889,6 @@
     "environment": [
         "forest"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/243/green-dragon.mp3",
     "dragonCastingColor": "G",
     "otherSources": [
         {
@@ -70436,7 +70000,6 @@
         "mountain",
         "hill"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/408/red-dragon.mp3",
     "dragonCastingColor": "R",
     "otherSources": [
         {
@@ -70544,7 +70107,6 @@
     "environment": [
         "underdark"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/409/red-shadow-dragon.mp3",
     "dragonCastingColor": "R",
     "name_pre_trait": "Young Red Shadow Dragon",
     "trait": [
@@ -70641,7 +70203,6 @@
     "environment": [
         "arctic"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/413/remorhaz.mp3",
     "otherSources": [
         {
             "source": "SKT"
@@ -70729,7 +70290,6 @@
         "mountain",
         "urban"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/448/silver-dragon.mp3",
     "dragonCastingColor": "S",
     "otherSources": [
         {
@@ -70842,7 +70402,6 @@
     "environment": [
         "arctic"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/533/white-dragon.mp3",
     "dragonCastingColor": "W",
     "otherSources": [
         {
@@ -70973,7 +70532,6 @@
         "swamp",
         "desert"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/550/yuan-ti-abomination.mp3",
     "otherSources": [
         {
             "source": "RoT"
@@ -71110,7 +70668,6 @@
         "swamp",
         "desert"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/421/yuan-ti-malison.mp3",
     "otherSources": [
         {
             "source": "HotDQ"
@@ -71253,7 +70810,6 @@
         "swamp",
         "desert"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/421/yuan-ti-malison.mp3",
     "otherSources": [
         {
             "source": "HotDQ"
@@ -71384,7 +70940,6 @@
         "swamp",
         "desert"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/421/yuan-ti-malison.mp3",
     "otherSources": [
         {
             "source": "HotDQ"
@@ -71535,7 +71090,6 @@
         "urban",
         "desert"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/425/yuan-ti-pureblood.mp3",
     "otherSources": [
         {
             "source": "HotDQ"
@@ -71632,7 +71186,6 @@
     "environment": [
         "urban"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/426/zombie.mp3",
     "otherSources": [
         {
             "source": "CoS"
@@ -71732,7 +71285,6 @@
     ],
     "cr": "1/4",
     "page": 136,
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/591/abyssal-wretch.mp3",
     "name_pre_action": "Abyssal Wretch",
     "action": [
         {
@@ -71791,7 +71343,6 @@
         "mountain",
         "underdark"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/592/adult-kruthik.mp3",
     "name_pre_trait": "Adult Kruthik",
     "trait": [
         {
@@ -71918,7 +71469,6 @@
         "underdark",
         "urban"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/673/oblex-adult.mp3",
     "name_pre_trait": "Adult Oblex",
     "trait": [
         {
@@ -72031,7 +71581,6 @@
     ],
     "cr": "7",
     "page": 202,
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/593/air-elemental-myrmidon.mp3",
     "name_pre_trait": "Air Elemental Myrmidon",
     "trait": [
         {
@@ -72142,7 +71691,6 @@
         "underdark",
         "urban"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/594/alkilith.mp3",
     "name_pre_trait": "Alkilith",
     "trait": [
         {
@@ -72270,7 +71818,6 @@
         "swamp",
         "urban"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/595/allip.mp3",
     "name_pre_trait": "Allip",
     "trait": [
         {
@@ -72426,7 +71973,6 @@
             ]
         }
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/596/amnizu.mp3",
     "name_pre_trait": "Amnizu",
     "trait": [
         {
@@ -72537,7 +72083,6 @@
     "environment": [
         "underdark"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/597/armanite.mp3",
     "name_pre_trait": "Armanite",
     "trait": [
         {
@@ -72681,7 +72226,6 @@
             ]
         }
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/598/astral-dreadnought.mp3",
     "name_pre_trait": "Astral Dreadnought",
     "trait": [
         {
@@ -72833,7 +72377,6 @@
     "environment": [
         "forest"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/599/autumn-eladrin.mp3",
     "reaction": [
         {
             "name": "Foster Peace",
@@ -73017,7 +72560,6 @@
         }
     ],
     "isNamedCreature": true,
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/600/bael.mp3",
     "name_pre_trait": "Bael",
     "trait": [
         {
@@ -73160,7 +72702,6 @@
         "mountain",
         "underdark"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/601/balhannoth.mp3",
     "name_pre_trait": "Balhannoth",
     "trait": [
         {
@@ -73460,7 +73001,6 @@
     "environment": [
         "desert"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/602/berbalang.mp3",
     "name_pre_trait": "Berbalang",
     "trait": [
         {
@@ -73572,7 +73112,6 @@
     "environment": [
         "urban"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/603/black-abishai.mp3",
     "name_pre_trait": "Black Abishai",
     "trait": [
         {
@@ -73781,7 +73320,6 @@
         "coastal",
         "urban"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/604/blue-abishai.mp3",
     "name_pre_trait": "Blue Abishai",
     "trait": [
         {
@@ -73907,7 +73445,6 @@
         "desert",
         "urban"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/605/boneclaw.mp3",
     "name_pre_trait": "Boneclaw",
     "trait": [
         {
@@ -74011,7 +73548,6 @@
         "hill",
         "mountain"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/606/bronze-scout.mp3",
     "name_pre_trait": "Bronze Scout",
     "trait": [
         {
@@ -74103,7 +73639,6 @@
     ],
     "cr": "3",
     "page": 131,
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/607/bulezau.mp3",
     "name_pre_trait": "Bulezau",
     "trait": [
         {
@@ -74200,7 +73735,6 @@
     "environment": [
         "grassland"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/608/cadaver-collector.mp3",
     "name_pre_trait": "Cadaver Collector",
     "trait": [
         {
@@ -74316,7 +73850,6 @@
         "underdark",
         "urban"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/609/canoloth.mp3",
     "name_pre_trait": "Canoloth",
     "trait": [
         {
@@ -74421,7 +73954,6 @@
         "mountain",
         "underdark"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/610/choker.mp3",
     "name_pre_trait": "Choker",
     "trait": [
         {
@@ -74502,7 +74034,6 @@
         "swamp",
         "urban"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/611/corpse-flower.mp3",
     "name_pre_trait": "Corpse Flower",
     "trait": [
         {
@@ -74666,7 +74197,6 @@
     "environment": [
         "urban"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/614/deathlock.mp3",
     "variant": [
         {
             "type": "inset",
@@ -74822,7 +74352,6 @@
     "environment": [
         "urban"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/612/deathlock-mastermind.mp3",
     "variant": [
         {
             "type": "inset",
@@ -74953,7 +74482,6 @@
             "ability": "cha"
         }
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/613/deathlock-wight.mp3",
     "name_pre_trait": "Deathlock Wight",
     "trait": [
         {
@@ -75217,7 +74745,6 @@
         "mountain",
         "underdark"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/616/derro.mp3",
     "name_pre_trait": "Derro",
     "trait": [
         {
@@ -75343,7 +74870,6 @@
     "environment": [
         "underdark"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/615/derro-savant.mp3",
     "name_pre_trait": "Derro Savant",
     "trait": [
         {
@@ -75462,7 +74988,6 @@
     "environment": [
         "underdark"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/617/dhergoloth.mp3",
     "name_pre_trait": "Dhergoloth",
     "trait": [
         {
@@ -75575,7 +75100,6 @@
         "mountain",
         "underdark"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/618/dire-troll.mp3",
     "name_pre_trait": "Dire Troll",
     "trait": [
         {
@@ -75748,7 +75272,6 @@
     "environment": [
         "underdark"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/619/drow-arachnomancer.mp3",
     "name_pre_trait": "Drow Arachnomancer",
     "trait": [
         {
@@ -75953,7 +75476,6 @@
     "environment": [
         "underdark"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/620/drow-favored-consort.mp3",
     "name_pre_trait": "Drow Favored Consort",
     "trait": [
         {
@@ -76083,7 +75605,6 @@
     "environment": [
         "underdark"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/621/drow-house-captain.mp3",
     "name_pre_trait": "Drow House Captain",
     "trait": [
         {
@@ -76302,7 +75823,6 @@
     "environment": [
         "underdark"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/622/drow-inquisitor.mp3",
     "name_pre_trait": "Drow Inquisitor",
     "trait": [
         {
@@ -76544,7 +76064,6 @@
     "environment": [
         "underdark"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/623/drow-matron-mother.mp3",
     "name_pre_trait": "Drow Matron Mother",
     "trait": [
         {
@@ -76694,7 +76213,6 @@
     "environment": [
         "underdark"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/624/drow-shadowblade.mp3",
     "name_pre_trait": "Drow Shadowblade",
     "trait": [
         {
@@ -76823,7 +76341,6 @@
         "mountain",
         "underdark"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/625/duergar-despot.mp3",
     "name_pre_trait": "Duergar Despot",
     "trait": [
         {
@@ -76929,7 +76446,6 @@
         "mountain",
         "underdark"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/626/duergar-hammerer.mp3",
     "name_pre_trait": "Duergar Hammerer",
     "trait": [
         {
@@ -77022,7 +76538,6 @@
         "mountain",
         "underdark"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/627/duergar-kavalrachni.mp3",
     "name_pre_trait": "Duergar Kavalrachni",
     "trait": [
         {
@@ -77134,7 +76649,6 @@
         "mountain",
         "underdark"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/628/duergar-mind-master.mp3",
     "name_pre_trait": "Duergar Mind Master",
     "trait": [
         {
@@ -77239,7 +76753,6 @@
     "environment": [
         "underdark"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/629/duergar-screamer.mp3",
     "name_pre_trait": "Duergar Screamer",
     "trait": [
         {
@@ -77344,7 +76857,6 @@
         "mountain",
         "underdark"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/630/duergar-soulblade.mp3",
     "name_pre_trait": "Duergar Soulblade",
     "trait": [
         {
@@ -77443,7 +76955,6 @@
         "mountain",
         "underdark"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/631/duergar-stone-guard.mp3",
     "name_pre_trait": "Duergar Stone Guard",
     "trait": [
         {
@@ -77556,7 +77067,6 @@
         "mountain",
         "underdark"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/632/duergar-warlord.mp3",
     "name_pre_trait": "Duergar Warlord",
     "trait": [
         {
@@ -77666,7 +77176,6 @@
         "mountain",
         "underdark"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/633/duergar-xarrorn.mp3",
     "name_pre_trait": "Duergar Xarrorn",
     "trait": [
         {
@@ -77814,7 +77323,6 @@
         "desert",
         "urban"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/634/dybbuk.mp3",
     "name_pre_trait": "Dybbuk",
     "trait": [
         {
@@ -77914,7 +77422,6 @@
     ],
     "cr": "7",
     "page": 202,
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/635/earth-elemental-myrmidon.mp3",
     "name_pre_trait": "Earth Elemental Myrmidon",
     "trait": [
         {
@@ -78030,7 +77537,6 @@
         "mountain",
         "urban"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/636/eidolon.mp3",
     "name_pre_trait": "Eidolon",
     "trait": [
         {
@@ -78148,7 +77654,6 @@
         "underdark",
         "urban"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/637/elder-oblex.mp3",
     "name_pre_trait": "Elder Oblex",
     "trait": [
         {
@@ -78287,7 +77792,6 @@
         "hill",
         "mountain"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/638/elder-tempest.mp3",
     "name_pre_trait": "Elder Tempest",
     "trait": [
         {
@@ -78389,7 +77893,6 @@
     "environment": [
         "underdark"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/639/female-steeder.mp3",
     "name_pre_trait": "Female Steeder",
     "trait": [
         {
@@ -78482,7 +77985,6 @@
     ],
     "cr": "7",
     "page": 203,
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/640/fire-elemental-myrmidon.mp3",
     "name_pre_trait": "Fire Elemental Myrmidon",
     "trait": [
         {
@@ -78766,7 +78268,6 @@
     "environment": [
         "arctic"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/641/frost-salamander.mp3",
     "name_pre_trait": "Frost Salamander",
     "trait": [
         {
@@ -78950,7 +78451,6 @@
         }
     ],
     "isNamedCreature": true,
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/642/geryon.mp3",
     "name_pre_trait": "Geryon",
     "trait": [
         {
@@ -79047,7 +78547,6 @@
     "environment": [
         "urban"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/643/giff.mp3",
     "name_pre_trait": "Giff",
     "trait": [
         {
@@ -79231,7 +78730,6 @@
         "mountain",
         "urban"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/644/githyanki-gish.mp3",
     "name_pre_trait": "Githyanki Gish",
     "trait": [
         {
@@ -79338,7 +78836,6 @@
         "mountain",
         "urban"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/645/githyanki-kith_rak.mp3",
     "reaction": [
         {
             "name": "Parry",
@@ -79476,7 +78973,6 @@
         "mountain",
         "urban"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/646/githyanki-supreme-commander.mp3",
     "reaction": [
         {
             "name": "Parry",
@@ -79606,7 +79102,6 @@
         "name": "Githzerai Anarch",
         "source": "MTF"
     },
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/647/githzerai-anarch.mp3",
     "name_pre_trait": "Githzerai Anarch",
     "trait": [
         {
@@ -79713,7 +79208,6 @@
         "mountain",
         "urban"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/648/githzerai-enlightened.mp3",
     "name_pre_trait": "Githzerai Enlightened",
     "trait": [
         {
@@ -79874,7 +79368,6 @@
         "underdark",
         "urban"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/649/gloom-weaver.mp3",
     "name_pre_trait": "Gloom Weaver",
     "trait": [
         {
@@ -79963,7 +79456,6 @@
         "forest",
         "hill"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/650/gray-render.mp3",
     "name_pre_action": "Gray Render",
     "action": [
         {
@@ -80282,7 +79774,6 @@
     "environment": [
         "urban"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/651/green-abishai.mp3",
     "name_pre_trait": "Green Abishai",
     "trait": [
         {
@@ -80397,7 +79888,6 @@
     ],
     "cr": "16",
     "page": 165,
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/652/hellfire-engine.mp3",
     "name_pre_trait": "Hellfire Engine",
     "trait": [
         {
@@ -80517,7 +80007,6 @@
         "hill",
         "underdark"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/653/howler.mp3",
     "name_pre_trait": "Howler",
     "trait": [
         {
@@ -80684,7 +80173,6 @@
         }
     ],
     "isNamedCreature": true,
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/654/hutijin.mp3",
     "name_pre_trait": "Hutijin",
     "trait": [
         {
@@ -80854,7 +80342,6 @@
             "ability": "int"
         }
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/655/hydroloth.mp3",
     "name_pre_trait": "Hydroloth",
     "trait": [
         {
@@ -80985,7 +80472,6 @@
         "hill",
         "mountain"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/656/iron-cobra.mp3",
     "otherSources": [
         {
             "source": "GoS"
@@ -81253,7 +80739,6 @@
         "mountain",
         "underdark"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/657/kruthik-hive-lord.mp3",
     "name_pre_trait": "Kruthik Hive Lord",
     "trait": [
         {
@@ -81382,7 +80867,6 @@
         "coastal",
         "underwater"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/658/leviathan.mp3",
     "name_pre_trait": "Leviathan",
     "trait": [
         {
@@ -81485,7 +80969,6 @@
     "environment": [
         "underdark"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/659/male-steeder.mp3",
     "name_pre_trait": "Male Steeder",
     "trait": [
         {
@@ -81611,7 +81094,6 @@
             "ability": "int"
         }
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/660/marut.mp3",
     "name_pre_trait": "Marut",
     "trait": [
         {
@@ -81739,7 +81221,6 @@
         "swamp",
         "urban"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/661/maurezhi.mp3",
     "name_pre_trait": "Maurezhi",
     "trait": [
         {
@@ -81838,7 +81319,6 @@
         "underdark",
         "urban"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/662/meazel.mp3",
     "name_pre_trait": "Meazel",
     "trait": [
         {
@@ -81945,7 +81425,6 @@
             ]
         }
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/663/merregon.mp3",
     "name_pre_trait": "Merregon",
     "trait": [
         {
@@ -82089,7 +81568,6 @@
     "environment": [
         "coastal"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/664/merrenoloth.mp3",
     "name_pre_trait": "Merrenoloth",
     "trait": [
         {
@@ -82261,7 +81739,6 @@
         }
     ],
     "isNamedCreature": true,
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/665/moloch.mp3",
     "name_pre_trait": "Moloch",
     "trait": [
         {
@@ -82468,7 +81945,6 @@
             ]
         }
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/666/molydeus.mp3",
     "name_pre_trait": "Molydeus",
     "trait": [
         {
@@ -82597,7 +82073,6 @@
         "underdark",
         "urban"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/667/nabassu.mp3",
     "name_pre_trait": "Nabassu",
     "trait": [
         {
@@ -82800,7 +82275,6 @@
         "underdark",
         "urban"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/668/nagpa.mp3",
     "name_pre_trait": "Nagpa",
     "trait": [
         {
@@ -82904,7 +82378,6 @@
     ],
     "cr": "13",
     "page": 167,
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/669/narzugon.mp3",
     "name_pre_trait": "Narzugon",
     "trait": [
         {
@@ -83034,7 +82507,6 @@
         "swamp",
         "underdark"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/670/nightwalker.mp3",
     "name_pre_trait": "Nightwalker",
     "trait": [
         {
@@ -83143,7 +82615,6 @@
     ],
     "cr": "1/2",
     "page": 168,
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/671/nupperibo.mp3",
     "name_pre_trait": "Nupperibo",
     "trait": [
         {
@@ -83234,7 +82705,6 @@
         "hill",
         "mountain"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/672/oaken-bolter.mp3",
     "name_pre_trait": "Oaken Bolter",
     "trait": [
         {
@@ -83321,7 +82791,6 @@
         "underdark",
         "urban"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/674/oblex-spawn.mp3",
     "name_pre_trait": "Oblex Spawn",
     "trait": [
         {
@@ -83394,7 +82863,6 @@
         "hill",
         "mountain"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/675/ogre-battering-ram.mp3",
     "name_pre_trait": "Ogre Battering Ram",
     "trait": [
         {
@@ -83467,7 +82935,6 @@
         "hill",
         "mountain"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/676/ogre-bolt-launcher.mp3",
     "name_pre_action": "Ogre Bolt Launcher",
     "action": [
         {
@@ -83531,7 +82998,6 @@
         "hill",
         "mountain"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/677/ogre-chain-brute.mp3",
     "name_pre_action": "Ogre Chain Brute",
     "action": [
         {
@@ -83600,7 +83066,6 @@
         "grassland",
         "hill"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/678/ogre-howdah.mp3",
     "name_pre_trait": "Ogre Howdah",
     "trait": [
         {
@@ -83725,7 +83190,6 @@
         "desert",
         "underdark"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/679/oinoloth.mp3",
     "name_pre_trait": "Oinoloth",
     "trait": [
         {
@@ -84063,7 +83527,6 @@
         "underdark",
         "urban"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/680/orthon.mp3",
     "name_pre_trait": "Orthon",
     "trait": [
         {
@@ -84216,7 +83679,6 @@
         "desert",
         "mountain"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/681/phoenix.mp3",
     "name_pre_trait": "Phoenix",
     "trait": [
         {
@@ -84359,7 +83821,6 @@
         "mountain",
         "urban"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/682/red-abishai.mp3",
     "name_pre_trait": "Red Abishai",
     "trait": [
         {
@@ -84521,7 +83982,6 @@
         "forest",
         "underdark"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/683/retriever.mp3",
     "name_pre_trait": "Retriever",
     "trait": [
         {
@@ -84613,7 +84073,6 @@
         "swamp",
         "underdark"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/684/rot-troll.mp3",
     "name_pre_trait": "Rot Troll",
     "trait": [
         {
@@ -84699,7 +84158,6 @@
     ],
     "cr": "2",
     "page": 136,
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/685/rutterkin.mp3",
     "name_pre_trait": "Rutterkin",
     "trait": [
         {
@@ -84789,7 +84247,6 @@
         "the languages the eidolon knew in life"
     ],
     "page": 194,
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/686/sacred-statue.mp3",
     "name_pre_trait": "Sacred Statue",
     "trait": [
         {
@@ -84898,7 +84355,6 @@
         "underdark",
         "urban"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/687/shadow-dancer.mp3",
     "name_pre_trait": "Shadow Dancer",
     "trait": [
         {
@@ -85165,7 +84621,6 @@
     "environment": [
         "underdark"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/688/sibriex.mp3",
     "name_pre_trait": "Sibriex",
     "trait": [
         {
@@ -85276,7 +84731,6 @@
         "underdark",
         "urban"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/689/skulk.mp3",
     "name_pre_trait": "Skulk",
     "trait": [
         {
@@ -85482,7 +84936,6 @@
         "swamp",
         "underdark"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/690/skull-lord.mp3",
     "name_pre_trait": "Skull Lord",
     "trait": [
         {
@@ -85610,7 +85063,6 @@
         "underdark",
         "urban"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/691/soul-monger.mp3",
     "name_pre_trait": "Soul Monger",
     "trait": [
         {
@@ -85736,7 +85188,6 @@
         "swamp",
         "underdark"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/692/spirit-troll.mp3",
     "name_pre_trait": "Spirit Troll",
     "trait": [
         {
@@ -85864,7 +85315,6 @@
         "forest",
         "grassland"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/693/spring-eladrin.mp3",
     "name_pre_trait": "Spring Eladrin",
     "trait": [
         {
@@ -85952,7 +85402,6 @@
         "mountain",
         "swamp"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/694/star-spawn-grue.mp3",
     "name_pre_trait": "Star Spawn Grue",
     "trait": [
         {
@@ -86034,7 +85483,6 @@
     ],
     "cr": "10",
     "page": 234,
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/695/star-spawn-hulk.mp3",
     "name_pre_trait": "Star Spawn Hulk",
     "trait": [
         {
@@ -86192,7 +85640,6 @@
     "environment": [
         "mountain"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/696/star-spawn-larva-mage.mp3",
     "otherSources": [
         {
             "source": "WDMM"
@@ -86278,7 +85725,6 @@
     ],
     "cr": "5",
     "page": 236,
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/697/star-spawn-mangler.mp3",
     "name_pre_trait": "Star Spawn Mangler",
     "trait": [
         {
@@ -86391,7 +85837,6 @@
         "swamp",
         "urban"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/698/star-spawn-seer.mp3",
     "reaction": [
         {
             "name": "Bend Space",
@@ -86529,7 +85974,6 @@
     "environment": [
         "urban"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/699/steel-predator.mp3",
     "name_pre_trait": "Steel Predator",
     "trait": [
         {
@@ -86629,7 +86073,6 @@
         "mountain",
         "urban"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/700/stone-cursed.mp3",
     "name_pre_trait": "Stone Cursed",
     "trait": [
         {
@@ -86728,7 +86171,6 @@
         "hill",
         "mountain"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/701/stone-defender.mp3",
     "name_pre_trait": "Stone Defender",
     "trait": [
         {
@@ -86820,7 +86262,6 @@
         "desert",
         "forest"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/702/summer-eladrin.mp3",
     "reaction": [
         {
             "name": "Parry",
@@ -86941,7 +86382,6 @@
         "grassland",
         "swamp"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/703/sword-wraith-commander.mp3",
     "name_pre_trait": "Sword Wraith Commander",
     "trait": [
         {
@@ -87051,7 +86491,6 @@
         "grassland",
         "swamp"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/704/sword-wraith-warrior.mp3",
     "name_pre_trait": "Sword Wraith Warrior",
     "trait": [
         {
@@ -87135,7 +86574,6 @@
         "underdark",
         "urban"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/705/the-angry.mp3",
     "name_pre_trait": "The Angry",
     "trait": [
         {
@@ -87224,7 +86662,6 @@
         "underdark",
         "urban"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/706/the-hungry.mp3",
     "name_pre_trait": "The Hungry",
     "trait": [
         {
@@ -87314,7 +86751,6 @@
         "underdark",
         "urban"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/707/the-lonely.mp3",
     "name_pre_trait": "The Lonely",
     "trait": [
         {
@@ -87416,7 +86852,6 @@
         "underdark",
         "urban"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/708/the-lost.mp3",
     "reaction": [
         {
             "name": "Tightening Embrace",
@@ -87500,7 +86935,6 @@
         "underdark",
         "urban"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/709/the-wretched.mp3",
     "name_pre_trait": "The Wretched",
     "trait": [
         {
@@ -87653,7 +87087,6 @@
         }
     ],
     "isNamedCreature": true,
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/710/titivilus.mp3",
     "name_pre_trait": "Titivilus",
     "trait": [
         {
@@ -87772,7 +87205,6 @@
     "environment": [
         "coastal"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/712/tortle.mp3",
     "name_pre_trait": "Tortle",
     "trait": [
         {
@@ -87896,7 +87328,6 @@
     "environment": [
         "coastal"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/711/tortle-druid.mp3",
     "name_pre_trait": "Tortle Druid",
     "trait": [
         {
@@ -88007,7 +87438,6 @@
         "underdark",
         "urban"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/713/vampiric-mist.mp3",
     "name_pre_trait": "Vampiric Mist",
     "trait": [
         {
@@ -88100,7 +87530,6 @@
         "swamp",
         "underdark"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/714/venom-troll.mp3",
     "name_pre_trait": "Venom Troll",
     "trait": [
         {
@@ -88227,7 +87656,6 @@
         "underdark",
         "underwater"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/715/wastrilith.mp3",
     "name_pre_trait": "Wastrilith",
     "trait": [
         {
@@ -88347,7 +87775,6 @@
     ],
     "cr": "7",
     "page": 203,
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/716/water-elemental-myrmidon.mp3",
     "name_pre_trait": "Water Elemental Myrmidon",
     "trait": [
         {
@@ -88461,7 +87888,6 @@
     "environment": [
         "urban"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/717/white-abishai.mp3",
     "name_pre_trait": "White Abishai",
     "trait": [
         {
@@ -88607,7 +88033,6 @@
         "arctic",
         "forest"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/718/winter-eladrin.mp3",
     "name_pre_trait": "Winter Eladrin",
     "trait": [
         {
@@ -88751,7 +88176,6 @@
     "environment": [
         "urban"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/719/yagnoloth.mp3",
     "name_pre_trait": "Yagnoloth",
     "trait": [
         {
@@ -89032,7 +88456,6 @@
         "mountain",
         "underdark"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/720/young-kruthik.mp3",
     "name_pre_trait": "Young Kruthik",
     "trait": [
         {
@@ -89179,7 +88602,6 @@
         "mountain",
         "underdark"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/721/zaratan.mp3",
     "name_pre_trait": "Zaratan",
     "trait": [
         {
@@ -90469,7 +89891,6 @@
     ],
     "cr": "1/4",
     "page": 224,
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/616/derro.mp3",
     "name_pre_trait": "Derro",
     "trait": [
         {
@@ -90599,7 +90020,6 @@
             "ability": "cha"
         }
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/615/derro-savant.mp3",
     "name_pre_trait": "Derro Savant",
     "trait": [
         {
@@ -90984,7 +90404,6 @@
     ],
     "cr": "2",
     "page": 226,
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/627/duergar-kavalrachni.mp3",
     "name_pre_trait": "Duergar Kavalrachni",
     "trait": [
         {
@@ -91258,7 +90677,6 @@
             "ability": "wis"
         }
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/630/duergar-soulblade.mp3",
     "name_pre_trait": "Duergar Soulblade",
     "trait": [
         {
@@ -91410,7 +90828,6 @@
     ],
     "cr": "2",
     "page": 227,
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/631/duergar-stone-guard.mp3",
     "name_pre_trait": "Duergar Stone Guard",
     "trait": [
         {
@@ -91504,7 +90921,6 @@
     ],
     "cr": "2",
     "page": 226,
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/633/duergar-xarrorn.mp3",
     "name_pre_trait": "Duergar Xarrorn",
     "trait": [
         {
@@ -91682,7 +91098,6 @@
     "passive": 10,
     "cr": "1",
     "page": 231,
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/639/female-steeder.mp3",
     "name_pre_trait": "Female Steeder",
     "trait": [
         {
@@ -92872,7 +92287,6 @@
     "passive": 10,
     "cr": "1/4",
     "page": 231,
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/659/male-steeder.mp3",
     "name_pre_trait": "Male Steeder",
     "trait": [
         {
@@ -95059,7 +94473,6 @@
     ],
     "cr": "7",
     "page": 212,
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/593/air-elemental-myrmidon.mp3",
     "name_pre_trait": "Air Elemental Myrmidon",
     "trait": [
         {
@@ -95915,7 +95328,6 @@
     ],
     "cr": "7",
     "page": 212,
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/635/earth-elemental-myrmidon.mp3",
     "name_pre_trait": "Earth Elemental Myrmidon",
     "trait": [
         {
@@ -96526,7 +95938,6 @@
     ],
     "cr": "7",
     "page": 213,
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/640/fire-elemental-myrmidon.mp3",
     "name_pre_trait": "Fire Elemental Myrmidon",
     "trait": [
         {
@@ -99228,7 +98639,6 @@
     ],
     "cr": "7",
     "page": 213,
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/716/water-elemental-myrmidon.mp3",
     "name_pre_trait": "Water Elemental Myrmidon",
     "trait": [
         {
@@ -102678,7 +102088,6 @@
             "ability": "cha"
         }
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/304/kraken.mp3",
     "name_pre_trait": "Kraken",
     "trait": [
         {
@@ -108214,7 +107623,6 @@
     ],
     "cr": "1",
     "page": 232,
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/610/choker.mp3",
     "name_pre_trait": "Choker",
     "trait": [
         {
@@ -108333,7 +107741,6 @@
         }
     ],
     "page": 233,
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/613/deathlock-wight.mp3",
     "name_pre_trait": "Deathlock Wight",
     "trait": [
         {
@@ -111861,7 +111268,6 @@
     "passive": 11,
     "cr": "3",
     "page": 247,
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/713/vampiric-mist.mp3",
     "name_pre_trait": "Vampiric Mist",
     "trait": [
         {
@@ -117104,7 +116510,6 @@
     "passive": 11,
     "cr": "1/4",
     "page": 23,
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/712/tortle.mp3",
     "name_pre_trait": "Tortle",
     "trait": [
         {
@@ -117225,7 +116630,6 @@
         }
     ],
     "page": 23,
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/711/tortle-druid.mp3",
     "name_pre_trait": "Tortle Druid",
     "trait": [
         {
@@ -117635,7 +117039,6 @@
     "environment": [
         "urban"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/9/abjurer.mp3",
     "name_pre_trait": "Abjurer",
     "trait": [
         {
@@ -117824,7 +117227,6 @@
     "environment": [
         "underdark"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/14/alhoon.mp3",
     "name_pre_trait": "Alhoon",
     "trait": [
         {
@@ -118142,7 +117544,6 @@
         "mountain",
         "hill"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/19/annis-hag.mp3",
     "name_pre_trait": "Annis Hag",
     "trait": [
         {
@@ -118258,7 +117659,6 @@
     "environment": [
         "urban"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/21/apprentice-wizard.mp3",
     "otherSources": [
         {
             "source": "WDH"
@@ -118429,7 +117829,6 @@
         "mountain",
         "swamp"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/23/archdruid.mp3",
     "name_pre_action": "Archdruid",
     "action": [
         {
@@ -118498,7 +117897,6 @@
         "forest",
         "urban"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/24/archer.mp3",
     "name_pre_trait": "Archer",
     "trait": [
         {
@@ -118569,7 +117967,6 @@
         "grassland",
         "hill"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/27/aurochs.mp3",
     "name_pre_trait": "Aurochs",
     "trait": [
         {
@@ -118678,7 +118075,6 @@
         "underdark",
         "urban"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/32/babau.mp3",
     "name_pre_action": "Babau",
     "action": [
         {
@@ -118759,7 +118155,6 @@
     "environment": [
         "urban"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/36/banderhobb.mp3",
     "name_pre_trait": "Banderhobb",
     "trait": [
         {
@@ -118893,7 +118288,6 @@
     "environment": [
         "urban"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/41/bard.mp3",
     "otherSources": [
         {
             "source": "WDH"
@@ -119041,7 +118435,6 @@
         "forest",
         "hill"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/42/barghest.mp3",
     "otherSources": [
         {
             "source": "TftYP"
@@ -119378,7 +118771,6 @@
     "environment": [
         "arctic"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/50/bheur-hag.mp3",
     "name_pre_trait": "Bheur Hag",
     "trait": [
         {
@@ -119475,7 +118867,6 @@
         "swamp",
         "urban"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/254/guard-drake.mp3",
     "name_pre_trait": "Black Guard Drake",
     "trait": [
         {
@@ -119599,7 +118990,6 @@
         "underdark",
         "urban"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/55/blackguard.mp3",
     "name_pre_action": "Blackguard",
     "action": [
         {
@@ -119679,7 +119069,6 @@
         "desert",
         "urban"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/254/guard-drake.mp3",
     "name_pre_action": "Blue Guard Drake",
     "action": [
         {
@@ -119775,7 +119164,6 @@
         "swamp",
         "urban"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/63/bodak.mp3",
     "otherSources": [
         {
             "source": "ToA"
@@ -119873,7 +119261,6 @@
         "hill",
         "urban"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/64/boggle.mp3",
     "name_pre_trait": "Boggle",
     "trait": [
         {
@@ -119956,7 +119343,6 @@
         "grassland",
         "forest"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/69/brontosaurus.mp3",
     "otherSources": [
         {
             "source": "ToA"
@@ -120018,7 +119404,6 @@
     "environment": [
         "swamp"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/81/catoblepas.mp3",
     "name_pre_trait": "Catoblepas",
     "trait": [
         {
@@ -120095,7 +119480,6 @@
     "environment": [
         "underdark"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/83/cave-fisher.mp3",
     "name_pre_trait": "Cave Fisher",
     "trait": [
         {
@@ -120205,7 +119589,6 @@
         "desert",
         "urban"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/86/champion.mp3",
     "name_pre_trait": "Champion",
     "trait": [
         {
@@ -120292,7 +119675,6 @@
     "environment": [
         "underdark"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/89/chitine.mp3",
     "name_pre_trait": "Chitine",
     "trait": [
         {
@@ -120421,7 +119803,6 @@
     "environment": [
         "underdark"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/90/choldrith.mp3",
     "name_pre_trait": "Choldrith",
     "trait": [
         {
@@ -120594,7 +119975,6 @@
     "environment": [
         "mountain"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/93/cloud-giant-smiling-one.mp3",
     "name_pre_trait": "Cloud Giant Smiling One",
     "trait": [
         {
@@ -120744,7 +120124,6 @@
     "environment": [
         "urban"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/97/conjurer.mp3",
     "otherSources": [
         {
             "source": "TftYP"
@@ -120801,7 +120180,6 @@
     "environment": [
         "grassland"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/103/cow.mp3",
     "name_pre_trait": "Cow",
     "trait": [
         {
@@ -120861,7 +120239,6 @@
         "underdark",
         "urban"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/105/cranium-rat.mp3",
     "name_pre_trait": "Cranium Rat",
     "trait": [
         {
@@ -120942,7 +120319,6 @@
         "swamp",
         "urban"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/113/darkling.mp3",
     "name_pre_trait": "Darkling",
     "trait": [
         {
@@ -121023,7 +120399,6 @@
         "swamp",
         "urban"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/112/darkling-elder.mp3",
     "name_pre_trait": "Darkling Elder",
     "trait": [
         {
@@ -121119,7 +120494,6 @@
     "environment": [
         "underdark"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/116/death-kiss.mp3",
     "name_pre_trait": "Death Kiss",
     "trait": [
         {
@@ -121201,7 +120575,6 @@
     "environment": [
         "underdark"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/6/rothe.mp3",
     "name_pre_trait": "Deep Roth\u00e9",
     "trait": [
         {
@@ -121281,7 +120654,6 @@
         "underwater",
         "coastal"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/120/deep-scion.mp3",
     "otherSources": [
         {
             "source": "GoS"
@@ -121378,7 +120750,6 @@
         "forest",
         "hill"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/122/deinonychus.mp3",
     "otherSources": [
         {
             "source": "ToA"
@@ -121471,7 +120842,6 @@
     "environment": [
         "underdark"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/125/devourer.mp3",
     "name_pre_action": "Devourer",
     "action": [
         {
@@ -121542,7 +120912,6 @@
         "swamp",
         "coastal"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/126/dimetrodon.mp3",
     "otherSources": [
         {
             "source": "ToA"
@@ -121693,7 +121062,6 @@
     "environment": [
         "urban"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/129/diviner.mp3",
     "name_pre_trait": "Diviner",
     "trait": [
         {
@@ -121758,7 +121126,6 @@
         "underwater",
         "coastal"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/130/dolphin.mp3",
     "otherSources": [
         {
             "source": "GoS"
@@ -121874,7 +121241,6 @@
     "environment": [
         "underdark"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/132/draegloth.mp3",
     "name_pre_trait": "Draegloth",
     "trait": [
         {
@@ -122010,7 +121376,6 @@
     "environment": [
         "underdark"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/150/elder-brain.mp3",
     "name_pre_trait": "Elder Brain",
     "trait": [
         {
@@ -122187,7 +121552,6 @@
     "environment": [
         "urban"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/155/enchanter.mp3",
     "otherSources": [
         {
             "source": "TftYP"
@@ -122323,7 +121687,6 @@
     "environment": [
         "urban"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/159/evoker.mp3",
     "otherSources": [
         {
             "source": "TftYP"
@@ -122408,7 +121771,6 @@
         "underdark",
         "mountain"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/163/fire-giant-dreadnought.mp3",
     "name_pre_trait": "Fire Giant Dreadnought",
     "trait": [
         {
@@ -122629,7 +121991,6 @@
         "hill",
         "desert"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/166/firenewt-warrior.mp3",
     "otherSources": [
         {
             "source": "ToA"
@@ -122716,7 +122077,6 @@
         "forest",
         "swamp"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/167/flail-snail.mp3",
     "otherSources": [
         {
             "source": "ToA"
@@ -122829,7 +122189,6 @@
         "hill",
         "arctic"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/170/flind.mp3",
     "name_pre_trait": "Flind",
     "trait": [
         {
@@ -122927,7 +122286,6 @@
         "underdark",
         "swamp"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/176/froghemoth.mp3",
     "otherSources": [
         {
             "source": "ToA"
@@ -123039,7 +122397,6 @@
         "coastal",
         "arctic"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/177/frost-giant-everlasting-one.mp3",
     "name_pre_trait": "Frost Giant Everlasting One",
     "trait": [
         {
@@ -123148,7 +122505,6 @@
     "environment": [
         "underdark"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/182/gauth.mp3",
     "name_pre_trait": "Gauth",
     "trait": [
         {
@@ -123255,7 +122611,6 @@
         }
     ],
     "familiar": true,
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/183/gazer.mp3",
     "otherSources": [
         {
             "source": "WDH"
@@ -123340,7 +122695,6 @@
         "mountain",
         "hill"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/212/giant-stider.mp3",
     "otherSources": [
         {
             "source": "ToA"
@@ -123411,7 +122765,6 @@
     "environment": [
         "forest"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/219/girallon.mp3",
     "otherSources": [
         {
             "source": "ToA"
@@ -123503,7 +122856,6 @@
         "hill",
         "arctic"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/226/gnoll-flesh-gnawer.mp3",
     "name_pre_trait": "Gnoll Flesh Gnawer",
     "trait": [
         {
@@ -123597,7 +122949,6 @@
         "hill",
         "arctic"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/227/gnoll-hunter.mp3",
     "name_pre_trait": "Gnoll Hunter",
     "trait": [
         {
@@ -123697,7 +123048,6 @@
         "hill",
         "arctic"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/229/gnoll-witherling.mp3",
     "name_pre_trait": "Gnoll Witherling",
     "trait": [
         {
@@ -123780,7 +123130,6 @@
         "forest",
         "urban"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/254/guard-drake.mp3",
     "name_pre_trait": "Green Guard Drake",
     "trait": [
         {
@@ -123884,7 +123233,6 @@
     "environment": [
         "forest"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/253/grung.mp3",
     "otherSources": [
         {
             "source": "ToA"
@@ -123993,7 +123341,6 @@
     "environment": [
         "forest"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/251/grung-elite-warrior.mp3",
     "otherSources": [
         {
             "source": "ToA"
@@ -124146,7 +123493,6 @@
     "environment": [
         "forest"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/252/grung-wildling.mp3",
     "otherSources": [
         {
             "source": "ToA"
@@ -124230,7 +123576,6 @@
         "grassland",
         "swamp"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/258/hadrosaurus.mp3",
     "otherSources": [
         {
             "source": "ToA"
@@ -124350,7 +123695,6 @@
         "forest",
         "hill"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/272/hobgoblin-devastator.mp3",
     "name_pre_trait": "Hobgoblin Devastator",
     "trait": [
         {
@@ -124455,7 +123799,6 @@
         "forest",
         "hill"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/273/hobgoblin-iron-shadow.mp3",
     "name_pre_trait": "Hobgoblin Iron Shadow",
     "trait": [
         {
@@ -124711,7 +124054,6 @@
     "environment": [
         "underdark"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/336/mind-flayer-lich-illithilich.mp3",
     "name_pre_trait": "Illithilich",
     "trait": [
         {
@@ -124872,7 +124214,6 @@
     "environment": [
         "urban"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/285/illusionist.mp3",
     "otherSources": [
         {
             "source": "TftYP"
@@ -125091,7 +124432,6 @@
         "desert",
         "coastal"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/296/ki-rin.mp3",
     "name_pre_trait": "Ki-rin",
     "trait": [
         {
@@ -125192,7 +124532,6 @@
         "forest",
         "hill"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/298/kobold-dragonshield.mp3",
     "name_pre_trait": "Kobold Dragonshield",
     "trait": [
         {
@@ -125288,7 +124627,6 @@
         "hill",
         "urban"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/299/kobold-inventor.mp3",
     "otherSources": [
         {
             "source": "ToA"
@@ -125430,7 +124768,6 @@
         "hill",
         "urban"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/300/kobold-scale-sorcerer.mp3",
     "otherSources": [
         {
             "source": "ToA"
@@ -125554,7 +124891,6 @@
     "environment": [
         "forest"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/302/korred.mp3",
     "name_pre_trait": "Korred",
     "trait": [
         {
@@ -125682,7 +125018,6 @@
         "coastal",
         "underwater"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/303/kraken-priest.mp3",
     "otherSources": [
         {
             "source": "GoS"
@@ -125763,7 +125098,6 @@
         "grassland",
         "desert"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/564/leucrotta.mp3",
     "otherSources": [
         {
             "source": "TftYP"
@@ -125871,7 +125205,6 @@
     "environment": [
         "urban"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/324/martial-arts-adept.mp3",
     "otherSources": [
         {
             "source": "WDH"
@@ -125986,7 +125319,6 @@
     "environment": [
         "urban"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/325/master-thief.mp3",
     "name_pre_trait": "Master Thief",
     "trait": [
         {
@@ -126092,7 +125424,6 @@
     "environment": [
         "underdark"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/327/maw-demon.mp3",
     "otherSources": [
         {
             "source": "GoS"
@@ -126171,7 +125502,6 @@
         "swamp",
         "urban"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/329/meenlock.mp3",
     "name_pre_trait": "Meenlock",
     "trait": [
         {
@@ -126410,7 +125740,6 @@
     "environment": [
         "underdark"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/338/mindwitness.mp3",
     "name_pre_trait": "Mindwitness",
     "trait": [
         {
@@ -126603,7 +125932,6 @@
         "underwater",
         "coastal"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/342/morkoth.mp3",
     "name_pre_trait": "Morkoth",
     "trait": [
         {
@@ -126694,7 +126022,6 @@
         "grassland",
         "hill"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/343/mouth-of-grolantor.mp3",
     "name_pre_trait": "Mouth of Grolantor",
     "trait": [
         {
@@ -126849,7 +126176,6 @@
         "desert",
         "urban"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/352/necromancer.mp3",
     "otherSources": [
         {
             "source": "TftYP"
@@ -126926,7 +126252,6 @@
         "underdark",
         "hill"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/356/neogi.mp3",
     "name_pre_trait": "Neogi",
     "trait": [
         {
@@ -127008,7 +126333,6 @@
         "underdark",
         "hill"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/354/neogi-hatchling.mp3",
     "name_pre_trait": "Neogi Hatchling",
     "trait": [
         {
@@ -127128,7 +126452,6 @@
         "underdark",
         "hill"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/355/neogi-master.mp3",
     "name_pre_trait": "Neogi Master",
     "trait": [
         {
@@ -127242,7 +126565,6 @@
     "environment": [
         "underdark"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/566/neothelid.mp3",
     "name_pre_trait": "Neothelid",
     "trait": [
         {
@@ -127357,7 +126679,6 @@
         "forest",
         "hill"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/359/nilbog.mp3",
     "name_pre_trait": "Nilbog",
     "trait": [
         {
@@ -127452,7 +126773,6 @@
         "forest",
         "hill"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/368/orc-blade-of-ilneval.mp3",
     "name_pre_trait": "Orc Blade of Ilneval",
     "trait": [
         {
@@ -127593,7 +126913,6 @@
         "underdark",
         "mountain"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/369/orc-claw-of-luthic.mp3",
     "name_pre_trait": "Orc Claw of Luthic",
     "trait": [
         {
@@ -127713,7 +127032,6 @@
         "forest",
         "hill"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/371/orc-hand-of-yurtrus.mp3",
     "name_pre_trait": "Orc Hand of Yurtrus",
     "trait": [
         {
@@ -127782,7 +127100,6 @@
         "forest",
         "hill"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/372/orc-nurtured-one-of-yurtrus.mp3",
     "name_pre_trait": "Orc Nurtured One of Yurtrus",
     "trait": [
         {
@@ -127879,7 +127196,6 @@
         "hill",
         "urban"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/567/orc-red-fang.mp3",
     "name_pre_trait": "Orc Red Fang of Shargaas",
     "trait": [
         {
@@ -127967,7 +127283,6 @@
     "environment": [
         "grassland"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/553/ox.mp3",
     "otherSources": [
         {
             "source": "PotA"
@@ -128041,7 +127356,6 @@
         "hill",
         "coastal"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/401/quetzalcoatlus.mp3",
     "otherSources": [
         {
             "source": "ToA"
@@ -128118,7 +127432,6 @@
     "environment": [
         "forest"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/402/quickling.mp3",
     "name_pre_trait": "Quickling",
     "trait": [
         {
@@ -128202,7 +127515,6 @@
         "underdark",
         "urban"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/254/guard-drake.mp3",
     "name_pre_action": "Red Guard Drake",
     "action": [
         {
@@ -128276,7 +127588,6 @@
         "swamp",
         "hill"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/411/redcap.mp3",
     "otherSources": [
         {
             "source": "ToA"
@@ -128354,7 +127665,6 @@
     "environment": [
         "grassland"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/6/rothe.mp3",
     "name_pre_trait": "Roth\u00e9",
     "trait": [
         {
@@ -128420,7 +127730,6 @@
         "underwater",
         "coastal"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/438/sea-spawn.mp3",
     "name_pre_trait": "Sea Spawn",
     "trait": [
         {
@@ -128549,7 +127858,6 @@
             ]
         }
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/441/shadow-mastiff.mp3",
     "name_pre_trait": "Shadow Mastiff",
     "trait": [
         {
@@ -128667,7 +127975,6 @@
         "hill",
         "arctic"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/445/shoosuva.mp3",
     "name_pre_trait": "Shoosuva",
     "trait": [
         {
@@ -128769,7 +128076,6 @@
         "underdark",
         "urban"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/451/slithering-tracker.mp3",
     "otherSources": [
         {
             "source": "ToA"
@@ -128886,7 +128192,6 @@
         "underdark",
         "desert"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/454/spawn-of-kyuss.mp3",
     "name_pre_trait": "Spawn of Kyuss",
     "trait": [
         {
@@ -128962,7 +128267,6 @@
         "grassland",
         "forest"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/464/stegosaurus.mp3",
     "otherSources": [
         {
             "source": "ToA"
@@ -129015,7 +128319,6 @@
     "passive": 10,
     "cr": "1/4",
     "page": 208,
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/465/stench-cow.mp3",
     "name_pre_trait": "Stench Kow",
     "trait": [
         {
@@ -129106,7 +128409,6 @@
         "hill",
         "coastal"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/467/stone-giant-dreamwalker.mp3",
     "name_pre_trait": "Stone Giant Dreamwalker",
     "trait": [
         {
@@ -129248,7 +128550,6 @@
         "coastal",
         "arctic"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/570/storm-giant-quintessent.mp3",
     "otherSources": [
         {
             "source": "GoS"
@@ -129363,7 +128664,6 @@
         "underdark",
         "urban"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/474/swarm-of-cranium-rats.mp3",
     "name_pre_trait": "Swarm of Cranium Rats",
     "trait": [
         {
@@ -129448,7 +128748,6 @@
         "underdark",
         "swamp"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/480/swarm-of-rot-grubs.mp3",
     "otherSources": [
         {
             "source": "GoS"
@@ -129528,7 +128827,6 @@
         "coastal",
         "urban"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/481/swashbuckler.mp3",
     "otherSources": [
         {
             "source": "WDH"
@@ -129644,7 +128942,6 @@
         "mountain",
         "hill"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/483/tanarukk.mp3",
     "name_pre_trait": "Tanarukk",
     "trait": [
         {
@@ -129731,7 +129028,6 @@
         "forest",
         "swamp"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/485/thorny.mp3",
     "otherSources": [
         {
             "source": "ToA"
@@ -129811,7 +129107,6 @@
     "environment": [
         "desert"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/572/tlincalli.mp3",
     "name_pre_action": "Tlincalli",
     "action": [
         {
@@ -129952,7 +129247,6 @@
     "environment": [
         "urban"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/490/transmuter.mp3",
     "otherSources": [
         {
             "source": "TftYP"
@@ -130027,7 +129321,6 @@
     "environment": [
         "underdark"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/491/trapper.mp3",
     "name_pre_trait": "Trapper",
     "trait": [
         {
@@ -130141,7 +129434,6 @@
     "environment": [
         "underdark"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/500/ulitharid.mp3",
     "name_pre_trait": "Ulitharid",
     "trait": [
         {
@@ -130240,7 +129532,6 @@
         "swamp",
         "desert"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/508/vargouille.mp3",
     "name_pre_action": "Vargouille",
     "action": [
         {
@@ -130315,7 +129606,6 @@
         "forest",
         "swamp"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/510/vegepygmy.mp3",
     "otherSources": [
         {
             "source": "ToA"
@@ -130404,7 +129694,6 @@
         "forest",
         "swamp"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/509/vegepygmy-chief.mp3",
     "otherSources": [
         {
             "source": "ToA"
@@ -130494,7 +129783,6 @@
         "grassland",
         "forest"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/511/velociraptor.mp3",
     "otherSources": [
         {
             "source": "ToA"
@@ -130659,7 +129947,6 @@
             "ability": "wis"
         }
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/518/war-priest.mp3",
     "name_pre_action": "War Priest",
     "action": [
         {
@@ -130803,7 +130090,6 @@
         "swamp",
         "urban"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/520/warlock-of-the-archfey.mp3",
     "name_pre_action": "Warlock of the Archfey",
     "action": [
         {
@@ -130942,7 +130228,6 @@
         "underdark",
         "urban"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/521/warlock-of-the-fiend.mp3",
     "name_pre_trait": "Warlock of the Fiend",
     "trait": [
         {
@@ -131085,7 +130370,6 @@
         "underdark",
         "urban"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/522/warlock-of-the-great-old-one.mp3",
     "name_pre_trait": "Warlock of the Great Old One",
     "trait": [
         {
@@ -131181,7 +130465,6 @@
     "environment": [
         "urban"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/523/warlord.mp3",
     "name_pre_trait": "Warlord",
     "trait": [
         {
@@ -131271,7 +130554,6 @@
         "arctic",
         "urban"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/254/guard-drake.mp3",
     "name_pre_action": "White Guard Drake",
     "action": [
         {
@@ -131356,7 +130638,6 @@
     "environment": [
         "forest"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/540/wood-woad.mp3",
     "name_pre_trait": "Wood Woad",
     "trait": [
         {
@@ -131453,7 +130734,6 @@
         "underdark",
         "hill"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/546/xvart.mp3",
     "name_pre_trait": "Xvart",
     "trait": [
         {
@@ -131544,7 +130824,6 @@
         "underdark",
         "hill"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/544/xvart-speaker.mp3",
     "name_pre_trait": "Xvart Speaker",
     "trait": [
         {
@@ -131676,7 +130955,6 @@
         "underdark",
         "hill"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/545/xvart-warlock-of-raxivort.mp3",
     "name_pre_trait": "Xvart Warlock of Raxivort",
     "trait": [
         {
@@ -131776,7 +131054,6 @@
         "forest",
         "hill"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/547/yeth-hound.mp3",
     "name_pre_trait": "Yeth Hound",
     "trait": [
         {
@@ -131933,7 +131210,6 @@
         "forest",
         "desert"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/575/yuan-ti-anathema.mp3",
     "name_pre_trait": "Yuan-ti Anathema",
     "trait": [
         {
@@ -132072,7 +131348,6 @@
         "forest",
         "desert"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/420/yuan-ti-broodguard.mp3",
     "otherSources": [
         {
             "source": "ToA"
@@ -132191,7 +131466,6 @@
         "swamp",
         "desert"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/421/yuan-ti-malison.mp3",
     "otherSources": [
         {
             "source": "ToA"
@@ -132324,7 +131598,6 @@
         "swamp",
         "desert"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/421/yuan-ti-malison.mp3",
     "otherSources": [
         {
             "source": "ToA"
@@ -132514,7 +131787,6 @@
         "forest",
         "desert"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/422/yuan-ti-mind-whisperer.mp3",
     "name_pre_trait": "Yuan-ti Mind Whisperer",
     "trait": [
         {
@@ -132697,7 +131969,6 @@
         "forest",
         "desert"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/423/yuan-ti-nightmare-speaker.mp3",
     "otherSources": [
         {
             "source": "ToA"
@@ -132885,7 +132156,6 @@
         "forest",
         "desert"
     ],
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/424/yuan-ti-pit-master.mp3",
     "name_pre_trait": "Yuan-ti Pit Master",
     "trait": [
         {
@@ -133873,7 +133143,6 @@
         "Common"
     ],
     "cr": "0",
-    "soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/405/rat.mp3",
     "name_pre_trait": "Awakened Rat",
     "trait": [
         {
