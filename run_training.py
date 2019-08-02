@@ -7,7 +7,7 @@ def main():
     gpt2.finetune(sess,
                   ['bestiary.json', 'dndbeyond_scrape/dndbeyond.json'],
                   model_name=model_name,
-                  run_name='dndtestdelete',
+                  run_name='dnd7',
                   steps=5000,
                   dataset_probs = [0.7, 0.3])   # steps is max number of training steps
 
