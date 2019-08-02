@@ -24,6 +24,7 @@ except:
 
 from gpt_2_simple.src import model, sample, encoder, memory_saving_gradients
 from gpt_2_simple.src.load_dataset import load_dataset, Sampler
+from gpt_2_simple.src.biased_sampler import BiasedSampler
 from gpt_2_simple.src.accumulate import AccumulatingOptimizer
 
 
@@ -120,7 +121,8 @@ def finetune(sess,
              max_checkpoints=1,
              use_memory_saving_gradients=False,
              only_train_transformer_layers=False,
-             overwrite=False):
+             overwrite=False,
+             dataset_probs=[]):
     """Finetunes the model on the given dataset.
 
     Adapted from https://github.com/nshepperd/gpt-2/blob/finetuning/train.py.
@@ -220,10 +222,16 @@ def finetune(sess,
     print('Loading checkpoint', ckpt)
     saver.restore(sess, ckpt)
 
-    print('Loading dataset...')
-    chunks = load_dataset(enc, dataset, combine)
-    data_sampler = Sampler(chunks)
-    print('dataset has', data_sampler.total_size, 'tokens')
+    print('Loading dataset(s)...')
+    if type(dataset) is not list or (len(dataset) == 1 and type(dataset) is list):
+        chunks = load_dataset(enc, dataset, combine)
+        data_sampler = Sampler(chunks)
+        print('dataset has', data_sampler.total_size, 'tokens')
+    else: 
+        chunks = [load_dataset(enc, d, combine) for d in dataset]
+        data_sampler = BiasedSampler(chunks, dataset_probs)
+        for i in range(len(chunks)):
+            print('dataset ' + str(i) + ' has', data_sampler.total_sizes[i], 'tokens')
     print('Training...')
 
     counter = 1

@@ -1,7 +1,7 @@
 import gpt_2_simple as gpt2
 import sys
 
-run_name = "dnd6"
+run_name = "dnd5"
 
 def generate(prefix="<|startoftext|>", length = None, truncate = "", temperature = 0.9, batch_size = 1, n_batches = 1):
     if not length and not truncate: 
