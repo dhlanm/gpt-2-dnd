@@ -1,6 +1,7 @@
 import os
 import sys
 import json
+from collections import OrderedDict
 
 def main():
     outfile = 'bestiary.json'
@@ -17,15 +18,19 @@ def main():
                     if "_copy" in m: 
                         continue
                     m = {k:m[k] for k in m if "Tags" not in k}
+                    m = OrderedDict(m)
+                    name = m.pop("name")
+                    m["monster_name"] = name
+                    m.move_to_end("monster_name", last=False)
                     m.pop("soundClip", None)
                     action, trait = "", ""
                     trait = m.pop("trait", None)
                     action = m.pop("action", None) 
                     if trait:
-                        m["name_pre_trait"] = m["name"]
+                        m["name_pre_trait"] = m["monster_name"]
                         m["trait"] = trait
                     if action:
-                        m["name_pre_action"] = m["name"]
+                        m["name_pre_action"] = m["monster_name"]
                         m["action"] = action
                     # this is sort of cheating, but it should carry over the name context in longer entries better
                     # it's also a bit silly in the sense of order enforcing, but hey what can you do 

@@ -1,4 +1,5 @@
 import json
+from collections import OrderedDict
 
 def main():
     monsters = []
@@ -8,14 +9,18 @@ def main():
             if '<|startoftext|>' in line: 
                 monster = ''
             elif '<|endoftext|>' in line:
-                monster = json.loads(monster)
+                monster = OrderedDict(json.loads(monster))
+                name = monster.pop("name")
+                monster["monster_name"] = name
+                monster.move_to_end("monster_name", last=False)
+
                 trait = monster.pop("trait", None)
                 action = monster.pop("action", None)
                 if trait:
-                    monster["name_pre_trait"] = monster["name"]
+                    monster["name_pre_trait"] = monster["monster_name"]
                     monster["trait"] = trait
                 if action:
-                    monster["name_pre_action"] = monster["name"]
+                    monster["name_pre_action"] = monster["monster_name"]
                     monster["action"] = action
                 monsters.append(monster)
             else: 
