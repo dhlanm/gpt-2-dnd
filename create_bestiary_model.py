@@ -37,6 +37,7 @@ def main():
                     m.move_to_end("monster_name", last=False)
                     m.pop("soundClip", None)
                     m.pop("otherSources", None)
+                    m.pop("legendaryGroup", None)
                     # this is sort of cheating, but it should carry over the name context in longer entries better
                     # it's also a bit silly in the sense of order enforcing, but hey what can you do 
                     # TODO maybe add another one since these show up fairly late?? 

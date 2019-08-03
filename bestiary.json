@@ -495,11 +495,7 @@
                 "The ancient deep crow beats its wings. Each creature within 10 feet of the deep crow must succeed on a {@dc 19} Dexterity saving throw or take 13 ({@damage 2d6 + 6}) bludgeoning damage and be knocked {@condition prone}. The ancient deep crow can then fly up to half its flying speed."
             ]
         }
-    ],
-    "legendaryGroup": {
-        "name": "Ancient Deep Crow",
-        "source": "AI"
-    }
+    ]
 }
 <|endoftext|>
 <|startoftext|>
@@ -4337,10 +4333,6 @@
             ]
         }
     ],
-    "legendaryGroup": {
-        "name": "Strahd von Zarovich",
-        "source": "CoS"
-    },
     "legendary": [
         {
             "name": "Move",
@@ -22568,10 +22560,6 @@
             ]
         }
     ],
-    "legendaryGroup": {
-        "name": "Aboleth",
-        "source": "MM"
-    },
     "legendary": [
         {
             "name": "Detect",
@@ -22890,10 +22878,6 @@
             ]
         }
     ],
-    "legendaryGroup": {
-        "name": "Black Dragon",
-        "source": "MM"
-    },
     "legendary": [
         {
             "name": "Detect",
@@ -23043,10 +23027,6 @@
             ]
         }
     ],
-    "legendaryGroup": {
-        "name": "Blue Dragon",
-        "source": "MM"
-    },
     "legendary": [
         {
             "name": "Detect",
@@ -23173,10 +23153,6 @@
             ]
         }
     ],
-    "legendaryGroup": {
-        "name": "Blue Dragon",
-        "source": "MM"
-    },
     "legendary": [
         {
             "name": "Detect",
@@ -23328,10 +23304,6 @@
             ]
         }
     ],
-    "legendaryGroup": {
-        "name": "Brass Dragon",
-        "source": "MM"
-    },
     "legendary": [
         {
             "name": "Detect",
@@ -23494,10 +23466,6 @@
             ]
         }
     ],
-    "legendaryGroup": {
-        "name": "Bronze Dragon",
-        "source": "MM"
-    },
     "legendary": [
         {
             "name": "Detect",
@@ -23647,10 +23615,6 @@
             ]
         }
     ],
-    "legendaryGroup": {
-        "name": "Copper Dragon",
-        "source": "MM"
-    },
     "legendary": [
         {
             "name": "Detect",
@@ -23814,10 +23778,6 @@
             ]
         }
     ],
-    "legendaryGroup": {
-        "name": "Gold Dragon",
-        "source": "MM"
-    },
     "legendary": [
         {
             "name": "Detect",
@@ -23963,10 +23923,6 @@
             ]
         }
     ],
-    "legendaryGroup": {
-        "name": "Green Dragon",
-        "source": "MM"
-    },
     "legendary": [
         {
             "name": "Detect",
@@ -24099,10 +24055,6 @@
             ]
         }
     ],
-    "legendaryGroup": {
-        "name": "Red Dragon",
-        "source": "MM"
-    },
     "legendary": [
         {
             "name": "Detect",
@@ -24260,10 +24212,6 @@
             ]
         }
     ],
-    "legendaryGroup": {
-        "name": "Silver Dragon",
-        "source": "MM"
-    },
     "legendary": [
         {
             "name": "Detect",
@@ -24404,10 +24352,6 @@
             ]
         }
     ],
-    "legendaryGroup": {
-        "name": "White Dragon",
-        "source": "MM"
-    },
     "legendary": [
         {
             "name": "Detect",
@@ -24714,10 +24658,6 @@
             ]
         }
     ],
-    "legendaryGroup": {
-        "name": "Black Dragon",
-        "source": "MM"
-    },
     "legendary": [
         {
             "name": "Detect",
@@ -24850,10 +24790,6 @@
             ]
         }
     ],
-    "legendaryGroup": {
-        "name": "Blue Dragon",
-        "source": "MM"
-    },
     "legendary": [
         {
             "name": "Detect",
@@ -25012,10 +24948,6 @@
             ]
         }
     ],
-    "legendaryGroup": {
-        "name": "Brass Dragon",
-        "source": "MM"
-    },
     "legendary": [
         {
             "name": "Detect",
@@ -25178,10 +25110,6 @@
             ]
         }
     ],
-    "legendaryGroup": {
-        "name": "Bronze Dragon",
-        "source": "MM"
-    },
     "legendary": [
         {
             "name": "Detect",
@@ -25338,10 +25266,6 @@
             ]
         }
     ],
-    "legendaryGroup": {
-        "name": "Copper Dragon",
-        "source": "MM"
-    },
     "legendary": [
         {
             "name": "Detect",
@@ -25505,10 +25429,6 @@
             ]
         }
     ],
-    "legendaryGroup": {
-        "name": "Gold Dragon",
-        "source": "MM"
-    },
     "legendary": [
         {
             "name": "Detect",
@@ -25654,10 +25574,6 @@
             ]
         }
     ],
-    "legendaryGroup": {
-        "name": "Green Dragon",
-        "source": "MM"
-    },
     "legendary": [
         {
             "name": "Detect",
@@ -25790,10 +25706,6 @@
             ]
         }
     ],
-    "legendaryGroup": {
-        "name": "Red Dragon",
-        "source": "MM"
-    },
     "legendary": [
         {
             "name": "Detect",
@@ -25951,10 +25863,6 @@
             ]
         }
     ],
-    "legendaryGroup": {
-        "name": "Silver Dragon",
-        "source": "MM"
-    },
     "legendary": [
         {
             "name": "Detect",
@@ -26095,10 +26003,6 @@
             ]
         }
     ],
-    "legendaryGroup": {
-        "name": "White Dragon",
-        "source": "MM"
-    },
     "legendary": [
         {
             "name": "Detect",
@@ -26251,10 +26155,6 @@
             ]
         }
     ],
-    "legendaryGroup": {
-        "name": "Sphinx",
-        "source": "MM"
-    },
     "legendary": [
         {
             "name": "Claw Attack",
@@ -28587,10 +28487,6 @@
             ]
         }
     ],
-    "legendaryGroup": {
-        "name": "Beholder",
-        "source": "MM"
-    },
     "legendary": [
         {
             "name": "Eye Ray",
@@ -33202,10 +33098,6 @@
             ]
         }
     ],
-    "legendaryGroup": {
-        "name": "Death Tyrant",
-        "source": "MM"
-    },
     "legendary": [
         {
             "name": "Eye Ray",
@@ -33499,10 +33391,6 @@
             ]
         }
     ],
-    "legendaryGroup": {
-        "name": "Demilich",
-        "source": "MM"
-    },
     "legendary": [
         {
             "name": "Flight",
@@ -43729,10 +43617,6 @@
             ]
         }
     ],
-    "legendaryGroup": {
-        "name": "Sphinx",
-        "source": "MM"
-    },
     "legendary": [
         {
             "name": "Claw Attack",
@@ -46764,10 +46648,6 @@
             ]
         }
     ],
-    "legendaryGroup": {
-        "name": "Kraken",
-        "source": "MM"
-    },
     "legendary": [
         {
             "name": "Tentacle Attack or Fling",
@@ -47594,10 +47474,6 @@
             ]
         }
     ],
-    "legendaryGroup": {
-        "name": "Lich",
-        "source": "MM"
-    },
     "legendary": [
         {
             "name": "Cantrip",
@@ -50545,10 +50421,6 @@
             ]
         }
     ],
-    "legendaryGroup": {
-        "name": "Mummy Lord",
-        "source": "MM"
-    },
     "legendary": [
         {
             "name": "Attack",
@@ -61731,10 +61603,6 @@
             ]
         }
     ],
-    "legendaryGroup": {
-        "name": "Unicorn",
-        "source": "MM"
-    },
     "legendary": [
         {
             "name": "Hooves",
@@ -61928,10 +61796,6 @@
             ]
         }
     ],
-    "legendaryGroup": {
-        "name": "Vampire",
-        "source": "MM"
-    },
     "legendary": [
         {
             "name": "Move",
@@ -62215,10 +62079,6 @@
             ]
         }
     ],
-    "legendaryGroup": {
-        "name": "Vampire",
-        "source": "MM"
-    },
     "legendary": [
         {
             "name": "Move",
@@ -62459,10 +62319,6 @@
         }
     ],
     "page": 298,
-    "legendaryGroup": {
-        "name": "Vampire",
-        "source": "MM"
-    },
     "legendary": [
         {
             "name": "Move",
@@ -68511,10 +68367,6 @@
             ]
         }
     ],
-    "legendaryGroup": {
-        "name": "Balhannoth",
-        "source": "MTF"
-    },
     "environment": [
         "coastal",
         "mountain",
@@ -68673,10 +68525,6 @@
             ]
         }
     ],
-    "legendaryGroup": {
-        "name": "Baphomet",
-        "source": "MTF"
-    },
     "legendary": [
         {
             "name": "Heartcleaver Attack",
@@ -70455,10 +70303,6 @@
             ]
         }
     ],
-    "legendaryGroup": {
-        "name": "Demogorgon",
-        "source": "MTF"
-    },
     "legendaryActions": 2,
     "legendary": [
         {
@@ -74009,10 +73853,6 @@
             ]
         }
     ],
-    "legendaryGroup": {
-        "name": "Fraz-Urb'luu",
-        "source": "MTF"
-    },
     "legendary": [
         {
             "name": "Tail",
@@ -74337,10 +74177,6 @@
             "ability": "cha"
         }
     ],
-    "legendaryGroup": {
-        "name": "Geryon",
-        "source": "MTF"
-    },
     "variant": [
         {
             "type": "variant",
@@ -74978,11 +74814,7 @@
             },
             "ability": "wis"
         }
-    ],
-    "legendaryGroup": {
-        "name": "Githzerai Anarch",
-        "source": "MTF"
-    }
+    ]
 }
 <|endoftext|>
 <|startoftext|>
@@ -75470,10 +75302,6 @@
             ]
         }
     ],
-    "legendaryGroup": {
-        "name": "Graz'zt",
-        "source": "MTF"
-    },
     "legendary": [
         {
             "name": "Attack",
@@ -76514,10 +76342,6 @@
             ]
         }
     ],
-    "legendaryGroup": {
-        "name": "Juiblex",
-        "source": "MTF"
-    },
     "legendary": [
         {
             "name": "Acid Splash",
@@ -77483,10 +77307,6 @@
             "ability": "int"
         }
     ],
-    "legendaryGroup": {
-        "name": "Merrenoloth",
-        "source": "MTF"
-    },
     "environment": [
         "coastal"
     ]
@@ -79285,10 +79105,6 @@
             ]
         }
     ],
-    "legendaryGroup": {
-        "name": "Orcus",
-        "source": "MTF"
-    },
     "legendary": [
         {
             "name": "Tail",
@@ -84307,10 +84123,6 @@
             ]
         }
     ],
-    "legendaryGroup": {
-        "name": "Yeenoghu",
-        "source": "MTF"
-    },
     "legendary": [
         {
             "name": "Charge",
@@ -84761,10 +84573,6 @@
             ]
         }
     ],
-    "legendaryGroup": {
-        "name": "Zariel",
-        "source": "MTF"
-    },
     "legendary": [
         {
             "name": "Immolating Gaze (Costs 2 Actions)",
@@ -84931,10 +84739,6 @@
             ]
         }
     ],
-    "legendaryGroup": {
-        "name": "Zuggtmoy",
-        "source": "MTF"
-    },
     "legendary": [
         {
             "name": "Attack",
@@ -85210,10 +85014,6 @@
             ]
         }
     ],
-    "legendaryGroup": {
-        "name": "Baphomet",
-        "source": "MTF"
-    },
     "legendary": [
         {
             "name": "Heartcleaver Attack",
@@ -85757,10 +85557,6 @@
             ]
         }
     ],
-    "legendaryGroup": {
-        "name": "Demogorgon",
-        "source": "MTF"
-    },
     "legendaryActions": 2,
     "legendary": [
         {
@@ -87239,10 +87035,6 @@
             ]
         }
     ],
-    "legendaryGroup": {
-        "name": "Fraz-Urb'luu",
-        "source": "MTF"
-    },
     "legendary": [
         {
             "name": "Tail",
@@ -87477,10 +87269,6 @@
             ]
         }
     ],
-    "legendaryGroup": {
-        "name": "Graz'zt",
-        "source": "MTF"
-    },
     "legendary": [
         {
             "name": "Attack",
@@ -88037,10 +87825,6 @@
             ]
         }
     ],
-    "legendaryGroup": {
-        "name": "Juiblex",
-        "source": "MTF"
-    },
     "legendary": [
         {
             "name": "Acid Splash",
@@ -88577,10 +88361,6 @@
             ]
         }
     ],
-    "legendaryGroup": {
-        "name": "Orcus",
-        "source": "MTF"
-    },
     "legendary": [
         {
             "name": "Tail",
@@ -89382,10 +89162,6 @@
             ]
         }
     ],
-    "legendaryGroup": {
-        "name": "Yeenoghu",
-        "source": "MTF"
-    },
     "legendary": [
         {
             "name": "Charge",
@@ -89728,10 +89504,6 @@
             ]
         }
     ],
-    "legendaryGroup": {
-        "name": "Zuggtmoy",
-        "source": "MTF"
-    },
     "legendary": [
         {
             "name": "Attack",
@@ -90363,10 +90135,6 @@
             ]
         }
     ],
-    "legendaryGroup": {
-        "name": "Aerisi Kalinoth",
-        "source": "PotA"
-    },
     "page": 192,
     "name_pre_spells": "Aerisi Kalinoth",
     "spellcasting": [
@@ -92246,10 +92014,6 @@
             ]
         }
     ],
-    "legendaryGroup": {
-        "name": "Gar Shatterkeel",
-        "source": "PotA"
-    },
     "page": 208,
     "name_pre_spells": "Gar Shatterkeel",
     "spellcasting": [
@@ -92997,10 +92761,6 @@
             ]
         }
     ],
-    "legendaryGroup": {
-        "name": "Imix",
-        "source": "PotA"
-    },
     "page": 214,
     "name_pre_spells": "Imix",
     "spellcasting": [
@@ -93127,10 +92887,6 @@
             ]
         }
     ],
-    "legendaryGroup": {
-        "name": "Marlos Urnrayle",
-        "source": "PotA"
-    },
     "page": 199
 }
 <|endoftext|>
@@ -93422,10 +93178,6 @@
             ]
         }
     ],
-    "legendaryGroup": {
-        "name": "Ogr\u00e9moch",
-        "source": "PotA"
-    },
     "page": 216,
     "name_pre_spells": "Ogr\u00e9moch",
     "spellcasting": [
@@ -93590,10 +93342,6 @@
             ]
         }
     ],
-    "legendaryGroup": {
-        "name": "Olhydra",
-        "source": "PotA"
-    },
     "page": 218,
     "name_pre_spells": "Olhydra",
     "spellcasting": [
@@ -94590,10 +94338,6 @@
             ]
         }
     ],
-    "legendaryGroup": {
-        "name": "Vanifer",
-        "source": "PotA"
-    },
     "page": 203,
     "name_pre_spells": "Vanifer",
     "spellcasting": [
@@ -95150,10 +94894,6 @@
             ]
         }
     ],
-    "legendaryGroup": {
-        "name": "Yan-C-Bin",
-        "source": "PotA"
-    },
     "page": 221,
     "name_pre_spells": "Yan-C-Bin",
     "spellcasting": [
@@ -100457,10 +100197,6 @@
             ]
         }
     ],
-    "legendaryGroup": {
-        "name": "Blue Dragon",
-        "source": "MM"
-    },
     "isNamedCreature": true,
     "legendary": [
         {
@@ -100843,10 +100579,6 @@
             ]
         }
     ],
-    "legendaryGroup": {
-        "name": "Red Dragon",
-        "source": "MM"
-    },
     "legendary": [
         {
             "name": "Detect",
@@ -102226,10 +101958,6 @@
             ]
         }
     ],
-    "legendaryGroup": {
-        "name": "Kraken",
-        "source": "MM"
-    },
     "legendary": [
         {
             "name": "Tentacle Attack or Fling",
@@ -117674,10 +117402,6 @@
             ]
         }
     ],
-    "legendaryGroup": {
-        "name": "Elder Brain",
-        "source": "VGM"
-    },
     "page": 173,
     "name_pre_spells": "Elder Brain",
     "spellcasting": [
@@ -120234,10 +119958,6 @@
             ]
         }
     ],
-    "legendaryGroup": {
-        "name": "Illithilich",
-        "source": "VGM"
-    },
     "page": 172,
     "name_pre_spells": "Illithilich",
     "spellcasting": [
@@ -120594,10 +120314,6 @@
             ]
         }
     ],
-    "legendaryGroup": {
-        "name": "Ki-rin",
-        "source": "VGM"
-    },
     "page": 163,
     "name_pre_spells": "Ki-rin",
     "spellcasting": [
@@ -122179,10 +121895,6 @@
             "ability": "int"
         }
     ],
-    "legendaryGroup": {
-        "name": "Morkoth",
-        "source": "VGM"
-    },
     "environment": [
         "underwater",
         "coastal"
@@ -124785,10 +124497,6 @@
             ]
         }
     ],
-    "legendaryGroup": {
-        "name": "Storm Giant Quintessent",
-        "source": "VGM"
-    },
     "page": 151,
     "environment": [
         "underwater",
@@ -136556,10 +136264,6 @@
             ]
         }
     ],
-    "legendaryGroup": {
-        "name": "Halaster Blackcloak",
-        "source": "WDMM"
-    },
     "name_pre_spells": "Halaster Blackcloak",
     "spellcasting": [
         {
@@ -137330,10 +137034,6 @@
             ]
         }
     ],
-    "legendaryGroup": {
-        "name": "Vampire",
-        "source": "MM"
-    },
     "legendary": [
         {
             "name": "Move",
