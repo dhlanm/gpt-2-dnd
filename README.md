@@ -15,9 +15,7 @@ THIS IS ALL VERY WIP
 
 
 TODO: 
-rename the name field to something else since name trait pattern keeps overriding name <entry> pattern
-
-add another name param into json. ordered dict. (hold off on this for a bit)  
+fix dndbeyond spellcasting blocks as they are utterly broken
 
 add sampling ability / multiple dataset ability to command line finetune
 

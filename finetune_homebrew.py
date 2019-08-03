@@ -9,19 +9,26 @@ def main():
             if '<|startoftext|>' in line: 
                 monster = ''
             elif '<|endoftext|>' in line:
-                monster = OrderedDict(json.loads(monster))
+                mon = OrderedDict(json.loads(monster))
+                name = mon['name'] 
+                monster = OrderedDict()
+                for k in mon: 
+                    if "Tags" in k:
+                        continue
+                    if "spellcasting" in k: 
+                        monster["name_pre_spells"] = name
+                    elif "action" in k: 
+                        monster["name_pre_action"] = name
+                    elif "trait" in k: 
+                        monster["name_pre_trait"] = name
+                    monster[k] = mon[k]
+                    if k == "cha": 
+                        monster["name_post_stats"] = name
+
                 name = monster.pop("name")
                 monster["monster_name"] = name
                 monster.move_to_end("monster_name", last=False)
-
-                trait = monster.pop("trait", None)
-                action = monster.pop("action", None)
-                if trait:
-                    monster["name_pre_trait"] = monster["monster_name"]
-                    monster["trait"] = trait
-                if action:
-                    monster["name_pre_action"] = monster["monster_name"]
-                    monster["action"] = action
+               
                 monsters.append(monster)
             else: 
                 monster += line
