@@ -2,6 +2,7 @@ import os
 import sys
 import json
 from collections import OrderedDict
+import re
 
 def main():
     outfile = 'bestiary.json'
@@ -45,6 +46,17 @@ def main():
     print(f"Total number of entries: {len(monsters)}")
     with open(outfile, 'w') as outp:
         out_text = [json.dumps(m, indent=4) for m in monsters]
+        new_out = []
+        for out in out_text:
+            out = out.replace("{@atk mw}", "Melee Weapon Attack")
+            out = out.replace("{@atk rw}", "Ranged Weapon Attack")
+            out = out.replace("{@atk mw,rw}", "Melee or Ranged Weapon Attack")
+            out = out.replace("{@h}", "Hit: ")
+            out = out.replace("{@recharge}", "(Recharge 6)")
+            out = re.sub(r'\{@item ([a-z ]+)\|[a-z ]+\}', r'\1', out)
+            out = re.sub(r'\{@[a-z]+ (.*?)\}', r'\1', out)
+            new_out.append(out)
+        out_text = new_out
         out_text = '\n<|endoftext|>\n<|startoftext|>\n'.join(out_text)
         out_text = '<|startoftext|>\n' + out_text + '\n<|endoftext|>'
         outp.write(out_text)

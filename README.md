@@ -19,7 +19,4 @@ fix dndbeyond spellcasting blocks as they are utterly broken
 
 add sampling ability / multiple dataset ability to command line finetune
 
-remove 5etools @ tags and replace with just what they do
-
-write a web parser to actually display generated JSON...
-fix this ^ 
+refactor JSON display; hook it up to generation
