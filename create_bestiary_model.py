@@ -54,6 +54,7 @@ def main():
             out = out.replace("{@h}", "Hit: ")
             out = out.replace("{@recharge}", "(Recharge 6)")
             out = re.sub(r'\{@item ([a-z ]+)\|[a-z ]+\}', r'\1', out)
+            out = re.sub(r'\{@hit (.*?)\}', r'+\1', out)
             out = re.sub(r'\{@[a-z]+ (.*?)\}', r'\1', out)
             new_out.append(out)
         out_text = new_out

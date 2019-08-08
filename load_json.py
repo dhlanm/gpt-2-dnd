@@ -4,24 +4,37 @@ import json
 sizes = {"T": "Tiny", "S": "Small", "M": "Medium", "L": "Large", "H": "Huge", "G": "Gargantuan"}
 align = {"C": "chaotic", "N": "neutral", "L": "lawful", "E": "evil", "G": "good", "U": "unaligned", "A": "any"}
 infoblock = {"save": "Saving Throws", "skill": "Skills", "vulnerable": "Damage Vulnerabilities", "resist": "Damage Resistances", "immune": "Damage Immunities", "conditionImmune": "Condition Immunities", "senses": "Senses", "languages": "Languages", "cr": "Challenge"}
-actiontypes = {"action": "Actions", "reaction": "Reactions", "legendary": "Legendary Actions"} 
+actiontypes = {"trait": "Traits (should not appear)", "action": "Actions", "reaction": "Reactions", "legendary": "Legendary Actions"} 
 
 def get_type(monster):
     if 'type' not in monster: 
         return None
     if type(monster['type']) is str: 
         return monster['type']
-    return monster['type']['type'] + f"({', '.join(monster['type']['tags'])})"
+    if 'swarmSize' in monster['type'] and 'tags' not in monster['type']:
+        return monster['type']['type']
+    tags = []
+    if 'tags' not in monster['type']: 
+        print('weird typestring! ' + str(monster['type']))
+        return monster['type'].get('type')
+    for tag in monster['type']['tags']:
+        if type(tag) is str:
+            tags.append(tag)
+        else: 
+            tags.append(tag.get('prefix', '') + ' ' + tag.get('tag', ''))
+    return monster['type']['type'] + f"({', '.join(tags)})"
 
 def get_ac(monster): 
     acstring = ""
-    ac = monster['ac']
+    if 'ac' not in monster: 
+        return None
+    ac = monster.get('ac')
     if type(ac[0]) is str or type(ac[0]) is int: 
         acstring += str(ac[0])
     else: 
-        acstring += f"{ac[0]['ac']} ({ac[0]['from']})"
+        acstring += f"{ac[0]['ac']} ({', '.join(ac[0].get('from', [ac[0].get('condition', '')]))})"
     if len(ac) > 1: 
-        acstring += f" ({ac[1]['ac']} {ac[1]['condition']})"
+        acstring += f" ({ac[1]['ac']} {ac[1].get('condition', '')})"
     return acstring
 
 def load(monster):
@@ -29,15 +42,20 @@ def load(monster):
         monster = json.loads(monster)
     with open('statblock.html', 'r') as f:
         # soup = Soup(f.read(), "html5lib")
-        soup_i = 0
         stats = Soup('', 'html.parser')#soup.find('stat-block')
-        ch = Soup(f'''<creature-heading>
+        if 'type' in monster and 'swarmSize' in monster['type']: 
+            ch = Soup(f'''<creature-heading>
                         <h1>{monster['monster_name']}</h1>
-                        <h2>{sizes.get(monster.get('size'))} {get_type(monster)}, {" ".join([align.get(a) for a in monster.get('alignment')])}</h2>
+                        <h2>{sizes.get(monster.get('size'))} swarm of {sizes.get(monster['type']['swarmSize'])} {get_type(monster)}s, {" ".join([align.get(a) for a in monster.get('alignment', [])])}</h2>
                   ''', "html.parser")
-        stats.insert(soup_i, ch)
-        soup_i += 1
-        ts = Soup(f'''<top-stats>
+        else:
+            ch = Soup(f'''<creature-heading>
+                        <h1>{monster['monster_name']}</h1>
+                        <h2>{sizes.get(monster.get('size'))} {get_type(monster)}, {" ".join([align.get(a) for a in monster.get('alignment', [])])}</h2>
+                  ''', "html.parser")
+        stats.append(ch)
+        
+        ts = f'''<top-stats>
                     <property-line>
                       <h4>Armor Class</h4>
                       <p>{get_ac(monster)}</p>
@@ -49,12 +67,9 @@ def load(monster):
                       <h4>Speed</h4>
                       <p>{', '.join([s + " " + str(monster['speed'][s]) + "ft" if s != "walk" else str(monster['speed'][s]) + "ft" for s in monster['speed']])}</p>
                     </property-line>
-              ''', "html.parser")
-        stats.insert(soup_i, ts)
-        soup_i += 1
-        ab = f'<abilities-block data-cha="{monster["cha"]}" data-con="{monster["con"]}" data-dex="{monster["dex"]}" data-int="{monster["int"]}" data-str="{monster["str"]}" data-wis="{monster["wis"]}"></abilities-block>'
-        stats.insert(soup_i, Soup(ab, "html.parser"))
-        soup_i += 1
+              '''
+        
+        ts += f'<abilities-block data-cha="{monster.get("cha")}" data-con="{monster.get("con")}" data-dex="{monster.get("dex")}" data-int="{monster.get("int")}" data-str="{monster.get("str")}" data-wis="{monster.get("wis")}"></abilities-block>'
         ib = ""
         for inf in infoblock: 
             if inf in monster:
@@ -65,14 +80,28 @@ def load(monster):
                                 <p>{", ".join(monster[inf][:-1])}; {", ".join(nm[inf])} {nm['note']}</p>
                               </property-line>
                            '''
-                else:
+                elif type(monster[inf]) is list:
                     ib += f'''<property-line>
                                 <h4>{infoblock[inf]}</h4>
                                 <p>{", ".join(monster[inf])}</p>
                               </property-line>
                            '''
-        stats.insert(soup_i, Soup(ib, "html.parser"))
-        soup_i += 1
+                elif type(monster[inf]) is dict: 
+                    ib += f'''<property-line>
+                                <h4>{infoblock[inf]}</h4>
+                                <p>{", ".join([k + ' ' + monster[inf][k] for k in monster[inf]])}</p>
+                              </property-line>
+                           '''
+
+                else: 
+                    ib += f'''<property-line>
+                                <h4>{infoblock[inf]}</h4>
+                                <p>{str(monster[inf])}</p>
+                              </property-line>
+                           '''
+
+        ts += ib
+        stats.append(Soup(ts + '</top-stats>', 'html.parser')) 
         nl = '\n' #fstring {} blocks can't have \
         if 'spellcasting' in monster: 
             for spell in monster['spellcasting']: 
@@ -96,16 +125,16 @@ def load(monster):
                             sp += f'''<p>Cantrips (at will): {', '.join(spell["spells"][slot]["spells"])}</p>'''
                         else: 
                             sp += f'''<p>{ordinal(int(slot))} level ({spell["spells"][slot]["slots"]} slots): {', '.join(spell["spells"][slot]["spells"])}</p>'''
-                stats.insert(soup_i, Soup(sp, "html.parser"))
-            soup_i += 1
+                stats.append(Soup(sp, "html.parser"))
+            
         for action in actiontypes:
             if action in monster: 
                 if action != "trait": 
                     header = f'''<h3>{actiontypes[action]}</h3>'''
                     if action == "legendary": 
                         header += f'''<p>The {monster['monster_name']} can take {monster.get("legendaryActions", 3)} legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature's turn. The {monster['monster_name']} regains spent legendary actions at the start of its turn.</p>'''
-                    stats.insert(soup_i, Soup(header, "html.parser"))
-                    soup_i += 1
+                    stats.append(Soup(header, "html.parser"))
+                    
                 if action == "legendary" or action == "reaction": 
                     block_line = "line"
                 else: 
@@ -115,8 +144,8 @@ def load(monster):
                                 <h4>{trait['name']}</h4>
                                 <p>{nl.join(trait.get("entries", []))}</p>
                                 </property-{block_line}>''', "html.parser")
-                    stats.insert(soup_i, tr)
-                    soup_i += 1
+                    stats.append(tr)
+                    
 
         return stats#soup
 

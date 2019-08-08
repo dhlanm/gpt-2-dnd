@@ -1,7 +1,7 @@
 import gpt_2_simple as gpt2
 import sys
 
-run_name = "dnd7"
+run_name = "dnd10"
 
 def generate(prefix="<|startoftext|>", length = None, truncate = "", temperature = 0.9, batch_size = 1, n_batches = 1):
     if not length and not truncate: 
@@ -13,7 +13,7 @@ def generate(prefix="<|startoftext|>", length = None, truncate = "", temperature
     return gen
 
 def generate_one_with_name(name): 
-    pre = f'<|startoftext|>\n{{\n    "name": "{name}"'
+    pre = f'<|startoftext|>\n{{\n    "monster_name": "{name}",\n'
     single_text = generate(truncate="<|endoftext|>", prefix=pre, temperature= 0.9, length=None)[0]
     return single_text
 
