@@ -20,3 +20,7 @@ fix dndbeyond spellcasting blocks as they are utterly broken
 add sampling ability / multiple dataset ability to command line finetune
 
 refactor JSON display; hook it up to generation
+
+fix space before speed if only walk speed exists
+
+make sure to give some sort of error message if one happens internally

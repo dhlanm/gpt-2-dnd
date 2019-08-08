@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<!-- https://github.com/Valloric/statblock5e/blob/master/demo.html -->
+<html>
+<head>
+  <meta charset="UTF-8"/>
+  <title>Statblock example</title>
+
+  <link href='//fonts.googleapis.com/css?family=Noto+Sans:400,700,400italic,700italic'
+        rel='stylesheet' type='text/css'>
+  <link href='//fonts.googleapis.com/css?family=Libre+Baskerville:700'
+        rel='stylesheet' type='text/css'>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script type="module" src="static/js/stat-block.js"></script>
+  <script type="module" src="static/js/creature-heading.js"></script>
+  <script type="module" src="static/js/top-stats.js"></script>
+  <script type="module" src="static/js/abilities-block.js"></script>
+  <script type="module" src="static/js/property-line.js"></script>
+  <script type="module" src="static/js/property-block.js"></script>
+
+
+  <style>
+    body {
+      margin: 0;
+    }
+
+    stat-block {
+      /* A bit of margin for presentation purposes, to show off the drop
+      shadow. */
+      margin-left: 20px;
+      margin-top: 20px;
+    }
+  </style>
+  <script>
+    $(document).ready(function() {
+
+      $("#create").click(function(e) {
+        console.log("hello???")
+        $.ajax({
+          type: "POST",
+          url: "create",
+          data: JSON.stringify({"name": $("#name").val()}, null, "\t"),
+          contentType: "application/json;charset=UTF-8", 
+          success: function(data)
+          {
+            console.log(data);
+            $("#holder").html(data);
+          }
+        });
+
+
+      });
+    });
+  </script>
+</head>
+<body>
+  <input id="name" name="name" type="text">
+  <button type="submit" value="Create" id="create">Create</button>
+  <stat-block id="holder"></stat-block>
+</body>
+</html>

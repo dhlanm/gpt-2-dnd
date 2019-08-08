@@ -51,7 +51,7 @@ def load(monster):
         else:
             ch = Soup(f'''<creature-heading>
                         <h1>{monster['monster_name']}</h1>
-                        <h2>{sizes.get(monster.get('size'))} {get_type(monster)}, {" ".join([align.get(a) for a in monster.get('alignment', [])])}</h2>
+                        <h2>{sizes.get(monster.get('size'))} {get_type(monster)}, {" ".join([align.get(a, '') for a in monster.get('alignment', [])])}</h2>
                   ''', "html.parser")
         stats.append(ch)
         
