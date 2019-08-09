@@ -2,7 +2,7 @@ from bs4 import BeautifulSoup as Soup
 import json
 
 sizes = {"T": "Tiny", "S": "Small", "M": "Medium", "L": "Large", "H": "Huge", "G": "Gargantuan"}
-align = {"C": "chaotic", "N": "neutral", "L": "lawful", "E": "evil", "G": "good", "U": "unaligned", "A": "any"}
+align = {"C": "chaotic", "N": "neutral", "L": "lawful", "E": "evil", "G": "good", "U": "unaligned", "A": "any alignment"}
 infoblock = {"save": "Saving Throws", "skill": "Skills", "vulnerable": "Damage Vulnerabilities", "resist": "Damage Resistances", "immune": "Damage Immunities", "conditionImmune": "Condition Immunities", "senses": "Senses", "languages": "Languages", "cr": "Challenge"}
 actiontypes = {"trait": "Traits (should not appear)", "action": "Actions", "reaction": "Reactions", "legendary": "Legendary Actions"} 
 
@@ -63,6 +63,7 @@ def load(monster):
                     <property-line>
                       <h4>Hit Points</h4>
                       <p>{monster.get('hp', {'average': None}).get('average')} ({monster.get('hp', {'formula': None}).get('formula')})</p>
+                    </property-line>
                     <property-line>
                       <h4>Speed</h4>
                       <p>{', '.join([s + " " + str(monster['speed'][s]) + "ft" if s != "walk" else str(monster['speed'][s]) + "ft" for s in monster['speed']])}</p>

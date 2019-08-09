@@ -5,12 +5,14 @@
   <meta charset="UTF-8"/>
   <title>Statblock example</title>
 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
   <link href='//fonts.googleapis.com/css?family=Noto+Sans:400,700,400italic,700italic'
         rel='stylesheet' type='text/css'>
   <link href='//fonts.googleapis.com/css?family=Libre+Baskerville:700'
         rel='stylesheet' type='text/css'>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
   <script type="module" src="static/js/stat-block.js"></script>
   <script type="module" src="static/js/creature-heading.js"></script>
   <script type="module" src="static/js/top-stats.js"></script>
@@ -30,32 +32,137 @@
       margin-left: 20px;
       margin-top: 20px;
     }
+    h1 {
+      font-size: 2rem;
+      font-weight: bold;
+      margin: 0 0 0 0;
+    }
+    h2 {
+      font-size: .9rem; 
+      font-weight: bold;
+      margin: 0 0 0 0;
+    }
+    h3 { 
+      font-size: 1.5rem;
+      font-weight: bold;
+      margin: 0 0 0 0;
+    }
+    h4 { 
+      font-size: .9rem; 
+      font-weight: bold;
+      margin: 0 0 0 0;
+    }
+    p {
+      font-size: .9rem;
+    }
+    .row { 
+      margin-bottom: 0px;
+    }
+    #json {
+      font-family: "Lucida Console", Monaco, monospace;
+      font-size: 0.7em;
+    }
   </style>
   <script>
     $(document).ready(function() {
-
+      M.AutoInit();
+       
       $("#create").click(function(e) {
-        console.log("hello???")
+        var fd = $("#input").serializeArray();
+        var jd = {};
+        for(var i = 0; i < fd.length; i++) {
+          jd[fd[i]['name']] = fd[i]['value'];
+        }; 
+        jd =  JSON.stringify(jd, null, "\t");
+        console.log(jd)
         $.ajax({
           type: "POST",
           url: "create",
-          data: JSON.stringify({"name": $("#name").val()}, null, "\t"),
+          data: jd,
           contentType: "application/json;charset=UTF-8", 
           success: function(data)
           {
             console.log(data);
-            $("#holder").html(data);
+            $("#holder").html(data['monster']);
+            $("#json").html(data['json']);
           }
         });
-
-
       });
+
+      $("#temp").change(function() {
+        $("#tempText").val($(this).val());
+      })
+      $("#tempText").change(function() {
+        $("#temp").val($(this).val());
+      })
+
     });
   </script>
 </head>
 <body>
-  <input id="name" name="name" type="text">
-  <button type="submit" value="Create" id="create">Create</button>
-  <stat-block id="holder"></stat-block>
+  <nav>
+    <div class="nav-wrapper">
+      <a href="#" style="margin-left:1rem">GPT-2 5e Monster Generator</a>
+    </div>
+  </nav>
+  <div class="container">
+    <div class="row" style="padding-top:2rem">
+      <form class="col s4" id="input">
+        <div class="row">
+          <div class="input-field col s10">
+            <input id="name" name="name" type="text", placeholder="Generate Automatically">
+            <label for="name">Monster Name</label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="input-field col s10">
+            <select id="size" name="size">
+              <option value="" selected>Generate Automatically</option>
+              <option value="T">Tiny</option>
+              <option value="S">Small</option>
+              <option value="M">Medium</option>
+              <option value="L">Large</option>
+              <option value="H">Huge</option>
+              <option value="G">Gargantuan</option>
+            </select>
+            <label>Size</label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="input-field col s10">
+            <input id="type" name="type" type="text", placeholder="Generate Automatically">
+            <label for="type">Monster Type</label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="input-field col s8">
+            <p class="range-field">
+              <label for="temp">Temperature</label>
+              <input type="range" id="temp" name="temp" min="0.0" max="1.0" value="0.8" step="0.05"/>
+            </p>
+          </div>
+          <div class="input-field col s2">
+            <input type="number" id="tempText" value="0.8" min="0.0" max="1.0" step="0.05" style="padding-top: .8rem"></input>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col s2">
+            <a class="btn" value="Create" id="create">Create</a>
+          </div>
+        </div>
+      </form>
+      <div class="col l4 m8 s8">
+        <stat-block id="holder"></stat-block>
+      </div>
+      <div class="col s1"></div>
+      <div class="col s3">
+        <div class="card-panel">
+          <span id="json"></span>
+        </div>
+      </div>
+    </div>
+
+        
+  </div>
 </body>
 </html>

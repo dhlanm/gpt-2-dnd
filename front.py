@@ -2,10 +2,11 @@ from flask import Flask, render_template, Response, request
 from load_json import load
 import json
 import random
-from generate_one import generate_one_with_name
+from generate_one import generate
 import re
 
 app = Flask(__name__, template_folder='static/templates')
+sizes = ["T", "S", "M", "L", "H", "G"]
 
 def get_rand_json(): 
     monsters = []
@@ -21,8 +22,9 @@ def get_rand_json():
             line = f.readline()
     return random.choice(monsters)
 
-def generate_monster(name):
-    monster = generate_one_with_name(name)
+def generate_monster(prefix, temp=0.8):
+    print(prefix)
+    monster = generate(prefix, temperature=temp, truncate="<|endoftext|>")[0]
     monster = monster.replace("<|startoftext|>\n", "")
     
     tries = 10
@@ -47,13 +49,18 @@ def generate_monster(name):
             else:
                 if "Expecting" in e.msg and 'delimiter' in e.msg: 
                     addtok = re.match("Expecting '(.)' delimiter", e.msg).group(1)
-                monster = monster[:errorpos] + '"' + monster[errorpos:]
+                monster = monster[:errorpos] + addtok + monster[errorpos:]
             i += 1
     print(monster)
     # need a function to consolidate dupes
     # also find and convert unicode I guess; should be done in input thooo
-    h = str(load(monster))
-    return h
+    resp = {'json': monster}
+    try:
+        h = str(load(monster))
+        resp['monster'] = h
+    except Exception as e:
+        resp['monster'] = f"<p>Error in monster creation: {e}</p>"
+    return resp
 
 @app.route("/")
 def index():
@@ -62,17 +69,16 @@ def index():
 
 @app.route("/create", methods=['POST'])
 def create():
-    name = request.json['name']
-    return generate_monster(name)
-
-@app.route("/old")
-def display():
-    name = "The One Above All"
-    h = generate_monster(name)
-    
-    # h = str(load(get_rand_json()))
-    with open('templates/sb.html', 'w') as f: 
-        f.write(h)
-    return render_template('sb_addable.html')
+    print(request.json)
+    name = request.json['name'] 
+    temp = float(request.json['temp'])
+    prefix = f'<|startoftext|>\n{{\n    "monster_name": "{name}",\n'
+    if "size" in request.json:
+        prefix += f'    "size": "{request.json["size"]}",\n'
+    if "type" in request.json: 
+        if "size" not in request.json: 
+            prefix += f'    "size": "{random.choice(sizes)}",\n'
+        prefix += f'    "type": "{request.json["type"]}",\n'
+    return generate_monster(prefix, temp)
 
 if __name__ == '__main__': app.run()

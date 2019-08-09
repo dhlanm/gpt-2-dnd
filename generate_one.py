@@ -12,9 +12,9 @@ def generate(prefix="<|startoftext|>", length = None, truncate = "", temperature
     gen = gpt2.generate(sess, return_as_list=True, run_name=run_name, truncate=truncate, length=length, prefix=prefix, temperature=temperature, batch_size=batch_size, nsamples=batch_size*n_batches)
     return gen
 
-def generate_one_with_name(name): 
+def generate_one_with_name(name, temp=0.9): 
     pre = f'<|startoftext|>\n{{\n    "monster_name": "{name}",\n'
-    single_text = generate(truncate="<|endoftext|>", prefix=pre, temperature= 0.9, length=None)[0]
+    single_text = generate(truncate="<|endoftext|>", prefix=pre, temperature=temp, length=None)[0]
     return single_text
 
 def main():
