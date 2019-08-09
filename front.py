@@ -60,6 +60,7 @@ def generate_monster(prefix, temp=0.8):
         resp['monster'] = h
     except Exception as e:
         resp['monster'] = f"<p>Error in monster creation: {e}</p>"
+    print(resp)
     return resp
 
 @app.route("/")
@@ -73,10 +74,10 @@ def create():
     name = request.json['name'] 
     temp = float(request.json['temp'])
     prefix = f'<|startoftext|>\n{{\n    "monster_name": "{name}",\n'
-    if "size" in request.json:
+    if request.json.get("size"):
         prefix += f'    "size": "{request.json["size"]}",\n'
-    if "type" in request.json: 
-        if "size" not in request.json: 
+    if request.json.get("type"): 
+        if not request.json.get("size"): 
             prefix += f'    "size": "{random.choice(sizes)}",\n'
         prefix += f'    "type": "{request.json["type"]}",\n'
     return generate_monster(prefix, temp)

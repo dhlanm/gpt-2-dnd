@@ -77,26 +77,26 @@ def load(monster):
                 if type(monster[inf]) is list and type(monster[inf][-1]) is dict: #bludgeoning, piercing, slashing from nonmagical
                     nm = monster[inf][-1]
                     ib += f'''<property-line>
-                                <h4>{infoblock[inf]}</h4>
+                                <h4>{infoblock[inf]} </h4>
                                 <p>{", ".join(monster[inf][:-1])}; {", ".join(nm[inf])} {nm['note']}</p>
                               </property-line>
                            '''
                 elif type(monster[inf]) is list:
                     ib += f'''<property-line>
-                                <h4>{infoblock[inf]}</h4>
+                                <h4>{infoblock[inf]} </h4>
                                 <p>{", ".join(monster[inf])}</p>
                               </property-line>
                            '''
                 elif type(monster[inf]) is dict: 
                     ib += f'''<property-line>
-                                <h4>{infoblock[inf]}</h4>
+                                <h4>{infoblock[inf]} </h4>
                                 <p>{", ".join([k + ' ' + monster[inf][k] for k in monster[inf]])}</p>
                               </property-line>
                            '''
 
                 else: 
                     ib += f'''<property-line>
-                                <h4>{infoblock[inf]}</h4>
+                                <h4>{infoblock[inf]} </h4>
                                 <p>{str(monster[inf])}</p>
                               </property-line>
                            '''
@@ -105,6 +105,8 @@ def load(monster):
         stats.append(Soup(ts + '</top-stats>', 'html.parser')) 
         nl = '\n' #fstring {} blocks can't have \
         if 'spellcasting' in monster: 
+            ordinal = lambda n: "%d%s" % (n,"tsnrhtdd"[(n/10%10!=1)*(n%10<4)*n%10::4])
+            # https://codegolf.stackexchange.com/questions/4707/outputting-ordinal-numbers-1st-2nd-3rd#answer-4712 :^)
             for spell in monster['spellcasting']: 
                 sp = f'''<property-block>
                         <h4>{spell['name']}</h4>
@@ -119,13 +121,12 @@ def load(monster):
                         if '3e' in spell['daily']: 
                             sp += f'''<p>{', '.join(spell['daily']['3e'])}</p>'''
                 else: 
-                    ordinal = lambda n: "%d%s" % (n,"tsnrhtdd"[(n/10%10!=1)*(n%10<4)*n%10::4])
-                    # https://codegolf.stackexchange.com/questions/4707/outputting-ordinal-numbers-1st-2nd-3rd#answer-4712 :^)
                     for slot in spell.get('spells', {}):
                         if slot == "0": 
                             sp += f'''<p>Cantrips (at will): {', '.join(spell["spells"][slot]["spells"])}</p>'''
                         else: 
                             sp += f'''<p>{ordinal(int(slot))} level ({spell["spells"][slot]["slots"]} slots): {', '.join(spell["spells"][slot]["spells"])}</p>'''
+                sp += "</property-block>"
                 stats.append(Soup(sp, "html.parser"))
             
         for action in actiontypes:
