@@ -19,8 +19,8 @@ fix dndbeyond spellcasting blocks as they are utterly broken
 
 add sampling ability / multiple dataset ability to command line finetune
 
-refactor JSON display; hook it up to generation
+rerun generation to remove the "3 to hit" (vs "+3 to hit") bug (has been fixed just needs training) 
 
-fix space before speed if only walk speed exists
+add info/instructions to front end
 
-make sure to give some sort of error message if one happens internally
+rewrite README to actually be helpful 
