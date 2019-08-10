@@ -22,7 +22,7 @@ def get_type(monster):
             tags.append(tag)
         else: 
             tags.append(tag.get('prefix', '') + ' ' + tag.get('tag', ''))
-    return monster['type']['type'] + f"({', '.join(tags)})"
+    return monster['type']['type'] + f" ({', '.join(tags)})"
 
 def get_ac(monster): 
     acstring = ""
@@ -114,12 +114,14 @@ def load(monster):
                       '''
                 if 'innate' in spell['name'].lower():
                     if 'will' in spell: 
-                        sp += f'''<p>{', '.join(spell['will'])}</p>'''
-                    if 'daily' in spell: 
-                        if '1' in spell['daily']: 
-                            sp += f'''<p>{', '.join(spell['daily']['1'])}</p>'''
-                        if '3e' in spell['daily']: 
-                            sp += f'''<p>{', '.join(spell['daily']['3e'])}</p>'''
+                        sp += f'''<p>At will: {', '.join(spell['will'])}</p>'''
+                    for day in spell.get('daily', []):
+                        if day == '1': 
+                            sp += f'''<p>1/day each: {', '.join(day['1'])}</p>'''
+                        elif day == '3e': 
+                            sp += f'''<p>3/day each: {', '.join(day['3e'])}</p>'''
+                        else: 
+                            sp += f'''{day}/day each: {', '.join(spell['daily'][day])}'''
                 else: 
                     for slot in spell.get('spells', {}):
                         if slot == "0": 

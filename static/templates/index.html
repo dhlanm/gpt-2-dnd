@@ -70,6 +70,8 @@
       $("#create").click(function(e) {
         var fd = $("#input").serializeArray();
         var jd = {};
+        $("#loading").show();
+        $("#create").attr("disabled", true);
         for(var i = 0; i < fd.length; i++) {
           jd[fd[i]['name']] = fd[i]['value'];
         }; 
@@ -85,6 +87,8 @@
             console.log(data);
             $("#holder").html(data['monster']);
             $("#json").html(data['json']);
+            $("#create").attr("disabled", false);
+            $("#loading").hide();
           }
         });
       });
@@ -149,12 +153,16 @@
           <div class="col s2">
             <a class="btn" value="Create" id="create">Create</a>
           </div>
+          <div class="col s1"></div>
+          <div class="col s7">
+            <span id="loading" style="font-size:.9rem" hidden>Loading... May take a minute or two</span>
+          </div> 
         </div>
       </form>
       <div class="col l4 m8 s8">
         <stat-block id="holder">
           <!-- sample -->
-          <creature-heading><h1>Sample</h1><h2>Large humanoid(any race), any alignment</h2></creature-heading><top-stats><property-line><h4>Armor Class </h4><p>18 (plate armor)</p></property-line><property-line><h4>Hit Points </h4><p>192 (16d10 + 96)</p></property-line><property-line><h4>Speed </h4><p>30ft</p></property-line><abilities-block data-cha="12" data-con="24" data-dex="16" data-int="12" data-str="22" data-wis="18"></abilities-block><property-line><h4>Saving Throws </h4><p>dex +7, con +9, int +5</p></property-line><property-line><h4>Damage Resistances </h4><p>necrotic; bludgeoning, piercing, slashing from nonmagical attacks that aren't silvered</p></property-line><property-line><h4>Languages </h4><p>Common plus two more</p></property-line><property-line><h4>Challenge </h4><p>9</p></property-line></top-stats><property-block><h4>Spellcasting </h4><p>The spectator is a 14th-level spellcaster. Its spellcasting ability is Wisdom (spell save 15, +7 to hit with spell attacks). The spectator has the following cleric spells prepared:</p><p>Cantrips (at will): light, sacred flame, thaumaturgy</p><p>1st level (4 slots): bane, cure wounds, guiding bolt</p><p>2nd level (2 slots): hold person, spiritual weapon</p></property-block><property-block><h4>Legendary Resistance (3/Day) </h4><p>If the spectator fails a saving throw, it can choose to succeed instead.</p></property-block><property-block><h3>Actions</h3><property-block><h4>Staff </h4><p>Melee Weapon Attack (+4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) bludgeoning damage. If the target is a creature other than an undead, it must succeed on a 15 Constitution saving throw or speed is reduced by 10 feet.</p></property-block><property-block><h4>Light Crossbow </h4><p>Ranged Weapon Attack +3 to hit, range 30/120 ft., one target. Hit: 6 (1d8 + 1) piercing damage.</p></property-block>
+          <creature-heading><h1>Sample</h1><h2>Large humanoid (any race), any alignment</h2></creature-heading><top-stats><property-line><h4>Armor Class </h4><p>18 (plate armor)</p></property-line><property-line><h4>Hit Points </h4><p>192 (16d10 + 96)</p></property-line><property-line><h4>Speed </h4><p>30ft</p></property-line><abilities-block data-cha="12" data-con="24" data-dex="16" data-int="12" data-str="22" data-wis="18"></abilities-block><property-line><h4>Saving Throws </h4><p>dex +7, con +9, int +5</p></property-line><property-line><h4>Damage Resistances </h4><p>necrotic; bludgeoning, piercing, slashing from nonmagical attacks that aren't silvered</p></property-line><property-line><h4>Languages </h4><p>Common plus two more</p></property-line><property-line><h4>Challenge </h4><p>9</p></property-line></top-stats><property-block><h4>Spellcasting </h4><p>The spectator is a 14th-level spellcaster. Its spellcasting ability is Wisdom (spell save 15, +7 to hit with spell attacks). The spectator has the following cleric spells prepared:</p><p>Cantrips (at will): light, sacred flame, thaumaturgy</p><p>1st level (4 slots): bane, cure wounds, guiding bolt</p><p>2nd level (2 slots): hold person, spiritual weapon</p></property-block><property-block><h4>Legendary Resistance (3/Day) </h4><p>If the spectator fails a saving throw, it can choose to succeed instead.</p></property-block><property-block><h3>Actions</h3><property-block><h4>Staff </h4><p>Melee Weapon Attack (+4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 2) bludgeoning damage. If the target is a creature other than an undead, it must succeed on a 15 Constitution saving throw or speed is reduced by 10 feet.</p></property-block><property-block><h4>Light Crossbow </h4><p>Ranged Weapon Attack +3 to hit, range 30/120 ft., one target. Hit: 6 (1d8 + 1) piercing damage.</p></property-block>
         </stat-block>
       </div>
       <div class="col s1"></div>

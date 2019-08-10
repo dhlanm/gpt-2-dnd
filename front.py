@@ -60,7 +60,6 @@ def generate_monster(prefix, temp=0.8):
         resp['monster'] = h
     except Exception as e:
         resp['monster'] = f"<p>Error in monster creation: {e}</p>"
-    print(resp)
     return resp
 
 @app.route("/")
