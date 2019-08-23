@@ -412,11 +412,12 @@ def generate(sess,
         context_tokens = [enc.encode(prefix)] * batch_size
     elif batch_prefix: 
         context_tokens = [enc.encode(pre) for pre in batch_prefix]
-        ml = max([len(p) for p in context_tokens])
-        for p in context_tokens: 
-            while len(p) < ml: 
-                p.append(0)
-        #try padding
+        assert all(context_tokens[0] == c for c in context_tokens)
+        # ml = max([len(p) for p in context_tokens])
+        # for p in context_tokens: 
+        #    while len(p) < ml: 
+        #        p.append(0)
+        # padding expectedly fails. For now, just make them all the same...
     else:
         context_tokens = [[enc.encoder['<|endoftext|>']] for _ in range(batch_size)]
     np.random.seed(seed)

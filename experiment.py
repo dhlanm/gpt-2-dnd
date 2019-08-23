@@ -11,14 +11,14 @@ for t in range(1, 11):
     mons = 0
     temp = t / 10
     for i in range(10):
-        mons = []
+        monl = []
         with open('names.txt', 'r') as f: 
             line = f.readline()
             while line:
-                mons.append(f'<|startoftext|>\n{{\n    "monster_name": "{line.strip()}"')
+                monl.append(f'<|startoftext|>\n{{\n    "monster_name": "{line.strip()}"')
                 line = f.readline()
-        print(mons)
-        monsters = gpt2.generate(sess, return_as_list=True, run_name="dnd11", batch_prefix=mons, temperature=temp, batch_size=len(mons), nsamples=len(mons), truncate="<|endoftext|>", length=10240)
+        print(monl)
+        monsters = gpt2.generate(sess, return_as_list=True, run_name="dnd11", batch_prefix=monl, temperature=temp, batch_size=len(monl), nsamples=len(monl), truncate="<|endoftext|>", length=10240)
         for mon in monsters: 
             mon = mon.replace("<|startoftext|>\n", "")
             try:
