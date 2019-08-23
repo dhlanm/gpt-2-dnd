@@ -455,7 +455,7 @@ def generate(sess,
                     continue
                 text = out[i]
                 trunc_text = "" #added to patch to fix unassigned variable
-                if prefix:
+                if prefix or batch_prefix:
                     text = np.append(context_tokens[i][:1], text)
                 if truncate or all(gen_text):
                     context_tokens[i] = out[i][int(len(out[i])*(1-split_context)):]
