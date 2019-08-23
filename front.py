@@ -4,6 +4,7 @@ import json
 import random
 from generate_one import generate
 import re
+from gevent.pywsgi import WSGIServer
 
 app = Flask(__name__, template_folder='static/templates')
 sizes = ["T", "S", "M", "L", "H", "G"]
@@ -22,25 +23,20 @@ def get_rand_json():
             line = f.readline()
     return random.choice(monsters)
 
-def generate_monster(prefix, temp=0.8):
-    print(prefix)
-    monster = generate(prefix, temperature=temp, truncate="<|endoftext|>")[0]
-    monster = monster.replace("<|startoftext|>\n", "")
-    
-    tries = 10
+def fix_json(monster, tries):
     i = 0
     while i < tries:
         try: 
             result = json.loads(monster)
             break
         except json.decoder.JSONDecodeError as e:
-            print('attempted a fix: ') 
-            print(monster)
-            print(e)
+            # print('attempted a fix: ') 
+            # print(monster)
+            # print(e)
             errorpos = e.pos
             # works sometimes since most errors are missing " or ",
             addtok = '"'
-            print(e.msg)
+            # print(e.msg)
             if "Extra data" in e.msg: 
                 if errorpos == len(monster) - 1: 
                     monster = monster[:errorpos]
@@ -51,6 +47,14 @@ def generate_monster(prefix, temp=0.8):
                     addtok = re.match("Expecting '(.)' delimiter", e.msg).group(1)
                 monster = monster[:errorpos] + addtok + monster[errorpos:]
             i += 1
+    return monster
+
+
+def generate_monster(prefix, temp=0.8):
+    print(prefix)
+    monster = generate(prefix, temperature=temp, truncate="<|endoftext|>", length=20480)[0]
+    monster = monster.replace("<|startoftext|>\n", "")
+    monster = fix_json(monster, 100)
     print(monster)
     # need a function to consolidate dupes
     # also find and convert unicode I guess; should be done in input thooo
@@ -71,7 +75,7 @@ def index():
 def create():
     print(request.json)
     name = request.json['name'] 
-    temp = float(request.json['temp'])
+    temp = float(request.json.get('temp', '0.8'))
     prefix = f'<|startoftext|>\n{{\n    "monster_name": "{name}",\n'
     if request.json.get("size"):
         prefix += f'    "size": "{request.json["size"]}",\n'
@@ -81,4 +85,7 @@ def create():
         prefix += f'    "type": "{request.json["type"]}",\n'
     return generate_monster(prefix, temp)
 
-if __name__ == '__main__': app.run()
+if __name__ == '__main__': 
+    app.run(host='0.0.0.0', debug=True, threaded=True)
+    #http_server = WSGIServer(('', 5000), app)
+    #http_server.serve_forever()

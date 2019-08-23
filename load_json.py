@@ -145,7 +145,7 @@ def load(monster):
                     block_line = "block" 
                 for trait in monster[action]: 
                     tr = Soup(f'''<property-{block_line}>
-                                <h4>{trait['name']}</h4>
+                                <h4>{trait.get('name')}</h4>
                                 <p>{nl.join(trait.get("entries", []))}</p>
                                 </property-{block_line}>''', "html.parser")
                     stats.append(tr)

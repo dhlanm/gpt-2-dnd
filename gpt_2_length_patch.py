@@ -373,7 +373,8 @@ def generate(sess,
              top_k=0,
              top_p=0.0,
              include_prefix=True,
-             split_context=0.5):
+             split_context=0.5,
+             batch_prefix=None):
     """Generates text from a model loaded into memory.
 
     Adapted from https://github.com/openai/gpt-2/blob/master/src/interactive_conditional_samples.py
@@ -384,9 +385,13 @@ def generate(sess,
 
     if nsamples == 1:
         sample_delim = ''
-
+    
+    assert not (prefix and batch_prefix)
+    assert not batch_prefix or len(batch_prefix) == batch_size
     if prefix == '':
         prefix = None
+    if batch_prefix == []: 
+        batch_prefix = None
 
     if not length:
         assert truncate is not None, "If generating a non-fixed length \
@@ -405,6 +410,13 @@ def generate(sess,
     context = tf.placeholder(tf.int32, [batch_size, None])
     if prefix:
         context_tokens = [enc.encode(prefix)] * batch_size
+    elif batch_prefix: 
+        context_tokens = [enc.encode(pre) for pre in batch_prefix]
+        ml = max([len(p) for p in context_tokens])
+        for p in context_tokens: 
+            while len(p) < ml: 
+                p.append(0)
+        #try padding
     else:
         context_tokens = [[enc.encoder['<|endoftext|>']] for _ in range(batch_size)]
     np.random.seed(seed)
@@ -437,6 +449,8 @@ def generate(sess,
             total_tokens += num_tokens
             
             for i in range(batch_size):
+                if truncated[i]: 
+                    continue
                 text = out[i]
                 trunc_text = "" #added to patch to fix unassigned variable
                 if prefix:
@@ -453,11 +467,8 @@ def generate(sess,
                         # then you get the latest in gen_text, and find where it is in the new text
                         # then you split the new text on that, and get everything after it. 
                         # but it seems like it sometimes chooses an empty string...
-                        # TODO come up with a better way of doing this
-                        # TODO make sure to copy it into the version controlled area
                         # yo just leave it as tokens until the end tho and use count
                    
-                    # TODO DEAL WITH ME OH NO THIS IS BAD OH NO
                     if truncate:
                         to_trunc = enc.decode(text)
                         truncate_esc = re.escape(truncate)

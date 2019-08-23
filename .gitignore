@@ -6,3 +6,5 @@
 *.pyc
 /dndbeyond_scrape/cache
 __pycache__/
+build/
+dist/

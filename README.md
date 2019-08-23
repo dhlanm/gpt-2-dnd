@@ -19,8 +19,12 @@ fix dndbeyond spellcasting blocks as they are utterly broken
 
 add sampling ability / multiple dataset ability to command line finetune
 
-rerun generation to remove the "3 to hit" (vs "+3 to hit") bug (has been fixed just needs training) 
-
 add info/instructions to front end
 
 rewrite README to actually be helpful 
+
+Run experiments with diff temps to estimate error rate
+
+investigate why batch always has same length...
+because batches all come out identical...
+
