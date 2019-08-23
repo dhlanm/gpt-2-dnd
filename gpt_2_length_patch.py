@@ -412,7 +412,7 @@ def generate(sess,
         context_tokens = [enc.encode(prefix)] * batch_size
     elif batch_prefix: 
         context_tokens = [enc.encode(pre) for pre in batch_prefix]
-        assert all(context_tokens[0] == c for c in context_tokens)
+        assert all(len(context_tokens[0]) == len(c) for c in context_tokens)
         # ml = max([len(p) for p in context_tokens])
         # for p in context_tokens: 
         #    while len(p) < ml: 
