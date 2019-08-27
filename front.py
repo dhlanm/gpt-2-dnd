@@ -4,7 +4,6 @@ import json
 import random
 from generate_one import generate
 import re
-from gevent.pywsgi import WSGIServer
 
 app = Flask(__name__, template_folder='static/templates')
 sizes = ["T", "S", "M", "L", "H", "G"]
@@ -52,7 +51,7 @@ def fix_json(monster, tries):
 
 def generate_monster(prefix, temp=0.8):
     print(prefix)
-    monster = generate(prefix, temperature=temp, truncate="<|endoftext|>", length=20480)[0]
+    monster = generate(prefix, temperature=temp, truncate="<|endoftext|>", length=10240)[0]
     monster = monster.replace("<|startoftext|>\n", "")
     monster = fix_json(monster, 100)
     print(monster)
@@ -87,5 +86,3 @@ def create():
 
 if __name__ == '__main__': 
     app.run(host='0.0.0.0', debug=True, threaded=True)
-    #http_server = WSGIServer(('', 5000), app)
-    #http_server.serve_forever()
