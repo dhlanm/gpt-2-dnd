@@ -89,7 +89,14 @@
             $("#json").html(data['json']);
             $("#create").attr("disabled", false);
             $("#loading").hide();
-          }
+          },
+	        error: function()
+	        {
+            $("#holder").html('Error: Timeout');
+            $("#json").html('Error: Timeout');
+            $("#create").attr("disabled", false);
+            $("#loading").hide();
+          } 
         });
       });
 

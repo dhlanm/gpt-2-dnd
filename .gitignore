@@ -1,4 +1,5 @@
 /gpt_2_simple
+/gpt_2_simple*
 *.swp
 /models
 /checkpoint
@@ -9,3 +10,4 @@ __pycache__/
 build/
 dist/
 bin/
+

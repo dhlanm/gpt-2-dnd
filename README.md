@@ -14,6 +14,7 @@ then
 You'll also need to create or copy the model data. I should upload that to github...
 
 Also, `cp dnd.service /etc/systemd/system/dnd.service`
+`cp dnd_nginx /etc/nginx/sites-available/dnd`
 
 
 Also scraped dndbeyond for extra bestiary data. The scraper caches the files automatically.  Only scrapes monsters with score >= 1 for QC purposes. 
@@ -38,6 +39,8 @@ Add time elapsed measurement?
 
 Definitely add a timeout at 5 minutes or so
 
-Switch to SSH geez
-
 Double column sheets!
+
+domain lol
+
+handle 504 domain timeout
