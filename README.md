@@ -21,6 +21,7 @@ Also scraped dndbeyond for extra bestiary data. The scraper caches the files aut
 
 THIS IS ALL VERY WIP 
 
+https://github.com/Valloric/statblock5e is rly important thank you that
 
 TODO: 
 fix dndbeyond spellcasting blocks as they are utterly broken
@@ -40,6 +41,7 @@ Add time elapsed measurement?
 Definitely add a timeout at 5 minutes or so
 
 Double column sheets!
+data-two-column style="--data-content-height: 672px;"
 
 domain lol
 

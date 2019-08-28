@@ -90,10 +90,10 @@
             $("#create").attr("disabled", false);
             $("#loading").hide();
           },
-	        error: function()
-	        {
-            $("#holder").html('Error: Timeout');
-            $("#json").html('Error: Timeout');
+	  error: function(e)
+	  {
+            $("#holder").html(e);
+            $("#json").html(e);
             $("#create").attr("disabled", false);
             $("#loading").hide();
           } 
