@@ -54,16 +54,21 @@ def generate_monster(prefix, temp=0.8):
     print(prefix)
     monster = generate(prefix, temperature=temp, truncate="<|endoftext|>", length=20480)[0]
     monster = monster.replace("<|startoftext|>\n", "")
-    monster = fix_json(monster, 100)
-    print(monster)
+    f_monster = fix_json(monster, 100)
+    print(f_monster)
     # need a function to consolidate dupes
     # also find and convert unicode I guess; should be done in input thooo
-    resp = {'json': monster}
+    resp = {'json':f_monster}
     try:
-        h = str(load(monster))
+        h = str(load(f_monster))
         resp['monster'] = h
     except Exception as e:
-        resp['monster'] = f"<p>Error in monster creation: {e}</p>"
+        try: 
+            h = str(load(monster))
+            resp['monster'] = h #won't happen, just getting original error here
+        except Exception as e: 
+            resp['monster'] = f"<p>Error in monster creation: {e}</p>"
+        resp['json'] = monster
     return resp
 
 @app.route("/")

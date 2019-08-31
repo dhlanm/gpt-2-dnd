@@ -21,6 +21,8 @@ for t in range(1, 11):
         monsters = gpt2.generate(sess, return_as_list=True, run_name="dnd11", batch_prefix=monl, temperature=temp, batch_size=len(monl), nsamples=len(monl), truncate="<|endoftext|>", length=10240)
         for mon in monsters: 
             mon = mon.replace("<|startoftext|>\n", "")
+            print(mon)
+            quit()
             try:
                 h = str(load(mon))
             except: 
