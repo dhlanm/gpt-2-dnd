@@ -1,27 +1,57 @@
-using minimaxir's gpt-2-simple and data from 5etools to generate new 5e monsters
+# GPT-2 DND
 
-### Install 
-Make sure you are on an environment with tensorflow 
+Using minimaxir's gpt-2-simple with data from 5etools and D&D Beyond homebrew to generate new 5e monsters
 
-Do `pip install gpt_2_simple -t . --no-deps` to install gpt_2_simple
+### Running training
+
+Your best bet is to use Google Colab, and mount your Drive. Then `!cd` into your Drive and train there, saving the model weights there. 
+
+`git pull` the repository there, and `!cd` into it
+
+Do `pip install gpt_2_simple -t . --no-deps` to install `gpt_2_simple` to the project repo
 
 then
 `cp gpt_2_length_patch.py gpt_2_simple/gpt_2.py`
 `cp biased_sampler.py gpt_2_simple/src/`
 
-(the first patch is from this pr: https://github.com/minimaxir/gpt-2-simple/blob/5053cf593e8738e04a0e3ae0d576868df4d611be/gpt_2_simple/gpt_2.py) Note it is heavily modified. 
+(the first patch is from this pr: https://github.com/minimaxir/gpt-2-simple/blob/5053cf593e8738e04a0e3ae0d576868df4d611be/gpt_2_simple/gpt_2.py) Note it is heavily modified. It allows for gpt-2 to generate longer samples than the tensor size by using previous generated sample partials as context for later text.
 
-You'll also need to create or copy the model data. I should upload that to github...
+The second patch allows for the model to sample from multiple sources with weights. For instance, 
 
-Also, `cp dnd.service /etc/systemd/system/dnd.service`
+```
+gpt2.finetune(sess,
+  ['bestiary.json', 'homebrew.json'],
+  model_name=model_name,
+  run_name='dnd11',
+  steps=4000,
+  dataset_probs = [0.7, 0.3])
+```
+
+will train the model for 4000 steps, pulling 70% from the 5etools bestiary, and 30% from the dndbeyond homebrew.
+
+### Running the webapp
+
+If you want to run with nginx and wsgi, 
+`cp dnd.service /etc/systemd/system/dnd.service`
 `cp dnd_nginx /etc/nginx/sites-available/dnd`
 
+Otherwise, just do `python front.py` and it will run a development Flask webserver locally. It is currently pointed at `./models/dnd11`
 
-Also scraped dndbeyond for extra bestiary data. The scraper caches the files automatically.  Only scrapes monsters with score >= 1 for QC purposes. 
+### D&D Beyond Scrape
+
+The scraper tries to be polite, so it takes a few hours to finish. It grabs every homebrew monster with a rating of 1 or greater on dndbeyond and attempts to convert it from HTML to json with middling accuracy (the spellcasting blocks are usually screwed up at the moment, but most everything else seems to come through well enough).
+
+The scraper caches everything, so once it's been run once it shouldn't be run again. 
+
+### Stat block rendering
+
+The beautiful stat block rendering is from https://github.com/Valloric/statblock5e 
+
+
+
 
 THIS IS ALL VERY WIP 
 
-https://github.com/Valloric/statblock5e is rly important thank you that
 
 TODO: 
 fix dndbeyond spellcasting blocks as they are utterly broken
@@ -29,8 +59,6 @@ fix dndbeyond spellcasting blocks as they are utterly broken
 add sampling ability / multiple dataset ability to command line finetune
 
 add info/instructions to front end
-
-rewrite README to actually be helpful 
 
 Run experiments with diff temps to estimate error rate (~20% but really not enough samples so do more)
 
@@ -44,5 +72,3 @@ Double column sheets!
 data-two-column style="--data-content-height: 672px;"
 
 domain lol
-
-handle 504 domain timeout
