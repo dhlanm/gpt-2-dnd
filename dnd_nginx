@@ -1,0 +1,10 @@
+server {
+    listen 80;
+
+    location / {
+        include uwsgi_params;
+        uwsgi_pass unix:/home/lanman/gpt-2-dnd/dnd.sock;
+	uwsgi_read_timeout 300;
+	index  index.html index.htm;
+    }
+}
