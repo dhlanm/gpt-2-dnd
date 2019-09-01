@@ -79,11 +79,12 @@ fix dndbeyond spellcasting blocks as they are utterly broken
 
 add sampling ability / multiple dataset ability to command line finetune
 
-add info/instructions to front end
+add instructions to front end
 
 Run experiments with diff temps to estimate error rate (~20% but really not enough samples so do more)
 
 revisit batch issue. Need the batch prefixes to be of exact same length and probably can't fix that, but might be able to fix weird whitespace in the original prefix...
+PAD FRONT!
 
 Add time elapsed measurement?
 

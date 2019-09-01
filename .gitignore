@@ -3,6 +3,7 @@
 *.swp
 /models
 /checkpoint
+!/checkpoint/dnd11
 /bestiary
 *.pyc
 /dndbeyond_scrape/cache

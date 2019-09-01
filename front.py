@@ -4,9 +4,11 @@ import json
 import random
 from generate_one import generate
 import re
+import traceback
 
 app = Flask(__name__, template_folder='static/templates')
 sizes = ["T", "S", "M", "L", "H", "G"]
+
 
 def get_rand_json(): 
     monsters = []
@@ -66,7 +68,8 @@ def generate_monster(prefix, temp=0.8):
             h = str(load(monster))
             resp['monster'] = h #won't happen, just getting original error here
         except Exception as e: 
-            resp['monster'] = f"<p>Error in monster creation: {e}</p>"
+            traceback.print_exc()
+            resp['monster'] = f"<p>Error in monster creation: {repr(e)}</p>"
         resp['json'] = monster
     return resp
 
@@ -80,13 +83,16 @@ def create():
     print(request.json)
     name = request.json['name'] 
     temp = float(request.json.get('temp', '0.8'))
-    prefix = f'<|startoftext|>\n{{\n    "monster_name": "{name}",\n'
-    if request.json.get("size"):
-        prefix += f'    "size": "{request.json["size"]}",\n'
-    if request.json.get("type"): 
-        if not request.json.get("size"): 
-            prefix += f'    "size": "{random.choice(sizes)}",\n'
-        prefix += f'    "type": "{request.json["type"]}",\n'
+    if name:
+        prefix = f'<|startoftext|>\n{{\n    "monster_name": "{name}",\n'
+        if request.json.get("size"):
+            prefix += f'    "size": "{request.json["size"]}",\n'
+        if request.json.get("type"): 
+            if not request.json.get("size"): 
+                prefix += f'    "size": "{random.choice(sizes)}",\n'
+            prefix += f'    "type": "{request.json["type"]}",\n'
+    else:
+        prefix = f'<|startoftext|>\n{{\n'
     return generate_monster(prefix, temp)
 
 @app.route("/info")

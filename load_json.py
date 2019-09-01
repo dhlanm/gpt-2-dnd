@@ -29,6 +29,8 @@ def get_ac(monster):
     if 'ac' not in monster: 
         return None
     ac = monster.get('ac')
+    if type(ac) is dict: 
+        ac = [ac]
     if type(ac[0]) is str or type(ac[0]) is int: 
         acstring += str(ac[0])
     else: 
@@ -109,8 +111,8 @@ def load(monster):
             # https://codegolf.stackexchange.com/questions/4707/outputting-ordinal-numbers-1st-2nd-3rd#answer-4712 :^)
             for spell in monster['spellcasting']: 
                 sp = f'''<property-block>
-                        <h4>{spell['name']}</h4>
-                        <p>{nl.join(spell['headerEntries'])}</p>
+                        <h4>{spell.get('name')}</h4>
+                        <p>{nl.join(spell.get('headerEntries'))}</p>
                       '''
                 if 'innate' in spell['name'].lower():
                     if 'will' in spell: 

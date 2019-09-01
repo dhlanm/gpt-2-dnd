@@ -2,6 +2,8 @@ import scrapy
 import re
 import logging
 import json
+from os import listdir
+from os.path import isfile, join
 
 # TODO make formally consts
 msb = 'div.mon-stat-block__'
@@ -51,9 +53,9 @@ class MonsterSpider(scrapy.Spider):
 
     
     def start_requests(self):
-        urls = [
-                'https://www.dndbeyond.com/homebrew/monsters?filter-rating=1&filter-search=&filter-type=0'
-        ]
+        #urls = ['https://www.dndbeyond.com/homebrew/monsters?filter-rating=1&filter-search=&filter-type=0']
+        lok = '/mnt/c/Users/David/Documents/gpt-2-dnd/dndbeyond_scrape/cache'
+        urls = ['file://' + join(lok, f) for f in listdir(lok) if isfile(join(lok, f))]
         # yield scrapy.Request(url='https://www.dndbeyond.com/monsters/301697-red-wizard-voskiir-vampire/more-info', callback=self.parse_monster)
 
         for url in urls:
@@ -61,10 +63,10 @@ class MonsterSpider(scrapy.Spider):
 
     def parse(self, response):
         monsters = response.css('div.list-row-monster-homebrew::attr(data-slug)').getall()
-        for m in monsters: 
-            yield scrapy.Request(f'https://www.dndbeyond.com/monsters/{m}/more-info', callback = self.parse_monster)
-        n = response.css('li.b-pagination-item-next a::attr(href)').get()
-        yield scrapy.Request(f'https://www.dndbeyond.com/{n}')
+        # for m in monsters: 
+        #    yield scrapy.Request(f'https://www.dndbeyond.com/monsters/{m}/more-info', callback = self.parse_monster)
+        # n = response.css('li.b-pagination-item-next a::attr(href)').get()
+        # yield scrapy.Request(f'https://www.dndbeyond.com/{n}')
     def parse_monster(self, response): 
         
 
