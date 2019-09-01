@@ -117,11 +117,11 @@ def load(monster):
                 if 'innate' in spell['name'].lower():
                     if 'will' in spell: 
                         sp += f'''<p>At will: {', '.join(spell['will'])}</p>'''
-                    for day in spell.get('daily', []):
+                    for day in spell.get('daily', {}):
                         if day == '1': 
-                            sp += f'''<p>1/day each: {', '.join(day['1'])}</p>'''
+                            sp += f'''<p>1/day each: {', '.join(daily[day])}</p>'''
                         elif day == '3e': 
-                            sp += f'''<p>3/day each: {', '.join(day['3e'])}</p>'''
+                            sp += f'''<p>3/day each: {', '.join(daily[day])}</p>'''
                         else: 
                             sp += f'''{day}/day each: {', '.join(spell['daily'][day])}'''
                 else: 
