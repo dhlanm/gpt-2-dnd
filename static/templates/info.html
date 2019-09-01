@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<!-- https://github.com/Valloric/statblock5e/blob/master/demo.html -->
+<html>
+<head>
+  <meta charset="UTF-8"/>
+  <title>Statblock example</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link href='//fonts.googleapis.com/css?family=Noto+Sans:400,700,400italic,700italic'
+        rel='stylesheet' type='text/css'>
+  <link href='//fonts.googleapis.com/css?family=Libre+Baskerville:700'
+        rel='stylesheet' type='text/css'>
+  <link rel='stylesheet' href='static/css/materialize-social.css' type='text/css'>
+  <link rel="icon" type="image/x-icon" 
+        href="static/favicon.ico">
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script src="https://kit.fontawesome.com/f0a36271e8.js"></script>
+
+  <style>
+    body {
+      margin: 0;
+    }
+    .row { 
+      margin-bottom: 0px;
+    }
+  </style>
+  <script>
+    $(document).ready(function() {
+      M.AutoInit();
+  
+    });
+  </script>
+</head>
+<body>
+  <nav>
+    <div class="nav-extended grey darken-4">
+      <a href="/" style="margin-left:1rem">GPT-2 5e Monster Generator</a>
+      <ul id="nav-mobile" class="right">
+        <li><a href="/">Generator</a></li>
+        <li><a href="#">Info</a></li>
+        <li><a href="https://github.com/dhlanm/gpt-2-dnd" class="waves-effect waves-light btn social github"><i class="fab fa-github"></i>Github</a></li>
+      </ul>
+    </div>
+  </nav>
+  <div class="container">
+    <div class="row" style="padding-top:2rem">
+      <div class="col 12">
+        <h4>Overview</h4>
+        <p class="flow-text">This generator creates monsters for <a href="https://dnd.wizards.com/dungeons-and-dragons/what-is-dd">5th edition Dungeons and Dragons</a> using <a href="https://openai.com/blog/better-language-models/">OpenAI's GPT-2 model</a>. I was inspired by <a href="https://minimaxir.com/apps/gpt2-mtg/">minimaxir's Magic Card Generator</a> and based the project off of his <a href="https://github.com/minimaxir/gpt-2-simple">GPT-2 package</a>. Be sure to check both out, as they're very cool.</p>
+        <h4>Data sources</h4>
+        <p class="flow-text">The data for this project is based off of <a href="5e.tools">5e tools</a>' bestiary, which is in well-formatted JSON. GPT-2 handles JSON impressively well, and manages to output valid JSON about 80% of the time at high temperatures, and closer to 100% of the time at low ones.</p> 
+        <p class="flow-text">I was unsatisfied with only using official data, so I also attempted a scrape of <a href="https://www.dndbeyond.com/homebrew/monsters">D&D Beyond's homebrew monsters</a>. I only took the ones with a rating of 1 or higher (the generated results are zany enough without including such monsters as the "Big Funny"). Currently, my conversion of these scraped monsters to JSON is a bit broken, so spellcasting blocks are often messed up, which can translate to the results you see from the generator. However, the more-than-doubling of size of the dataset helps with overfit enough I deemed it worthwhile. I also wrote a sampler to only pull the homebrew data 30% of the time while training, which I think helps.</p>
+        <p class="flow-text">It may have been possible to instead of converting to JSON, simply generate HTML from the get-go. This is something I might try in the future, but for now I'm happy enough with the current results. I think in doing this, it would be important to first format the HTML to be well-spaced, tabbing in as you nest.</p>
+        <h4>Length patch</h4> 
+        <p class="flow-text">The reason that HTML would need to be spaced as such, and the reason that the JSON is, is due to the way I was forced to handle creating complete monster objects. GPT-2 is not a fully open-sourced model, and was trained on Tensors of size 1024, so it can only generate blocks of text 1024 tokens in size at a time. Taking inspiration from <a href="https://github.com/minimaxir/gpt-2-simple/pull/87">this pull request</a>, I modified the gpt_2_simple code to use previously generated text as context to newly generated text, until a stop token is reached. This solution works, but means that the code necessarily loses context. For instance, I seed the name of the monster in a few places in the text, as gpt-2 will usually lose it otherwise. I believe the JSON stays well formatted because of the context of whitespace, as it's very rare that the generator has the context of the opening bracket by the time it reaches the closing one.</p>
+        <h4>Prettification</h4> 
+        <p class="flow-text">I used <a href="https://github.com/Valloric/statblock5e">Valloric's 5e statblocks</a> to display the stats. I'm impressed with the attention to detail he put in in making these as close to offical looking as possible, and he made them much prettier than I would have been able to. I also used <a href="https://materializecss.com">Materialize</a> for the website formatting because it's the only way I know how to make a pretty UI...</p>
+      </div>
+    </div>    
+  </div>
+</body>
+</html>

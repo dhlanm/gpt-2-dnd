@@ -89,5 +89,10 @@ def create():
         prefix += f'    "type": "{request.json["type"]}",\n'
     return generate_monster(prefix, temp)
 
+@app.route("/info")
+def info():
+    content = render_template('info.html')
+    return Response(content, mimetype="text/html")
+
 if __name__ == '__main__': 
     app.run(host='0.0.0.0', debug=True, threaded=True)
