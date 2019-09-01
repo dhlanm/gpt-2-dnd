@@ -118,12 +118,9 @@ def load(monster):
                     if 'will' in spell: 
                         sp += f'''<p>At will: {', '.join(spell['will'])}</p>'''
                     for day in spell.get('daily', {}):
-                        if day == '1': 
-                            sp += f'''<p>1/day each: {', '.join(daily[day])}</p>'''
-                        elif day == '3e': 
-                            sp += f'''<p>3/day each: {', '.join(daily[day])}</p>'''
-                        else: 
-                            sp += f'''{day}/day each: {', '.join(spell['daily'][day])}'''
+                        if 'e' in day: 
+                            nday = day[:-1]
+                        sp += f'''{nday}/day each: {', '.join(spell['daily'][day])}'''
                 else: 
                     for slot in spell.get('spells', {}):
                         if slot == "0": 

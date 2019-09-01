@@ -12,6 +12,15 @@ def generate(prefix="<|startoftext|>", length = None, truncate = "", temperature
     gen = gpt2.generate(sess, return_as_list=True, run_name=run_name, truncate=truncate, length=length, prefix=prefix, temperature=temperature, batch_size=batch_size, nsamples=batch_size*n_batches)
     return gen
 
+def generate_from_list(prefixes, length=None, truncate="", temperature=0.9, batch_size=10, n_batches=1): 
+    sess = gpt2.start_tf_sess()
+    gpt2.load_gpt2(sess, run_name=run_name)
+    gen = gpt2.generate(sess, return_as_list=True, run_name=run_name, truncate=truncate, length=length, batch_prefix=prefixes, temperature=temperature, batch_size=batch_size, nsamples=batch_size*n_batches)
+    # print(gen) 
+    print([len(g) for g in gen])
+    print(gen[2])
+
+
 def generate_one_with_name(name, temp=0.9): 
     pre = f'<|startoftext|>\n{{\n    "monster_name": "{name}",\n'
     single_text = generate(truncate="<|endoftext|>", prefix=pre, temperature=temp, length=None)[0]
@@ -23,8 +32,15 @@ def main():
 
     if len(sys.argv) > 1: 
         name = sys.argv[1]
+    pre = []
+    with open('names.txt') as f: 
+        l = f.readline()
+        while l:
+            pre.append(f'<|startoftext|>\n{{\n    "monster_name": "{l.strip()}",\n')
+            l = f.readline()
 
-    print(generate_one_with_name(name))
+    generate_from_list(truncate="<|endoftext|>", prefixes=pre)
+    # print(generate_one_with_name(name))1
 
 
     # single_text = generate(truncate="<|endoftext|>", prefix="<|startoftext|>", temperature= 0.9, length=None)[0]

@@ -54,12 +54,13 @@ class MonsterSpider(scrapy.Spider):
     
     def start_requests(self):
         #urls = ['https://www.dndbeyond.com/homebrew/monsters?filter-rating=1&filter-search=&filter-type=0']
-        lok = '/mnt/c/Users/David/Documents/gpt-2-dnd/dndbeyond_scrape/cache'
+        lok = 'C:/Users/David/Documents/gpt-2-dnd/dndbeyond_scrape/cache'
         urls = ['file://' + join(lok, f) for f in listdir(lok) if isfile(join(lok, f))]
+        # urls = [c for c in urls if "Archsorcerer" in c]
         # yield scrapy.Request(url='https://www.dndbeyond.com/monsters/301697-red-wizard-voskiir-vampire/more-info', callback=self.parse_monster)
 
         for url in urls:
-            yield scrapy.Request(url=url, callback=self.parse)
+            yield scrapy.Request(url=url, callback=self.parse_monster)
 
     def parse(self, response):
         monsters = response.css('div.list-row-monster-homebrew::attr(data-slug)').getall()
@@ -173,52 +174,80 @@ class MonsterSpider(scrapy.Spider):
             content = re.sub(r'\s\s+', ' ', content)
             content = re.sub(r'<.*?>', '\n', content)
             content = [c.replace('\xa0', ' ') for c in content.split('\n') if c.strip() and not re.match('^\W+$', c)]
-
             if not heading: 
                 #then, traits & spellcasting
                 spellcaster = False
-                if "spellcasting" in (c.lower() for c in content): 
+                if any("spellcasting" in c.lower() for c in content): 
                     spellcaster = True
                 # this is all fuzzy because people do this differently and real NLP is beyond me
                 if spellcaster: 
                     spells = []
                     traits = []
                     spellname = "spellcasting"
+                    spellname_set = False
                     spelldesc = ""
                     for c in content: 
                         if "spellcasting ability" in c.lower(): 
                             spelldesc = c
                         elif "spellcasting" in c.lower():
-                            spellname = c
-                        elif ("level" in c.lower() and "slot" in c.lower()) or ("at will" in c.lower() or ("/day" in c.lower() and "legendary" not in c.lower())): 
+                            if spellname_set: 
+                                if spellname.lower() in ["spellcasting.", "spellcasting", "innate spellcasting", "innate spellcasting."]:
+                                    traits.append(c)
+                            else:
+                                spellname = c
+                                spellname_set = True
+                        elif ("level" in c.lower() and "slot" in c.lower()) or ("at will" in c.lower() or "at-will" in c.lower() or ("/day" in c.lower() and "legendary" not in c.lower() and not any("slot" in sp for sp in spells))): 
                             spells.append(c)
                         else: 
                             if c[0] == '*': 
                                 continue #just throw away this dang edge case >:^(
                             traits.append(c)
-                    if "innate" not in spellname: 
+                    if "innate" not in spellname.lower() and not any(("at will" in spell.lower() and "cantrip" not in spell.lower()) for spell in spells): 
                         s = {}
                         for spell in spells: 
                             sp = spell.split(":")
                             if "cantrip" in sp[0].lower(): 
-                                s["0"] = {"spells": [f'(@spell {name})' for name in sp[1].split(', ')]}
+                                s["0"] = {"spells": [name for name in sp[1].split(', ')]}
                             else: 
+                                if "/day" in spell.lower(): 
+                                    traits.append(spell)
+                                    continue
                                 l = sp[0][0]
                                 ns = sp[0].split('(')[1][0]
-                                s[l] = {"slots": ns, "spells": [f'(@spell {name})' for name in sp[1].split(', ')]}
+                                s[l] = {"slots": ns, "spells": [name for name in sp[1].split(', ')]}
                         monster['spellcasting'] = [{'name': spellname, 'headerEntries': spelldesc, "spells": s}]
                     else: 
                         will = []
                         daily = {}
                         for spell in spells: 
                             if "will" in spell.lower(): 
-                                will += spell.split(": ")[1].split(", ")
+                                if len(spell.strip().split(":")) == 1 or spell.strip()[-1] == ":":
+                                    ind = content.index(spell)+1
+                                    if ind == len(content): 
+                                        continue
+                                    w = content[ind]
+                                    will += w.split(", ")
+                                    if w in traits:
+                                        traits.remove(w)
+                                else:
+                                    will += spell.split(": ")[1].split(", ")
                             else: 
-                                sp= spell.split("/day: ")
+                                sp= spell.lower().split("/day each: ")
+                                if len(sp) == 1: 
+                                    sp = spell.lower().split("/day:")
                                 n = sp[0][0]
-                                if n == "3":
+                                if n == "3": 
                                     n = "3e"
-                                daily[n] = sp[1].split(", ")
+                                if len(sp) == 1: 
+                                    ind = content.index(spell)+1
+                                    if ind == len(content): 
+                                        continue
+                                    d = content[ind]
+                                    daily[n] = d.split(", ")
+                                    if d in traits:
+                                        traits.remove(d)
+                                else: 
+                                    daily[n] = sp[1].split(", ")
                         
                         monster['spellcasting'] = [{'name': spellname, 'headerEntries': spelldesc, "will": will, "daily": daily}]
                 else: 

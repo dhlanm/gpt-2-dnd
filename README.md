@@ -85,6 +85,7 @@ Run experiments with diff temps to estimate error rate (~20% but really not enou
 
 revisit batch issue. Need the batch prefixes to be of exact same length and probably can't fix that, but might be able to fix weird whitespace in the original prefix...
 PAD FRONT!
+looks like batch mode just doesn't work properly. really weird generation when you do things with it though...
 
 Add time elapsed measurement?
 
