@@ -1,7 +1,15 @@
-FROM tiangolo/uwsgi-nginx:python3.6
-COPY ./* .
-ADD build . 
-EXPOSE 5000
+FROM lambci/lambda:build-provided
 
+RUN yum -y install git \
+    python3 \
+    python3-pip \
+    python3-devel \
+    make glibc-devel gcc patch \
+    blas-devel lapack-devel atlas-devel gcc-gfortran \
+    zip \
+    gcc-c++ \
+    binutils \
+    && yum clean all
 
-https://github.com/tiangolo/uwsgi-nginx-flask-docker/blob/master/python3.6/Dockerfile copy this shit but make appropriate when less not funcitoning
+RUN python3 -m pip install --upgrade pip \
+    && python3 -m pip install boto3
