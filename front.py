@@ -5,8 +5,9 @@ import random
 from generate_one import generate
 import re
 import traceback
+import os
 
-app = Flask(__name__, template_folder='static/templates')
+app = Flask(__name__, template_folder="build")
 sizes = ["T", "S", "M", "L", "H", "G"]
 
 
@@ -61,15 +62,13 @@ def generate_monster(prefix, temp=0.8):
     # also find and convert unicode I guess; should be done in input thooo
     resp = {'json':f_monster}
     try:
-        h = str(load(f_monster))
-        resp['monster'] = h
+        json.loads(f_monster)
     except Exception as e:
         try: 
-            h = str(load(monster))
-            resp['monster'] = h #won't happen, just getting original error here
+            json.loads(monster) #just getting original error here
         except Exception as e: 
             traceback.print_exc()
-            resp['monster'] = f"<p>Error in monster creation: {repr(e)}</p>"
+            resp['error'] = f"Error in monster creation: {repr(e)}"
         resp['json'] = monster
     return resp
 
@@ -77,6 +76,7 @@ def generate_monster(prefix, temp=0.8):
 def index():
     content = render_template('index.html')
     return Response(content, mimetype="text/html")
+    # return app.send_static_file('index.html')
 
 @app.route("/create", methods=['POST'])
 def create():

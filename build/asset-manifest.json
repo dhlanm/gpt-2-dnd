@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a2b35556.chunk.css",
+    "main.js": "/static/js/main.9c9a697d.chunk.js",
+    "main.js.map": "/static/js/main.9c9a697d.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.f9cdd6ae.js",
+    "runtime~main.js.map": "/static/js/runtime~main.f9cdd6ae.js.map",
+    "static/js/2.8c7337d6.chunk.js": "/static/js/2.8c7337d6.chunk.js",
+    "static/js/2.8c7337d6.chunk.js.map": "/static/js/2.8c7337d6.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.6eebcbdc4e8287a678c4801f5bfc50fe.js": "/precache-manifest.6eebcbdc4e8287a678c4801f5bfc50fe.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.a2b35556.chunk.css.map": "/static/css/main.a2b35556.chunk.css.map",
+    "static/media/ink1.png": "/static/media/ink1.2fe23658.png",
+    "static/media/ink2.png": "/static/media/ink2.f0263358.png",
+    "static/media/paper.jpg": "/static/media/paper.ea37ce9f.jpg",
+    "static/media/parchment-green.png": "/static/media/parchment-green.17a69dcb.png",
+    "static/media/parchment.png": "/static/media/parchment.4ac376e8.png"
+  }
+}

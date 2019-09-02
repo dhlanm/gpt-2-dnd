@@ -9,8 +9,6 @@
 *.pyc
 /dndbeyond_scrape/cache
 __pycache__/
-build/
-dist/
 bin/
 debug.log
 build.zip
