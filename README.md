@@ -69,7 +69,9 @@ The scraper caches everything, so once it's been run once it shouldn't be run ag
 The [stat block rendering](https://github.com/Valloric/statblock5e) is not my own. A lot of attention to detail was put into that project and it's definitely worth checking out. 
 
 
+### Building for lambda
 
+...kind of sucks a lot :) https://s3.amazonaws.com/aws-ml-blog/artifacts/Deep-Learning-On-AWS-Lambda-With-Tensorflow/DeepLearningAndAI-Bundle.zip 
 
 #### THIS IS ALL VERY WIP 
 
