@@ -16,6 +16,11 @@ cp /usr/lib64/atlas/*.3 lib/.
 # cp /usr/lib64/atlas/liblapack.so.3 lib/.
 cp /usr/lib64/libgfortran.so.3 lib/.
 cp /usr/lib64/libquadmath.so.0 lib/.
+cp /io/gpt_2_length_patch.py gpt_2_simple/gpt_2.py
+cp /io/biased_sampler.py gpt_2_simple/src/
+cp /io/generate_one.py .
+cp /io/lambda_function.py . 
+cp /io/load_json.py . 
 find . -name "*.so" | xargs strip
 cd ..
 cp /io/deeplearning2.zip /io/lambda.zip

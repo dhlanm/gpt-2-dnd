@@ -1,4 +1,5 @@
 /gpt_2_simple
+.DS_Store
 /gpt_2_simple*
 *.swp
 /models
