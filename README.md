@@ -56,7 +56,13 @@ If you want to run with nginx and wsgi,
 
 `cp dnd_nginx /etc/nginx/sites-available/dnd`
 
-Otherwise, just do `python front.py` and it will run a development Flask webserver locally. It is currently pointed at `./models/dnd11`
+`sudo systemctl start dnd`
+
+`sudo systemctl start nginx`
+
+`pm2 serve build --spa`
+
+If you just want to run locally, you can also just run the last command and `python front.py`
 
 ### D&D Beyond Scrape
 

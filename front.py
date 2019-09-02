@@ -72,33 +72,22 @@ def generate_monster(prefix, temp=0.8):
         resp['json'] = monster
     return resp
 
-@app.route("/")
-def index():
-    content = render_template('index.html')
-    return Response(content, mimetype="text/html")
-    # return app.send_static_file('index.html')
-
 @app.route("/create", methods=['POST'])
 def create():
-    print(request.json)
-    name = request.json['name'] 
-    temp = float(request.json.get('temp', '0.8'))
+    print(request.form)
+    name = request.form['name'] 
+    temp = float(request.form.get('temp', '0.8'))
     if name:
         prefix = f'<|startoftext|>\n{{\n    "monster_name": "{name}",\n'
-        if request.json.get("size"):
-            prefix += f'    "size": "{request.json["size"]}",\n'
-        if request.json.get("type"): 
-            if not request.json.get("size"): 
+        if request.form.get("size"):
+            prefix += f'    "size": "{request.form["size"]}",\n'
+        if request.form.get("type"): 
+            if not request.form.get("size"): 
                 prefix += f'    "size": "{random.choice(sizes)}",\n'
-            prefix += f'    "type": "{request.json["type"]}",\n'
+            prefix += f'    "type": "{request.form["type"]}",\n'
     else:
         prefix = f'<|startoftext|>\n{{\n'
     return generate_monster(prefix, temp)
-
-@app.route("/info")
-def info():
-    content = render_template('info.html')
-    return Response(content, mimetype="text/html")
 
 if __name__ == '__main__': 
     app.run(host='0.0.0.0', debug=True, threaded=True)
