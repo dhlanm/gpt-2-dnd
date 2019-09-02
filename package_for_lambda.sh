@@ -1,7 +1,8 @@
 mkdir build
+cp deeplearning-bundle.zip build.zip
 cd build
-pip install gpt_2_simple==0.5.3 -t . 
-pip install bs4 -t .
+FLAGS="-g0 -I/usr/include:/usr/local/include -L/usr/lib:/usr/local/lib -wno-cpp -Wno-sign-compare -Wextra -Wall" CFLAGS="--std=c99" python3 -m pip install gpt_2_simple==0.5.3 bs4 --compile --no-cache-dir --global-option=build_ext --global-option="-j 4" -t .
+find . -name "*.so" | xargs strip
 
 cp ../gpt_2_length_patch.py gpt_2_simple/gpt_2.py
 cp ../biased_sampler.py gpt_2_simple/src/
