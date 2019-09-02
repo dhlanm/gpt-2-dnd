@@ -5,7 +5,7 @@ import os
 import s3
 
 sizes = ["T", "S", "M", "L", "H", "G"]
-BUCKET_NAME = 'gpt-2-dnd'
+BUCKET_NAME = 'dnd-monster-code'
 run_name = 'dnd11'
 
 def download_model():
