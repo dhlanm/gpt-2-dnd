@@ -1,8 +1,28 @@
 from load_json import load
 from generate_one import generate
 import re
+import os
+import s3
 
 sizes = ["T", "S", "M", "L", "H", "G"]
+BUCKET_NAME = 'gpt-2-dnd'
+run_name = 'dnd11'
+
+def download_model():
+    s3 = boto3.resource('s3')
+    if os.path.exists(os.cwd() + '/checkpoint'):
+        # assume warm
+        return
+    os.mkdir('checkpoint')
+    os.mkdir(f'checkpoint/{run_name}')
+    bucket = s3.Bucket(BUCKET_NAME)
+    for o in bucket.objects.filter(Prefix = 'checkpoint/{run_name}'):
+        bucket.download_file(o.key, o.key)
+    os.mkdir('models')
+    os.mkdir('models/117M')
+    for o in bucket.objects.filter(Prefix = 'models/117M'):
+        bucket.download_file(o.key, o.key)
+
 
 def generate_monster(prefix, temp=0.8):
     print(prefix)
@@ -46,6 +66,7 @@ def generate_monster(prefix, temp=0.8):
 
 def lambda_handler(event, context):
     print(event)
+    download_model()
     name = event['name'] 
     temp = float(event.get('temp', '0.8'))
     prefix = f'<|startoftext|>\n{{\n    "monster_name": "{name}",\n'

@@ -1,7 +1,8 @@
 mkdir build
 cd build
-pip install -r ../requirements.txt -t .
-pip install gpt_2_simple==0.5.3 -t . --no-deps
+pip install gpt_2_simple==0.5.3 -t . 
+pip install bs4 -t .
+
 cp ../gpt_2_length_patch.py gpt_2_simple/gpt_2.py
 cp ../biased_sampler.py gpt_2_simple/src/
 cp ../generate_one.py .

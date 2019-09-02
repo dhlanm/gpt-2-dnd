@@ -12,3 +12,4 @@ build/
 dist/
 bin/
 debug.log
+build.zip

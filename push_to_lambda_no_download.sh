@@ -1,5 +1,5 @@
 cd dist
-cp ../gpt_2_length_patch.py gpt_2_simple/gpt_2.pyi
+cp ../gpt_2_length_patch.py gpt_2_simple/gpt_2.py
 cp ../biased_sampler.py gpt_2_simple/src/
 cp ../generate_one.py .
 cp ../lambda_function.py . 
