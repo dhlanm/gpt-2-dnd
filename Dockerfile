@@ -1,4 +1,4 @@
-FROM lambci/lambda:build-provided
+FROM lambci/lambda:build-python3.6
 
 RUN yum -y install git \
     python3 \
