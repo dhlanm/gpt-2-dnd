@@ -60,16 +60,12 @@ def generate_monster(prefix, temp=0.8):
     print(f_monster)
     # need a function to consolidate dupes
     # also find and convert unicode I guess; should be done in input thooo
-    resp = {'json':f_monster}
+    resp = f_monster
     try:
         json.loads(f_monster)
     except Exception as e:
-        try: 
-            json.loads(monster) #just getting original error here
-        except Exception as e: 
-            traceback.print_exc()
-            resp['error'] = f"Error in monster creation: {repr(e)}"
-        resp['json'] = monster
+        traceback.print_exc()
+        resp = monster
     return resp
 
 @app.route("/create", methods=['POST'])
