@@ -12,3 +12,4 @@ __pycache__/
 bin/
 debug.log
 build.zip
+dnd.sock

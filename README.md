@@ -56,6 +56,8 @@ If you want to run with nginx and wsgi,
 
 `cp dnd_nginx /etc/nginx/sites-available/dnd`
 
+`sudo ln /etc/nginx/sites-available/dnd /etc/nginx/sites-enabled/dnd`
+
 `sudo systemctl start dnd`
 
 `sudo systemctl start nginx`
@@ -103,3 +105,6 @@ Double column sheets!
 data-two-column style="--data-content-height: 672px;"
 
 domain lol
+
+Occasionally when rerunning: 
+ValueError: Variable model/wpe already exists, disallowed. Did you mean to set reuse=True or reuse=tf.AUTO_REUSE in VarScope? Originally defined at:

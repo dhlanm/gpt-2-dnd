@@ -86,4 +86,4 @@ def create():
     return generate_monster(prefix, temp)
 
 if __name__ == '__main__': 
-    app.run(host='0.0.0.0', debug=True, threaded=True)
+    app.run(host='0.0.0.0', debug=True, threaded=True) #DO NOT PUSH :)
