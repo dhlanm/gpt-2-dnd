@@ -1,4 +1,4 @@
-tensorflow
+tensorflow_gpu
 flask
 bs4
 tqdm
