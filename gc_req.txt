@@ -12,3 +12,4 @@ idna<2.9,>=2.5
 regex
 starlette
 uvicorn
+ujson
