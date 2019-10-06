@@ -72,10 +72,9 @@ The scraper tries to be polite, so it takes a few hours to finish. It grabs ever
 
 The scraper caches everything, so once it's been run once it shouldn't be run again. 
 
-### Stat block rendering
+### React app
 
-The [stat block rendering](https://github.com/Valloric/statblock5e) is not my own. A lot of attention to detail was put into that project and it's definitely worth checking out. 
-
+The frontend react app at github.com/dhlanm/gpt-2-dnd-frontend is developed by github.com/el1t. Huge props to him for creating an absolutely beautiful interface. 
 
 ### Building for lambda
 
