@@ -54,7 +54,7 @@ def fix_json(monster, tries):
 
 def generate_monster(prefix, temp=0.8):
     print(prefix)
-    monster = generate(prefix, temperature=temp, truncate="<|endoftext|>", length=10240)[0]
+    monster = generate(prefix=prefix, temperature=temp, truncate="<|endoftext|>", length=10240)[0]
     monster = monster.replace("<|startoftext|>\n", "")
     f_monster = fix_json(monster, 100)
     print(f_monster)
