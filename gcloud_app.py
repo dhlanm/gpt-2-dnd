@@ -1,6 +1,7 @@
   
 from starlette.applications import Starlette
 from starlette.responses import UJSONResponse, PlainTextResponse
+from starlette.staticfiles import StaticFiles
 import gpt_2_simple as gpt2
 import uvicorn
 import os
@@ -8,6 +9,7 @@ from generate_one import generate
 import json
 import sys
 import re
+import traceback
 
 app = Starlette(debug=False)
 
@@ -88,6 +90,8 @@ async def homepage(request):
     response = PlainTextResponse(monster, headers=response_header)
     sys.stderr.write(str(response))
     return response
+
+# app.mount('/', StaticFiles(directory='build', html=True), name='static')
 
 if __name__ == '__main__':
     uvicorn.run(app, host='0.0.0.0', port=int(os.environ.get('PORT', 8080)))

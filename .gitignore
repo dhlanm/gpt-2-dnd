@@ -13,3 +13,5 @@ bin/
 debug.log
 build.zip
 dnd.sock
+*.dist-info
+kompose

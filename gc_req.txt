@@ -15,3 +15,4 @@ starlette
 uvicorn
 ujson
 python-multipart
+aiofiles
