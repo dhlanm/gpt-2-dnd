@@ -107,3 +107,6 @@ domain lol
 
 Occasionally when rerunning: 
 ValueError: Variable model/wpe already exists, disallowed. Did you mean to set reuse=True or reuse=tf.AUTO_REUSE in VarScope? Originally defined at:
+
+ok so need to just kube, https, domain setup. 
+first step, do ssl cert via easycert on a throwaway instance. 

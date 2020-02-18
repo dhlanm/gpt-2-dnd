@@ -1,4 +1,4 @@
-tensorflow
+tensorflow<=1.15
 flask
 bs4
 tqdm

@@ -15,3 +15,5 @@ build.zip
 dnd.sock
 *.dist-info
 kompose
+data
+*.yaml

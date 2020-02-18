@@ -1,4 +1,4 @@
-from flask import Flask, render_template, Response, request 
+from flask import Flask, render_template, Response, request, send_from_directory 
 import json
 import random
 from generate_one import generate
