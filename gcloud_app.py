@@ -11,7 +11,7 @@ import sys
 import re
 import traceback
 
-app = Starlette(debug=False)
+application = Starlette(debug=False)
 
 run_name = "dnd12"
 
@@ -67,7 +67,7 @@ def generate_monster(prefix, temp=0.8):
         resp = monster
     return resp
 
-@app.route('/create', methods=['POST'])
+@application.route('/create', methods=['POST'])
 async def homepage(request):
 
     params = await request.form()
@@ -94,4 +94,4 @@ async def homepage(request):
 # app.mount('/', StaticFiles(directory='build', html=True), name='static')
 
 if __name__ == '__main__':
-    uvicorn.run(app, host='0.0.0.0', port=int(os.environ.get('PORT', 8080)))
+    uvicorn.run(application, host='0.0.0.0', port=int(os.environ.get('PORT', 8080)))

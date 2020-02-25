@@ -2,7 +2,7 @@
 # FROM python:3.7.3-slim-stretch
 # FROM tiangolo/uwsgi-nginx-flask:python3.6
 # FROM tiangolo/uvicorn-gunicorn-starlette:python3.6
-FROM tensorflow/tensorflow::1.15.2-gpu-py3
+FROM tensorflow/tensorflow:1.15.2-gpu-py3
 
 RUN apt-get -y update && apt-get -y install gcc
 
@@ -34,4 +34,5 @@ RUN apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
 # CMD [ "pm2", "serve", "build", "--spa" ]
 
-ENTRYPOINT ["python3", "-X", "utf8", "gcloud_app.py"]
+# ENTRYPOINT ["python3", "-X", "utf8", "gcloud_app.py"]
+ENTRYPOINT ["gunicorn", "-w", "3", "-k", "uvicorn.workers.UvicornWorker", "-t", "300", "-b", "0.0.0.0:8080", "gcloud_app"]
