@@ -1,0 +1,13 @@
+version: 1
+task_definition:
+  services:
+    generator:
+      cpu_shares: 100
+      mem_limit: 524288000
+      gpu: 1
+      task_size: 
+        mem_limit: 24GB
+    frontend:
+      cpu_shares: 50
+      mem_limit: 524288000
+

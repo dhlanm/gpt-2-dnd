@@ -1,14 +1,15 @@
 # FROM nikolaik/python-nodejs:python3.6-nodejs12
 # FROM python:3.7.3-slim-stretch
 # FROM tiangolo/uwsgi-nginx-flask:python3.6
-FROM tiangolo/uvicorn-gunicorn-starlette:python3.6
+# FROM tiangolo/uvicorn-gunicorn-starlette:python3.6
+FROM tensorflow/tensorflow::1.15.2-gpu-py3
 
 RUN apt-get -y update && apt-get -y install gcc
 
 WORKDIR /
 
 COPY gc_req.txt /
-RUN pip --no-cache-dir install -r gc_req.txt
+RUN python3 -m pip --no-cache-dir install -r gc_req.txt
 
 EXPOSE 8080
 
