@@ -16,3 +16,4 @@ uvicorn
 ujson
 python-multipart
 aiofiles
+gunicorn
