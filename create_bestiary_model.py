@@ -5,7 +5,7 @@ from collections import OrderedDict
 import re
 
 def main():
-    outfile = 'bestiary.json'
+    outfile = 'bestiary_new.json'
     
     if len(sys.argv) > 1:
         outfile = sys.argv[1]
