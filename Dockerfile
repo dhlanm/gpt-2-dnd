@@ -4,8 +4,8 @@ RUN apt-get -y update && apt-get -y install gcc
 
 WORKDIR /
 
-COPY gc_req.txt /
-RUN python3 -m pip --no-cache-dir install -r gc_req.txt
+COPY ecs_req.txt /
+RUN python3 -m pip --no-cache-dir install -r ecs_req.txt
 
 EXPOSE 8080
 
