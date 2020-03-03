@@ -803,20 +803,20 @@
      "spells": [
       "detect magic",
       "mage armor",
-      "distort value|AI*"
+      "distort value*"
      ]
     },
     "2": {
      "slots": 3,
      "spells": [
-      "gift of gab|AI*",
+      "gift of gab*",
       "suggestion"
      ]
     },
     "3": {
      "slots": 3,
      "spells": [
-      "fast friends|AI*",
+      "fast friends*",
       "lightning bolt"
      ]
     },
@@ -926,7 +926,7 @@
      "slots": 4,
      "spells": [
       "disguise self",
-      "Jim's magic missile|AI*",
+      "Jim's magic missile*",
       "mage armor"
      ]
     },
@@ -934,13 +934,13 @@
      "slots": 3,
      "spells": [
       "invisibility",
-      "Jim's glowing coin|AI*"
+      "Jim's glowing coin*"
      ]
     },
     "3": {
      "slots": 3,
      "spells": [
-      "incite greed|AI*",
+      "incite greed*",
       "fireball"
      ]
     },
@@ -126546,7 +126546,7 @@
    "spells": {
     "0": {
      "spells": [
-      "gust|xge",
+      "gust",
       "mage hand",
       "message",
       "prestidigitation",
@@ -126566,7 +126566,7 @@
     "2": {
      "slots": 3,
      "spells": [
-      "dust devil|xge",
+      "dust devil",
       "gust of wind",
       "invisibility"
      ]
@@ -126583,7 +126583,7 @@
      "slots": 3,
      "spells": [
       "ice storm",
-      "storm sphere|xge"
+      "storm sphere"
      ]
     },
     "5": {
@@ -126907,13 +126907,13 @@
       "blade ward",
       "light",
       "mending",
-      "mold earth|xge"
+      "mold earth"
      ]
     },
     "1": {
      "slots": 4,
      "spells": [
-      "earth tremor|xge",
+      "earth tremor",
       "expeditious retreat",
       "shield"
      ]
@@ -127113,7 +127113,7 @@
      "slots": 4,
      "spells": [
       "expeditious retreat",
-      "ice knife|xge",
+      "ice knife",
       "magic missile",
       "shield"
      ]
@@ -127682,8 +127682,8 @@
    "spells": {
     "0": {
      "spells": [
-      "control flames|xge",
-      "create bonfire|xge",
+      "control flames",
+      "create bonfire",
       "fire bolt",
       "light",
       "minor illusion"
@@ -127900,7 +127900,7 @@
    "spells": {
     "0": {
      "spells": [
-      "gust|xge",
+      "gust",
       "light",
       "message",
       "ray of frost"
@@ -128001,7 +128001,7 @@
    "spells": {
     "0": {
      "spells": [
-      "control flames|xge",
+      "control flames",
       "fire bolt",
       "friends",
       "light",
@@ -128125,7 +128125,7 @@
      "spells": [
       "mending",
       "resistance",
-      "shape water|xge"
+      "shape water"
      ]
     },
     "1": {
@@ -128150,7 +128150,7 @@
      "spells": [
       "call lightning",
       "sleet storm",
-      "tidal wave|xge"
+      "tidal wave"
      ]
     },
     "4": {
@@ -128587,7 +128587,7 @@
     "0": {
      "spells": [
       "blade ward",
-      "gust|xge",
+      "gust",
       "light",
       "prestidigitation",
       "shocking grasp"
@@ -128604,7 +128604,7 @@
     "2": {
      "slots": 3,
      "spells": [
-      "dust devil|xge",
+      "dust devil",
       "gust of wind"
      ]
     },
@@ -128703,7 +128703,7 @@
     "0": {
      "spells": [
       "blade ward",
-      "gust|xge",
+      "gust",
       "light",
       "prestidigitation"
      ]
@@ -129130,7 +129130,7 @@
       "friends",
       "light",
       "message",
-      "mold earth|xge"
+      "mold earth"
      ]
     },
     "1": {
@@ -129144,7 +129144,7 @@
     "2": {
      "slots": 3,
      "spells": [
-      "Maximilian's earthen grasp|xge",
+      "Maximilian's earthen grasp",
       "shatter",
       "suggestion"
      ]
@@ -129153,7 +129153,7 @@
      "slots": 3,
      "spells": [
       "counterspell",
-      "erupting earth|xge"
+      "erupting earth"
      ]
     },
     "4": {
@@ -130013,7 +130013,7 @@
     "Shoalar's innate spellcasting ability is Constitution (spell save 13, +5 to hit with spell attacks). He can innately cast the following spells:"
    ],
    "will": [
-    "shape water|xge"
+    "shape water"
    ],
    "daily": {
     "1": [
@@ -130055,7 +130055,7 @@
     "3": {
      "slots": 2,
      "spells": [
-      "tidal wave|xge"
+      "tidal wave"
      ]
     }
    },
@@ -130249,7 +130249,7 @@
       "blade ward",
       "light",
       "mending",
-      "mold earth|xge"
+      "mold earth"
      ]
     },
     "1": {
@@ -130263,14 +130263,14 @@
     "2": {
      "slots": 3,
      "spells": [
-      "Maximilian's earthen grasp|xge",
+      "Maximilian's earthen grasp",
       "shatter"
      ]
     },
     "3": {
      "slots": 3,
      "spells": [
-      "erupting earth|xge",
+      "erupting earth",
       "meld into stone"
      ]
     },
@@ -130366,7 +130366,7 @@
     "0": {
      "spells": [
       "friends",
-      "gust|xge",
+      "gust",
       "light",
       "message",
       "ray of frost"
