@@ -11,13 +11,12 @@ EXPOSE 8080
 
 RUN mkdir checkpoint
 
-COPY checkpoint/dnd12 /checkpoint/dnd12
+COPY checkpoint/dnd14 /checkpoint/dnd14
 COPY gpt_2_simple /gpt_2_simple
-COPY docker_wrapper.sh /
 
 COPY ecs_app.py /
 COPY generate_one.py /
 
 RUN apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
-ENTRYPOINT ["gunicorn", "-w", "6", "-k", "uvicorn.workers.UvicornWorker", "-t", "300", "-b", "0.0.0.0:8080", "ecs_app"]
+ENTRYPOINT ["gunicorn", "-w", "4", "-k", "uvicorn.workers.UvicornWorker", "-t", "300", "-b", "0.0.0.0:8080", "ecs_app"]

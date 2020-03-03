@@ -59,7 +59,7 @@ Then, in this directory, run `docker build -t gpt-2-dnd .`
 
 Then, `docker-compose up -d`
 
-At this point, you will be up and running. Of course, you'll need a trained model for it to do very much. Right now, the web app (`ecs_app.py`) is pointed at `/models/dnd12`. 
+At this point, you will be up and running. Of course, you'll need a trained model for it to do very much. Right now, the web app (`ecs_app.py`) is pointed at `/models/dnd14`. 
 
 ### D&D Beyond Scrape
 
