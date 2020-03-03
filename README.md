@@ -1,6 +1,6 @@
 # GPT-2 DND
 
-Using minimaxir's gpt-2-simple with data from 5etools and D&D Beyond homebrew to generate new 5e monsters
+Using minimaxir's gpt-2-simple (0.5.4 guaranteed to work) with data from 5etools and D&D Beyond homebrew to generate new 5e monsters
 
 ### Running training
 
