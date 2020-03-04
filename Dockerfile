@@ -19,4 +19,6 @@ COPY generate_one.py /
 
 RUN apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
+ENV RUN_NAME dnd14
+
 ENTRYPOINT ["gunicorn", "-w", "4", "-k", "uvicorn.workers.UvicornWorker", "-t", "300", "-b", "0.0.0.0:8080", "ecs_app"]

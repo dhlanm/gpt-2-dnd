@@ -13,7 +13,7 @@ import traceback
 
 application = Starlette(debug=False)
 
-run_name = "dnd14"
+run_name = os.getenv("RUN_NAME", "dnd14")
 
 response_header = {
     'Access-Control-Allow-Origin': '*'
@@ -75,13 +75,16 @@ async def homepage(request):
     name = params['name']
     temp = float(params.get('temp', '0.8'))
     if name:
-        prefix = f'<|startoftext|>\n{{\n    "monster_name": "{name}",\n'
-        if params.get("size"):
-            prefix += f'    "size": "{params["size"]}",\n'
+        prefix = f'<|startoftext|>\n{{\n "monster_name": "{name}",\n'
         if params.get("type"):
-            if not params.get("size"):
-                prefix += f'    "size": "{random.choice(sizes)}",\n'
-            prefix += f'    "type": "{params["type"]}",\n'
+            prefix += f' "type": "{params["type"]}",\n'
+            if params.get("cr"): 
+                prefix += f' "cr": "{params["cr"]}",\n'
+                if params.get("size"):
+                    prefix += f' "size": "{params["size"]}",\n'
+                    if params.get("alignment"): 
+                        prefix += f' "alignment": {list(params["alignment"])},\n'
+
     else:
         prefix = f'<|startoftext|>\n{{\n'
     monster = generate_monster(prefix, temp)
