@@ -5,7 +5,7 @@ from collections import OrderedDict
 import re
 
 def main():
-    outfile = 'bestiary.json'
+    outfile = 'bestiary_new.json'
     
     if len(sys.argv) > 1:
         outfile = sys.argv[1]
@@ -53,6 +53,9 @@ def main():
             out = out.replace("{@atk mw,rw}", "Melee or Ranged Weapon Attack")
             out = out.replace("{@h}", "Hit: ")
             out = out.replace("{@recharge}", "(Recharge 6)")
+            out = out.replace("|xge", "")
+            out = out.replace("|AI*", "")
+            out = out.replace("|AI", "")
             out = re.sub(r'\{@item ([a-z ]+)\|[a-z ]+\}', r'\1', out)
             out = re.sub(r'\{@hit (.*?)\}', r'+\1', out)
             out = re.sub(r'\{@[a-z]+ (.*?)\}', r'\1', out)

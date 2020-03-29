@@ -1,6 +1,6 @@
 # GPT-2 DND
 
-Using minimaxir's gpt-2-simple with data from 5etools and D&D Beyond homebrew to generate new 5e monsters
+Using minimaxir's gpt-2-simple (0.5.4 guaranteed to work) with data from 5etools and D&D Beyond homebrew to generate new 5e monsters
 
 ### Running training
 
@@ -51,20 +51,15 @@ gpt2.generate(sess, run_name="dnd11", prefix=f'<|startoftext|>\n{{\n    "monster
 
 ### Running the webapp
 
-If you want to run with nginx and wsgi, 
-`cp dnd.service /etc/systemd/system/dnd.service`
+Best bet would be to run with docker-compose
 
-`cp dnd_nginx /etc/nginx/sites-available/dnd`
+First, get the [frontend](github.com/dhlanm/gpt-2-dnd-frontend), build it, and run `docker build -t gpt-2-dnd-frontend .`
 
-`sudo ln /etc/nginx/sites-available/dnd /etc/nginx/sites-enabled/dnd`
+Then, in this directory, run `docker build -t gpt-2-dnd .`
 
-`sudo systemctl start dnd`
+Then, `docker-compose up -d`
 
-`sudo systemctl start nginx`
-
-`pm2 serve build --spa`
-
-If you just want to run locally, you can also just run the last command and `python front.py`
+At this point, you will be up and running. Of course, you'll need a trained model for it to do very much. Right now, the web app (`ecs_app.py`) is pointed at `/models/dnd14`. 
 
 ### D&D Beyond Scrape
 
@@ -76,16 +71,8 @@ The scraper caches everything, so once it's been run once it shouldn't be run ag
 
 The frontend react app at github.com/dhlanm/gpt-2-dnd-frontend is developed by github.com/el1t. Huge props to him for creating an absolutely beautiful interface. 
 
-### Building for lambda
-
-...kind of sucks a lot :) https://s3.amazonaws.com/aws-ml-blog/artifacts/Deep-Learning-On-AWS-Lambda-With-Tensorflow/DeepLearningAndAI-Bundle.zip 
-
-#### THIS IS ALL VERY WIP 
-
 
 #### TODO: 
-fix dndbeyond spellcasting blocks as they are utterly broken
-
 add sampling ability / multiple dataset ability to command line finetune
 
 add instructions to front end
@@ -100,10 +87,6 @@ Add time elapsed measurement?
 
 Definitely add a timeout at 5 minutes or so
 
-Double column sheets!
-data-two-column style="--data-content-height: 672px;"
+Revisit training, using less whitespace / tokens to signify whitespace while reducing overall character count. 
 
-domain lol
-
-Occasionally when rerunning: 
-ValueError: Variable model/wpe already exists, disallowed. Did you mean to set reuse=True or reuse=tf.AUTO_REUSE in VarScope? Originally defined at:
+Revisit training, reordering the stat sheet so more interesting items can go first (would have to change frontend design slightly perhaps?)

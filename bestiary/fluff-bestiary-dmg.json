@@ -1,16 +1,1 @@
-{
-	"monster": [
-		{
-			"name": "Avatar of Death",
-			"source": "DMG",
-			"entries": [
-				{
-					"type": "entries",
-					"entries": [
-						"Summoned by the \"Skull\" card from the {@item Deck of Many Things}."
-					]
-				}
-			]
-		}
-	]
-}
+{"monsterFluff":[{"name":"Avatar of Death","source":"DMG","entries":[{"type":"entries","entries":[{"type":"entries","entries":[{"type":"entries","entries":["Summoned by the \"Skull\" card from the {@item Deck of Many Things}."]}]}]}]}]}

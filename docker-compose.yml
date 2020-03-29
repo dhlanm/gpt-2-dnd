@@ -1,0 +1,40 @@
+version: '3'
+
+services:
+  ecr_nginx:
+    #image: 756054503873.dkr.ecr.us-east-1.amazonaws.com/ecr_nginx:latest 
+    image: nginx:latest 
+    container_name: production_nginx
+    ports:
+      - 80:80
+      - 443:443
+    depends_on: 
+      - generator
+      - frontend
+    volumes: 
+      - ./local_nginx.conf:/etc/nginx/nginx.conf
+  generator:
+    #image: 756054503873.dkr.ecr.us-east-1.amazonaws.com/gpt-2-dnd
+    image: gpt-2-dnd
+    expose: 
+      - 8080
+    # runtime: "nvidia"
+    #logging:
+    #  driver: awslogs
+    #  options:
+    #   awslogs-group: ec2-gpt
+    #   awslogs-region: us-east-1
+    #   awslogs-stream-prefix: generator
+  frontend: 
+    #image: 756054503873.dkr.ecr.us-east-1.amazonaws.com/gpt-2-dnd-frontend
+    image: gpt-2-dnd-frontend
+    expose: 
+      - 80
+    links: 
+      - generator
+    #logging:
+      #driver: awslogs
+      #options:
+      #  awslogs-group: ec2-gpt
+        #awslogs-region: us-east-1
+        #awslogs-stream-prefix: frontend

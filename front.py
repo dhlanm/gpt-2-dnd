@@ -1,5 +1,4 @@
-from flask import Flask, render_template, Response, request 
-from load_json import load
+from flask import Flask, render_template, Response, request, send_from_directory 
 import json
 import random
 from generate_one import generate
@@ -7,8 +6,16 @@ import re
 import traceback
 import os
 
-app = Flask(__name__, template_folder="build")
+app = Flask(__name__, static_folder="build")
 sizes = ["T", "S", "M", "L", "H", "G"]
+
+@app.route('/', defaults={'path': ''})
+@app.route('/<path:path>')
+def serve(path):
+    if path != "" and os.path.exists(app.static_folder + '/' + path):
+        return send_from_directory(app.static_folder, path)
+    else:
+        return send_from_directory(app.static_folder, 'index.html')
 
 
 def get_rand_json(): 
@@ -54,7 +61,7 @@ def fix_json(monster, tries):
 
 def generate_monster(prefix, temp=0.8):
     print(prefix)
-    monster = generate(prefix, temperature=temp, truncate="<|endoftext|>", length=10240)[0]
+    monster = generate(prefix=prefix, temperature=temp, truncate="<|endoftext|>", length=10240)[0]
     monster = monster.replace("<|startoftext|>\n", "")
     f_monster = fix_json(monster, 100)
     print(f_monster)
@@ -86,4 +93,4 @@ def create():
     return generate_monster(prefix, temp)
 
 if __name__ == '__main__': 
-    app.run(host='0.0.0.0', debug=True, threaded=True) #DO NOT PUSH :)
+    app.run(host='0.0.0.0', debug=True, threaded=True, port=80) #DO NOT PUSH :)
