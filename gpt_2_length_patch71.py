@@ -144,7 +144,8 @@ def finetune(sess,
              use_memory_saving_gradients=False,
              only_train_transformer_layers=False,
              optimizer='adam',
-             overwrite=False):
+             overwrite=False,
+             dataset_probs=[]):
     """Finetunes the model on the given dataset.
     Adapted from https://github.com/nshepperd/gpt-2/blob/finetuning/train.py.
     See that file for parameter definitions.
