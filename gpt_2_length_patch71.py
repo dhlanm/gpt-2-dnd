@@ -263,7 +263,6 @@ def finetune(sess,
         data_sampler = BiasedSampler(chunks, dataset_probs)
         for i in range(len(chunks)):
             print('dataset ' + str(i) + ' has', data_sampler.total_sizes[i], 'tokens')
-    print('dataset has', data_sampler.total_size, 'tokens')
 
     print('Training...')
 
