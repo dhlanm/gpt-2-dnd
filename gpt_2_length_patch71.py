@@ -456,14 +456,16 @@ def generate(sess,
         hparams.override_from_dict(json.load(f))
 
     context = tf.compat.v1.placeholder(tf.int32, [batch_size, None])
-    
+   
+    if prefix: 
+        prefix_enc = enc.encode(prefix)
 
     np.random.seed(seed)
     tf.compat.v1.set_random_seed(seed)
     
     output = sample.sample_sequence(
         hparams=hparams,
-        length=min(length, 1023 - (len(context_tokens) if prefix else 0)),
+        length=min(length, 1023 - (len(prefix_enc) if prefix else 0)),
         context=context if prefix else None,
         batch_size=batch_size,
         temperature=temperature, top_k=top_k, top_p=top_p
@@ -479,10 +481,7 @@ def generate(sess,
         truncated = [False] * batch_size
         total_tokens = 0
         if prefix:
-            context_tokens = [enc.encode(prefix)] * batch_size
-        else:
-            context_tokens = [[enc.encoder['<|endoftext|>']] for _ in range(batch_size)]
-
+            context_tokens = [prefix_enc] * batch_size
 
         while False in truncated:
             num_tokens = 1023 - (len(context_tokens[0]))
