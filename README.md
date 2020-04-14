@@ -71,17 +71,14 @@ The scraper caches everything, so once it's been run once it shouldn't be run ag
 
 The frontend react app at github.com/dhlanm/gpt-2-dnd-frontend is developed by github.com/el1t. Huge props to him for creating an absolutely beautiful interface. 
 
+### Writeup
+
+https://dttw.tech/posts/B1GT_ylPI
 
 #### TODO: 
 add sampling ability / multiple dataset ability to command line finetune
 
 add instructions to front end
-
-Run experiments with diff temps to estimate error rate (~20% but really not enough samples so do more)
-
-revisit batch issue. Need the batch prefixes to be of exact same length and probably can't fix that, but might be able to fix weird whitespace in the original prefix...
-PAD FRONT!
-looks like batch mode just doesn't work properly. really weird generation when you do things with it though...
 
 Add time elapsed measurement?
 

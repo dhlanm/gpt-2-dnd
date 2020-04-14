@@ -456,12 +456,7 @@ def generate(sess,
         hparams.override_from_dict(json.load(f))
 
     context = tf.compat.v1.placeholder(tf.int32, [batch_size, None])
-    if prefix:
-        context = tf.compat.v1.placeholder(tf.int32, [batch_size, None])
-        context_tokens = [enc.encode(prefix)] * batch_size
-    else:
-        context_tokens = [[enc.encoder['<|endoftext|>']] for _ in range(batch_size)]
-
+    
 
     np.random.seed(seed)
     tf.compat.v1.set_random_seed(seed)
@@ -480,9 +475,14 @@ def generate(sess,
     generated = 0
     gen_texts = []
     while generated < nsamples:
-        gen_text = [[]] * batch_size
+        gen_text = [np.array([])] * batch_size
         truncated = [False] * batch_size
         total_tokens = 0
+        if prefix:
+            context_tokens = [enc.encode(prefix)] * batch_size
+        else:
+            context_tokens = [[enc.encoder['<|endoftext|>']] for _ in range(batch_size)]
+
 
         while False in truncated:
             num_tokens = 1023 - (len(context_tokens[0]))
@@ -520,7 +520,7 @@ def generate(sess,
                             # better to re-encode here then decode every generation cycle, I think
 
                 if not truncated[i]:
-                    gen_text[i] += [text] 
+                    gen_text[i] = np.concatenate((gen_text[i], text), axis=None)
                 if trunc_text or (length is not None and total_tokens >= length-1):
                     # note this means you may get a generation of size greater than length in some cases
                     # as it does not remove the tokens past length
