@@ -480,8 +480,7 @@ def generate(sess,
     generated = 0
     gen_texts = []
     while generated < nsamples:
-        gen_text = [''] * batch_size
-        # gen_text = [[]] * batch_size
+        gen_text = [[]] * batch_size
         truncated = [False] * batch_size
         total_tokens = 0
 
@@ -518,6 +517,7 @@ def generate(sess,
                         trunc_text = re.search(pattern, to_trunc, re.S)
                         if trunc_text:
                             text = enc.encode(trunc_text.group(1))
+                            # better to re-encode here then decode every generation cycle, I think
 
                 if not truncated[i]:
                     gen_text[i] += [text] 
