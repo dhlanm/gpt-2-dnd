@@ -427,8 +427,7 @@ def generate(sess,
              top_k=0,
              top_p=0.0,
              include_prefix=True,
-             split_context=0.5,
-             batch_prefix=None):
+             split_context=0.5):
     """Generates text from a model loaded into memory.
     Adapted from https://github.com/openai/gpt-2/blob/master/src/interactive_conditional_samples.py
     """
@@ -439,12 +438,8 @@ def generate(sess,
 
     if nsamples == 1:
         sample_delim = ''
-    assert not (prefix and batch_prefix)
-    assert not batch_prefix or len(batch_prefix) == batch_size
     if prefix == '':
         prefix = None
-    if batch_prefix == []:
-        batch_prefix = None
 
     if not length:
         assert truncate is not None, "If generating a non-fixed length \
@@ -462,46 +457,38 @@ def generate(sess,
 
     context = tf.compat.v1.placeholder(tf.int32, [batch_size, None])
     if prefix:
+        context = tf.compat.v1.placeholder(tf.int32, [batch_size, None])
         context_tokens = [enc.encode(prefix)] * batch_size
-    elif batch_prefix: 
-        # context_tokens = [enc.encode(batch_prefix[0])] * batch_size
-        context_tokens = [enc.encode(pre) for pre in batch_prefix]
-        # print([enc.decode(c) for c in context_tokens])
-        # assert all(len(context_tokens[0]) == len(c) for c in context_tokens)
-        ml = max([len(p) for p in context_tokens])
-        for p in context_tokens: 
-           while len(p) < ml: 
-               p.insert(0, 0)
-        # padding front :)
     else:
         context_tokens = [[enc.encoder['<|endoftext|>']] for _ in range(batch_size)]
 
+
     np.random.seed(seed)
     tf.compat.v1.set_random_seed(seed)
-
+    
+    output = sample.sample_sequence(
+        hparams=hparams,
+        length=min(length, 1023 - (len(context_tokens) if prefix else 0)),
+        context=context if prefix else None,
+        batch_size=batch_size,
+        temperature=temperature, top_k=top_k, top_p=top_p
+    )[:, 1:]
+    
     if destination_path:
         f = open(destination_path, 'w')
     
     generated = 0
     gen_texts = []
     while generated < nsamples:
-        # gen_text = [''] * batch_size
-        gen_text = [[]] * batch_size
+        gen_text = [''] * batch_size
+        # gen_text = [[]] * batch_size
         truncated = [False] * batch_size
         total_tokens = 0
 
         while False in truncated:
             num_tokens = 1023 - (len(context_tokens[0]))
-            output = sample.sample_sequence(
-                hparams=hparams,
-                length=min(length if length else 1023, num_tokens),
-                context=context,
-                batch_size=batch_size,
-                temperature=temperature, top_k=top_k, top_p=top_p
-            )[:, 1:]
-
             out = sess.run(output, feed_dict={
-                    context: context_tokens
+                    context: batch_size * [context_tokens]
                 })
                 
             total_tokens += num_tokens
@@ -510,23 +497,14 @@ def generate(sess,
                 if truncated[i]: 
                     continue
                 text = out[i]
-                trunc_text = "" #added to patch to fix unassigned variable
+                trunc_text = "" 
                 if prefix or batch_prefix:
                     text = np.append(context_tokens[i][:1], text)
                 if truncate or all(gen_text):
                     context_tokens[i] = out[i][int(len(out[i])*(1-split_context)):]
                     if gen_text[i]:
                         text = out[i][int(len(out[i])*(split_context)):]
-                        
-                        # OLD, leaving for now for xref
-                        # split = re.split('[.!?]', gen_text[i])
-                        # text = text.partition(list(filter(None, split))[-1])[-1]
-                        # ok so the idea is, split up gen_text, which is cumulative
-                        # then you get the latest in gen_text, and find where it is in the new text
-                        # then you split the new text on that, and get everything after it. 
-                        # but it seems like it sometimes chooses an empty string...
-                        # yo just leave it as tokens until the end tho and use count
-                   
+                                           
                     if truncate:
                         to_trunc = enc.decode(text)
                         truncate_esc = re.escape(truncate)
@@ -539,21 +517,20 @@ def generate(sess,
 
                         trunc_text = re.search(pattern, to_trunc, re.S)
                         if trunc_text:
-                            text = enc.encode(trunc_text.group(1)) #inefficient, but let's just get this working for now
+                            text = trunc_text.group(1)
 
                 if not truncated[i]:
-                    gen_text[i] += [text] #.lstrip('\n')
+                    gen_text[i] += text 
                 if trunc_text or (length is not None and total_tokens >= length-1):
+                    # note this means you may get a generation of size greater than length in some cases
+                    # as it does not remove the tokens past length
                     truncated[i] = True
-
-        for gen in gen_text:
-            gen = [enc.decode(g).lstrip('\n') for g in gen]
-            gen = ''.join(gen)
-            if destination_path:
-                f.write("{}\n{}".format(gen, sample_delim))
-            if not return_as_list and not destination_path:
-                print("{}\n{}".format(gen, sample_delim), end='')
-            gen_texts.append(gen)
+                    gen = gen[text][i].lstrip('\n')
+                    if destination_path:
+                        f.write("{}\n{}".format(gen, sample_delim))
+                    if not return_as_list and not destination_path:
+                        print("{}\n{}".format(gen, sample_delim), end='')
+                    gen_texts.append(gen)
 
         generated += batch_size 
 

@@ -87,6 +87,3 @@ Add time elapsed measurement?
 
 Definitely add a timeout at 5 minutes or so
 
-Revisit training, using less whitespace / tokens to signify whitespace while reducing overall character count. 
-
-Revisit training, reordering the stat sheet so more interesting items can go first (would have to change frontend design slightly perhaps?)
