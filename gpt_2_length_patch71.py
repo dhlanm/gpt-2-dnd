@@ -525,7 +525,7 @@ def generate(sess,
                     # note this means you may get a generation of size greater than length in some cases
                     # as it does not remove the tokens past length
                     truncated[i] = True
-                    gen = gen[text][i].lstrip('\n')
+                    gen = gen_text[i].lstrip('\n')
                     if destination_path:
                         f.write("{}\n{}".format(gen, sample_delim))
                     if not return_as_list and not destination_path:
