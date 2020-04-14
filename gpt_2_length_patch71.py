@@ -488,7 +488,7 @@ def generate(sess,
         while False in truncated:
             num_tokens = 1023 - (len(context_tokens[0]))
             out = sess.run(output, feed_dict={
-                    context: batch_size * [context_tokens]
+                    context: context_tokens
                 })
                 
             total_tokens += num_tokens
