@@ -498,7 +498,7 @@ def generate(sess,
                     continue
                 text = out[i]
                 trunc_text = "" 
-                if prefix or batch_prefix:
+                if prefix:
                     text = np.append(context_tokens[i][:1], text)
                 if truncate or all(gen_text):
                     context_tokens[i] = out[i][int(len(out[i])*(1-split_context)):]
@@ -517,15 +517,15 @@ def generate(sess,
 
                         trunc_text = re.search(pattern, to_trunc, re.S)
                         if trunc_text:
-                            text = trunc_text.group(1)
+                            text = enc.encode(trunc_text.group(1))
 
                 if not truncated[i]:
-                    gen_text[i] += text 
+                    gen_text[i] += [text] 
                 if trunc_text or (length is not None and total_tokens >= length-1):
                     # note this means you may get a generation of size greater than length in some cases
                     # as it does not remove the tokens past length
                     truncated[i] = True
-                    gen = gen_text[i].lstrip('\n')
+                    gen = enc.decode(gen_text[i]).lstrip('\n')
                     if destination_path:
                         f.write("{}\n{}".format(gen, sample_delim))
                     if not return_as_list and not destination_path:
